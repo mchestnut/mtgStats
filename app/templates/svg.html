@@ -1,0 +1,27 @@
+<div>
+<svg viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg" class="chart">
+	<linearGradient x1="0%" x2="0%" y1="10%" y2="100%" id="gradient">
+		<stop style="stop-color:#dddddd" offset="0"></stop>
+		<stop style="stop-color:#dddddd" offset="1"></stop>
+	</linearGradient>
+	<g transform="translate(0, 40) scale(1, -1)">
+		<rect ng-repeat="bar in bars" 
+			ng-attr-width="{{barsWidth}}%"
+			ng-attr-height="{{bar.height}}%"
+			ng-attr-x="{{bar.x}}%"
+			y="0"
+			fill="url(#gradient)">
+		</rect>
+		<line
+			x1="0"
+			y1="10%"
+			x2="10%"
+			y2="10%"
+			stroke-width=".1"
+			stroke="gray">
+		</line>
+	</g>
+</svg>
+
+<!-- <p>Bars Qty: {{bars.length}}</p> -->
+</div>
