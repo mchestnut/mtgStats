@@ -15,18 +15,11 @@ angular.module('myApp.services')
 		* public properties
 		=================================*/
 
-		/*
-		* list of available sets
-		*/
 		this.list = [
 			'JOU',
 			'BNG',
 			'THS'
-		]
-
-		/*
-		* sets selected by user/preselected
-		*/
+		];
 		this.selected = [
 			{
 				'name': 'JOU',

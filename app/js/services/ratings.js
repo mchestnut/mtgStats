@@ -31,7 +31,7 @@ angular.module('myApp.services')
 			{'label': 'D-', 'name': 4},
 			{'label': 'F+', 'name': 2}
 		];
-		this.model = 'equal';
+		this.selected = 'equal';
 		this.comparisons = [
 			{'label': 'Equal To', 'name': 'equal'},
 			{'label': 'Greater or Equal To', 'name': 'greater'},

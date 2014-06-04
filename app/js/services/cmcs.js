@@ -16,7 +16,7 @@ angular.module('myApp.services')
 		=================================*/
 
 		this.list = false;
-		this.model = 'equal';
+		this.selected = 'equal';
 		this.comparisons = [
 			{'label': 'Equal To', 'name': 'equal'},
 			{'label': 'Greater or Equal To', 'name': 'greater'},
@@ -26,8 +26,8 @@ angular.module('myApp.services')
 		this.column = 'cmc';
 		this.includes = false;
 		this.fuzzy = false;
-		this.lower = '-';
-		this.upper = '-';
+		this.lower = '';
+		this.upper = '';
 		this.hideUpper = true;
 
 
