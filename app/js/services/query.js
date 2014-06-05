@@ -30,8 +30,6 @@ angular.module('myApp.services')
 		
 		this.sets = function() {
 
-			console.log('query sets');
-
 			var ready = true;
 			
 			/************************
@@ -69,11 +67,7 @@ angular.module('myApp.services')
 			* if all sets are ready,
 			* create graph
 			*/
-
-			console.log(ready);
 			if (ready) {
-
-				console.log('update graph');
 				graph.update();
 			}
 		}

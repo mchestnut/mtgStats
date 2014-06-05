@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('sets', function($http, abilities) {
+	.service('sets', function($http, $rootScope, abilities) {
 
 		/*=================================
 		* private properties
@@ -47,6 +47,8 @@ angular.module('myApp.services')
 		=================================*/		
 
 		this.getData = function(selected) {
+
+			var result = 'failure';
 
 			$http.get('json/' + selected.name + '.json').success(function(data) {
 
@@ -123,6 +125,8 @@ angular.module('myApp.services')
 						}
 					}
 				}
+
+				$rootScope.$broadcast('sets::getDataSuccess');
 			});
 		}
 

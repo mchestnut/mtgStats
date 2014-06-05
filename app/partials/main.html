@@ -7,9 +7,10 @@
 	</form>
 </nav>
 
-<nav class="row" ng-controller="optionsCtrl">
+<nav class="row">
 	<h2>Options</h2>
-	<fieldset class="col-md-2 form-group" ng-controller="optionsColorsCtrl">
+	<fieldset class="col-md-2 form-group" ng-controller="colorsCtrl">
+
 		<legend>Colors</legend>
 		<div class="checkbox" ng-repeat="option in colors.list">
 			<label>
@@ -46,8 +47,7 @@
 		</div>
 	</fieldset>
 
-
-	<fieldset class="col-md-2 form-group" ng-controller="optionsRaritiesCtrl">
+	<fieldset class="col-md-2 form-group" ng-controller="raritiesCtrl">
 		<legend>Rarities</legend>
 		<div class="checkbox" ng-repeat="option in rarities.list">
 			<label>
@@ -57,8 +57,7 @@
 		</div>
 	</fieldset>
 
-
-	<fieldset class="col-md-2 form-group" ng-controller="optionsTypesCtrl">
+	<fieldset class="col-md-2 form-group" ng-controller="typesCtrl">
 		<legend>Type</legend>
 		<div class="checkbox" ng-repeat="option in types.list">
 			<label>
@@ -88,12 +87,7 @@
 		</div>
 	</fieldset>
 
-
-
-
-
-
-	<fieldset class="col-md-2 form-group" ng-controller="optionsCmcsCtrl">
+	<fieldset class="col-md-2 form-group" ng-controller="cmcsCtrl">
 		<legend>CMC</legend>
 		<select class="form-control" ng-model="cmcs.selected" ng-change="toggleUpper()">
 			<option value="{{comparison.name}}" ng-repeat="comparison in cmcs.comparisons">{{comparison.label}}</option>
@@ -105,10 +99,7 @@
 		</div>
 	</fieldset>
 
-
-
-
-	<fieldset class="col-md-2 form-group" ng-controller="optionsRatingsCtrl">
+	<fieldset class="col-md-2 form-group" ng-controller="ratingsCtrl">
 		<legend>Rating</legend>
 		<select class="form-control" ng-model="ratings.selected" ng-change="toggleUpper()">
 			<option value="{{comparison.name}}" ng-repeat="comparison in ratings.comparisons">{{comparison.label}}</option>
@@ -125,12 +116,7 @@
 		</div>
 	</fieldset>
 
-
-
-
-
-
-	<fieldset class="col-md-2 form-group " ng-controller="optionsAbilitiesCtrl">
+	<fieldset class="col-md-2 form-group " ng-controller="abilitiesCtrl">
 		<legend>Abilities</legend>
 		<div class="scroll-vertical">
 			<div class="checkbox" ng-repeat="option in abilities.list">
@@ -162,6 +148,7 @@
 		</div>
 	</fieldset>
 </nav>
+
 
 <nav ng-controller="graphCtrl">
 	<h2>Results</h2>
