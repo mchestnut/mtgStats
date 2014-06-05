@@ -5,8 +5,8 @@
 		<stop style="stop-color:#dddddd" offset="1"></stop>
 	</linearGradient>
 	<g transform="translate(0, 40) scale(1, -1)">
-		<rect ng-repeat="bar in bars" 
-			ng-attr-width="{{barsWidth}}%"
+		<rect ng-repeat="bar in graph.bars" 
+			ng-attr-width="{{graph.barsWidth}}%"
 			ng-attr-height="{{bar.height}}%"
 			ng-attr-x="{{bar.x}}%"
 			y="0"

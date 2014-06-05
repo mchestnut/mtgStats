@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('query', function(sets) {
+	.service('query', function(sets, graph) {
 
 		/*=================================
 		* private properties
@@ -28,7 +28,10 @@ angular.module('myApp.services')
 		* public methods
 		=================================*/
 		
-		this.sets = function(scope) {
+		this.sets = function() {
+
+			console.log('query sets');
+
 			var ready = true;
 			
 			/************************
@@ -64,10 +67,14 @@ angular.module('myApp.services')
 
 			/*
 			* if all sets are ready,
-			* create chart
+			* create graph
 			*/
+
+			console.log(ready);
 			if (ready) {
-				scope.shared.createChart();
+
+				console.log('update graph');
+				graph.update();
 			}
 		}
 		

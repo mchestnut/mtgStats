@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('rarities', function(formsSvc) {
+	.service('rarities', function() {
 
 		/*=================================
 		* private properties
@@ -22,7 +22,7 @@ angular.module('myApp.services')
 			{'label': 'Common', 'name': 'Common'},
 			{'label': 'Basic Land', 'name': 'Land'}
 		];
-		this.model = [];
+		this.selected = [];
 		this.column = 'rarity';
 		this.includes = 'any';
 		this.fuzzy = false;

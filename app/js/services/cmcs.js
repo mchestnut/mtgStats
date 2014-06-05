@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('cmcs', function(formsSvc) {
+	.service('cmcs', function() {
 
 		/*=================================
 		* private properties

@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('ratings', function(formsSvc) {
+	.service('ratings', function() {
 
 		/*=================================
 		* private properties

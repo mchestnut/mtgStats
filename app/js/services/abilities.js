@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('abilities', function(formsSvc) {
+	.service('abilities', function() {
 
 		/*=================================
 		* private properties
@@ -16,7 +16,7 @@ angular.module('myApp.services')
 		=================================*/
 		
 		this.list = [];
-		this.model = [];
+		this.selected = [];
 		this.column = 'abilities';
 		this.includes = 'any';
 		this.fuzzy = true;
@@ -26,9 +26,5 @@ angular.module('myApp.services')
 		* public methods
 		=================================*/
 		
-		this.refresh = function() {
-			
-		}
-
 
 	});

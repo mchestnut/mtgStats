@@ -46,7 +46,7 @@ angular.module('myApp.services')
 		* public methods
 		=================================*/		
 
-		this.getData = function(selected, scope) {
+		this.getData = function(selected) {
 
 			$http.get('json/' + selected.name + '.json').success(function(data) {
 
@@ -54,14 +54,14 @@ angular.module('myApp.services')
 				var sLength = abilities.list.length,
 					sArray = [];
 				for (var s = 0; s < sLength; s++) {
-					if (abilities.model[s]) {
+					if (abilities.selected[s]) {
 						sArray.push(abilities.list[s].name);
 					}
 				}
 				sLength = sArray.length;
 
-				while (abilities.model.length > 0) {
-					abilities.model.pop();
+				while (abilities.selected.length > 0) {
+					abilities.selected.pop();
 				}
 
 				while(abilities.list.length > 0) {
@@ -119,13 +119,10 @@ angular.module('myApp.services')
 
 						// if ability is stored, mark true to select
 						if (sArray[s] == abilities.list[j].name) {
-							abilities.model[j] = true;
+							abilities.selected[j] = true;
 						}
 					}
 				}
-
-				scope.shared.abilitiesRefresh();
-				scope.shared.queryLists();
 			});
 		}
 

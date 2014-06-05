@@ -2,14 +2,13 @@
 
 /* Directives */
 
-
 angular.module('myApp.directives', [])
 
 	/*###########################################
-	* directive for svg chart
+	* directive for svg graph
 	###########################################*/
 
-	.directive('chart', function() {
+	.directive('graph', function() {
 		return {
 			restrict: 'E',
 			replace: true,

@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('dropdown', function(formsSvc) {
+	.service('dropdown', function() {
 
 		/*=================================
 		* private properties
@@ -21,7 +21,7 @@ angular.module('myApp.services')
 		* public methods
 		=================================*/
 
-		this.toggle = function(svc) {
+		this.toggleUpper = function(svc) {
 			if (svc.selected === 'between') {
 				svc.hideUpper = false;
 			} else {
@@ -30,7 +30,7 @@ angular.module('myApp.services')
 		}
 
 
-		this.query = function(svc) {
+		this.getQuery = function(svc) {
 			var query = [],
 				temp = {};
 

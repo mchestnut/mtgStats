@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('types', function(formsSvc) {
+	.service('types', function() {
 
 		/*=================================
 		* private properties
@@ -24,7 +24,7 @@ angular.module('myApp.services')
 			{'label': 'Sorcery', 'name': 'Sorcery'},
 			{'label': 'Land', 'name': 'Land'}
 		];
-		this.model = [];
+		this.selected = [];
 		this.column = 'type';
 		this.includes = 'any';
 		this.fuzzy = true;

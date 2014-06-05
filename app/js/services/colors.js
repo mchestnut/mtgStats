@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('colors', function(formsSvc) {
+	.service('colors', function() {
 
 		/*=================================
 		* private properties
@@ -23,10 +23,11 @@ angular.module('myApp.services')
 			{'label': 'Green', 'name': 'G'},
 			{'label': 'Colorless', 'name': 'C'}
 		];
-		this.model = [];
+		this.selected = [];
 		this.column = 'cost';
 		this.includes = 'any';
 		this.fuzzy = true;
+		this.groupMulti = true;
 
 
 		/*=================================
