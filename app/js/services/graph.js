@@ -74,40 +74,61 @@ angular.module('myApp.services')
 				/*
 				* combine results of each set query
 				*/
-				for (var j = 0; j < 3; j++) {
-					if (sets.selected[j].result) {
-						combinedResults = combinedResults.concat(sets.selected[j].result.get());
-					}
-				}
+				// for (var j = 0; j < 3; j++) {
+				// 	if (sets.selected[j].result) {
+				// 		combinedResults = combinedResults.concat(sets.selected[j].result.get());
+				// 	}
+				// }
 
 				if (metric === 'rarity') {
 
-					var rLength = combinedResults.length;
-					categories = rarities.list;
-					cLength = categories.length;
+					for (var j = 0; j < 3; j++) {
+						if (sets.selected[j].result) {
+							for (var attr in sets.selected[j].metrics.rarities) {
+								if (combinedResults[attr]) {
+									combinedResults[attr] += sets.selected[j].metrics.rarities[attr];
+								} else {
+									combinedResults[attr] = sets.selected[j].metrics.rarities[attr];
+								}
+							}
+						}
+					}
+
+					console.log(combinedResults);
+
+					var rLengths = rarities.list.length;
+
+					for (var k = 0; k < rarities.list.length; k++) {
+						console.log(rarities.list[k].name + ': ' + combinedResults[rarities.list[k].name]);
+					}
+
+					// var rLength = combinedResults.length;
+					// categories = rarities.list;
+					// cLength = categories.length;
 
 					/*
 					* create temporary list to
 					* store quantities of each category
 					*/					
-					for (var k = 0; k < cLength; k++) {
-						quantities[categories[k].name] = 0;
-					}
+					// for (var k = 0; k < cLength; k++) {
+					// 	quantities[categories[k].name] = 0;
+					// }
 
 					/*
 					* for each item in combined results,
 					* increment qty of matching category
 					*/
-					for (var l = 0; l < rLength; l++) {
-						var category = combinedResults[l][metric];
-						quantities[category]++;
+					// for (var l = 0; l < rLength; l++) {
+					// 	var category = combinedResults[l][metric];
+					// 	quantities[category]++;
 
-						if (quantities[category] > maxQty) {
-							maxQty = quantities[category];
-						}
-					}
+					// 	if (quantities[category] > maxQty) {
+					// 		maxQty = quantities[category];
+					// 	}
+					// }
 				}
 			}
+
 
 			/*
 			* update bars array with new quantities
@@ -119,7 +140,6 @@ angular.module('myApp.services')
 					'height': (percentage * 100) + 1
 				});
 			}
-
 
 			/*
 			* get total spacing depending on number of bars

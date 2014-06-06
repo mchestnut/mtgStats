@@ -40,7 +40,6 @@ angular.module('myApp.services')
 				var result = sets.selected[i].result.get(),
 					rLength = result.length;
 
-
 				/*
 				* reset metrics	
 				*/
@@ -120,8 +119,6 @@ angular.module('myApp.services')
 						storeValue('abilities', tAbilities[a]);
 					}
 				}
-
-				console.log(sets.selected[i].metrics);
 
 			}
 
