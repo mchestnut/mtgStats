@@ -27,7 +27,7 @@ angular.module('myApp.services')
 		this.column = 'cost';
 		this.includes = 'any';
 		this.fuzzy = true;
-		this.groupMulti = true;
+		this.group = false;
 
 
 		/*=================================

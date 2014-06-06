@@ -40,6 +40,18 @@ angular.module('myApp.services')
 				var result = sets.selected[i].result.get(),
 					rLength = result.length;
 
+
+				/*
+				* reset metrics	
+				*/
+				sets.selected[i].metrics.sets = [];
+				sets.selected[i].metrics.colors = [];
+				sets.selected[i].metrics.rarities = [];
+				sets.selected[i].metrics.types = [];
+				sets.selected[i].metrics.cmcs = [];
+				sets.selected[i].metrics.ratings = [];
+				sets.selected[i].metrics.abilities = [];
+
 				/*
 				* for each card in result set
 				*/
@@ -58,6 +70,14 @@ angular.module('myApp.services')
 					tCost = tCost.replace(/[\dX]/g, 'C');
 					tCost = tCost.replace(/([C])(?=[WUBRG])/g, '');
 					tCost = tCost.replace(/(.)(?=\1)/g, '');
+
+					/*
+					* if multicolor and group is toggled
+					*/
+					if (tCost.length > 1 && colors.group) {
+						tCost = 'M';
+					}
+
 
 					/*
 					* parse abilities by splitting at hyphen,
