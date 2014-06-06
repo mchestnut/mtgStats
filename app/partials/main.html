@@ -155,8 +155,8 @@
 
 	<graph></graph>
 
-	<select class="form-control" ng-model="graph.metrics.selected" ng-change="updateGraph()">
-		<option value="{{metric.name}}" ng-repeat="metric in graph.metrics.list">{{metric.label}}</option>
+	<select class="form-control" ng-model="metrics.selected" ng-change="updateGraph()">
+		<option value="{{metric.name}}" ng-repeat="metric in metrics.list">{{metric.label}}</option>
 	</select>
 
 	<h3>Details</h3>

@@ -14,18 +14,6 @@ angular.module('myApp.services')
 		/*=================================
 		* public properties
 		=================================*/
-		this.metrics = {
-			list: [
-				{'label': 'Sets', 'name': 'set'},
-				// {'label': 'Colors', 'name': 'cmc'},
-				{'label': 'Rarities', 'name': 'rarity'},
-				// {'label': 'Type', 'name': 'type'},
-				{'label': 'CMC', 'name': 'cmc'},
-				{'label': 'Rating', 'name': 'rating'},
-				// {'label': 'Abilities', 'name': 'abilities'}
-			],
-			selected: 'set'
-		};
 		this.dims = {
 			'width': 200,
 			'height': 100,
@@ -43,7 +31,7 @@ angular.module('myApp.services')
 		* public methods
 		=================================*/
 		
-		this.update = function() {
+		this.update = function(metric) {
 
 			var categories = [],
 				combinedResults = [],
@@ -54,7 +42,7 @@ angular.module('myApp.services')
 			// reset bars array
 			root.bars = [];
 
-			if (root.metrics.selected === 'set') {
+			if (metric === 'set') {
 
 				/*
 				* for each set
@@ -92,7 +80,7 @@ angular.module('myApp.services')
 					}
 				}
 
-				if (root.metrics.selected === 'rarity') {
+				if (metric === 'rarity') {
 
 					var rLength = combinedResults.length;
 					categories = rarities.list;
@@ -111,7 +99,7 @@ angular.module('myApp.services')
 					* increment qty of matching category
 					*/
 					for (var l = 0; l < rLength; l++) {
-						var category = combinedResults[l][root.metrics.selected];
+						var category = combinedResults[l][metric];
 						quantities[category]++;
 
 						if (quantities[category] > maxQty) {

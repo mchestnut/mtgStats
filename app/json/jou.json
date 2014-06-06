@@ -129,7 +129,7 @@
     "cost": "{G}{G}",
     "type": "Creature - Human Archer",
     "rarity": "Uncommon",
-    "abilities": "Hexproof Reach",
+    "abilities": "Hexproof, Reach",
     "text": "Hexproof, reach",
     "power": 2,
     "toughness": 1,

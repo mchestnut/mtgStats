@@ -25,19 +25,46 @@ angular.module('myApp.services')
 				'name': 'JOU',
 				'data': null,
 				'abilities': [],
-				'result': null
+				'result': null,
+				'metrics': {
+					'sets': [],
+					'colors': [],
+					'rarities': [],
+					'types': [],
+					'cmcs': [],
+					'ratings': [],
+					'abilities': []
+				}
 			},
 			{
 				'name': 'BNG',
 				'data': null,
 				'abilities': [],
-				'result': null
+				'result': null,
+				'metrics': {
+					'sets': [],
+					'colors': [],
+					'rarities': [],
+					'types': [],
+					'cmcs': [],
+					'ratings': [],
+					'abilities': []
+				}
 			},
 			{
 				'name': 'THS',
 				'data': null,
 				'abilities': [],
-				'result': null
+				'result': null,
+				'metrics': {
+					'sets': [],
+					'colors': [],
+					'rarities': [],
+					'types': [],
+					'cmcs': [],
+					'ratings': [],
+					'abilities': []
+				}
 			}
 		];
 

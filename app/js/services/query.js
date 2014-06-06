@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('query', function(sets, graph) {
+	.service('query', function(sets, metrics) {
 
 		/*=================================
 		* private properties
@@ -58,6 +58,7 @@ angular.module('myApp.services')
 							sets.selected[i].result = sets.selected[i].result.filter(root.strings[string][j]);
 						};
 					};
+
 				} else {
 					ready = false;
 				}
@@ -65,10 +66,10 @@ angular.module('myApp.services')
 
 			/*
 			* if all sets are ready,
-			* create graph
+			* store metrics
 			*/
 			if (ready) {
-				graph.update();
+				metrics.store();
 			}
 		}
 		

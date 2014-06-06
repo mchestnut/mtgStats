@@ -154,11 +154,12 @@ angular.module('myApp.controllers', [])
 	* handles dynamic graph
 	###########################################*/
 	
-	.controller('graphCtrl', function($scope, graph) {
+	.controller('graphCtrl', function($scope, graph, metrics) {
 		$scope.graph = graph;
+		$scope.metrics = metrics;
 
 		$scope.updateGraph = function() {
-			graph.update();
+			graph.update($scope.metrics.selected);
 		}
 	})
 
