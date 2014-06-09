@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('graph', function(sets, rarities) {
+	.service('graph', function(sets, colors, rarities, types, cmcs, ratings, abilities) {
 
 		/*=================================
 		* private properties
@@ -33,112 +33,101 @@ angular.module('myApp.services')
 		
 		this.update = function(metric) {
 
-			var categories = [],
-				combinedResults = [],
-				quantities = {},
-				maxQty = 0,
-				cLength = 0;
+			var results = [],
+				maxQty = 0;
 
 			// reset bars array
 			root.bars = [];
 
-			if (metric === 'set') {
 
-				/*
-				* for each set
-				*/				
+			/*
+			* for each set, if result set exists,
+			* combine stored metrics into one array
+			* get maximum quantity of metric
+			*/
+			var combineResults = function(metricSet) {
+				var tResults = [];
+
 				for (var j = 0; j < 3; j++) {
 					if (sets.selected[j].result) {
+						for (var attr in sets.selected[j].metrics[metricSet]) {
+							if (tResults[attr]) {
+								tResults[attr] += sets.selected[j].metrics[metricSet][attr];
+							} else {
+								tResults[attr] = sets.selected[j].metrics[metricSet][attr];
+							}
 
-						/*
-						* set categories key to match
-						*/						
-						categories[j] = {
-							'label': sets.selected[j].name,
-							'name': sets.selected[j].name
-						};
-						cLength++;
-
-						/*
-						* store quantity for category
-						*/						
-						quantities[sets.selected[j].name] = sets.selected[j].result.get().length;
-
-						if (quantities[sets.selected[j].name] > maxQty) {
-							maxQty = quantities[sets.selected[j].name];
-						}
-					}
-				}
-			} else {
-
-				/*
-				* combine results of each set query
-				*/
-				// for (var j = 0; j < 3; j++) {
-				// 	if (sets.selected[j].result) {
-				// 		combinedResults = combinedResults.concat(sets.selected[j].result.get());
-				// 	}
-				// }
-
-				if (metric === 'rarity') {
-
-					for (var j = 0; j < 3; j++) {
-						if (sets.selected[j].result) {
-							for (var attr in sets.selected[j].metrics.rarities) {
-								if (combinedResults[attr]) {
-									combinedResults[attr] += sets.selected[j].metrics.rarities[attr];
-								} else {
-									combinedResults[attr] = sets.selected[j].metrics.rarities[attr];
-								}
+							if (tResults[attr] > maxQty) {
+								maxQty = tResults[attr];
 							}
 						}
 					}
-
-					console.log(combinedResults);
-
-					var rLengths = rarities.list.length;
-
-					for (var k = 0; k < rarities.list.length; k++) {
-						console.log(rarities.list[k].name + ': ' + combinedResults[rarities.list[k].name]);
-					}
-
-					// var rLength = combinedResults.length;
-					// categories = rarities.list;
-					// cLength = categories.length;
-
-					/*
-					* create temporary list to
-					* store quantities of each category
-					*/					
-					// for (var k = 0; k < cLength; k++) {
-					// 	quantities[categories[k].name] = 0;
-					// }
-
-					/*
-					* for each item in combined results,
-					* increment qty of matching category
-					*/
-					// for (var l = 0; l < rLength; l++) {
-					// 	var category = combinedResults[l][metric];
-					// 	quantities[category]++;
-
-					// 	if (quantities[category] > maxQty) {
-					// 		maxQty = quantities[category];
-					// 	}
-					// }
 				}
+
+				return tResults;
 			}
 
 
 			/*
-			* update bars array with new quantities
+			* push new bar item to bars array
 			*/
-			for (var m = 0; m < cLength; m++) {
-				var percentage = quantities[categories[m].name] / (maxQty + 1);
+			var pushBar = function(qty, label) {
+				var tQty = qty;
+
+				if (tQty === undefined) {
+					tQty = 0;
+				}
+
+				var percentage = tQty / (maxQty + 1);
+
 				root.bars.push({
-					'label': categories[m].label,
+					'label': label,
 					'height': (percentage * 100) + 1
-				});
+				})
+			}
+
+
+			if (metric === 'set') {
+
+				/*
+				* for each set, if result set exists
+				* get maximum quantity of metric
+				*/				
+				for (var j = 0; j < 3; j++) {
+					if (sets.selected[j].result) {
+						if (sets.selected[j].result.get().length > maxQty) {
+							maxQty = sets.selected[j].result.get().length;
+						}
+					}
+				}
+
+				/*
+				* for each set, if result set exists
+				* get height and create new bar
+				*/	
+				for (j = 0; j < 3; j++) {
+					if (sets.selected[j].result) {
+						pushBar(sets.selected[j].result.get().length, sets.selected[j].name)
+					}
+				}
+
+			} else {
+				if (metric === 'rarity') {
+					var sLength = rarities.list.length;
+					results = combineResults('rarities');
+
+					for (var k = 0; k < sLength; k++) {
+						pushBar(results[rarities.list[k].name], rarities.list[k].name)
+					}
+
+				} else if (metric === 'type') {
+					var sLength = types.list.length;
+					results = combineResults('types');
+
+					for (var k = 0; k < sLength; k++) {
+						pushBar(results[types.list[k].name], types.list[k].name)
+					}
+				}
 			}
 
 			/*

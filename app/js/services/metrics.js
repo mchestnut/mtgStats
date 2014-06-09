@@ -18,7 +18,7 @@ angular.module('myApp.services')
 				{'label': 'Sets', 'name': 'set'},
 				// {'label': 'Colors', 'name': 'cost'},
 				{'label': 'Rarities', 'name': 'rarity'},
-				// {'label': 'Types', 'name': 'type'},
+				{'label': 'Types', 'name': 'type'},
 				{'label': 'CMCs', 'name': 'cmc'},
 				{'label': 'Ratings', 'name': 'rating'},
 				// {'label': 'Abilities', 'name': 'abilities'}
@@ -119,7 +119,6 @@ angular.module('myApp.services')
 						storeValue('abilities', tAbilities[a]);
 					}
 				}
-
 			}
 
 			/*
