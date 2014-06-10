@@ -26,8 +26,9 @@ angular.module('myApp.services')
 		this.column = 'cmc';
 		this.includes = false;
 		this.fuzzy = false;
-		this.lower = '';
-		this.upper = '';
+		this.blank = '';
+		this.lower = this.blank;
+		this.upper = this.blank;
 		this.hideUpper = true;
 
 

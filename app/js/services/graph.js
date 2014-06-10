@@ -190,7 +190,10 @@ angular.module('myApp.services')
 						}
 					}
 
-					if (cmcs.lower) {
+					/*
+					* override range if values present
+					*/
+					if (cmcs.lower || cmcs.upper) {
 						if (cmcs.selected == 'equal') {
 							bottom = cmcs.lower;
 							top = cmcs.lower;
@@ -213,7 +216,7 @@ angular.module('myApp.services')
 						}
 
 					}
-
+					
 					top++;
 					for (var k = bottom; k < top; k++) {
 						if (results[k.toString()]) {
@@ -222,16 +225,73 @@ angular.module('myApp.services')
 							pushBar(0, k);
 						}
 					}
+
+				} else if (metric === 'rating') {
+					results = combineResults('ratings');
+					var sLength = ratings.list.length,
+						bottom = 2,
+						top = 15;
+
+					console.log(results);
+					console.log(ratings.list);
+
+					/*
+					* override range if values present
+					*/
+					if (ratings.lower !== '-' || ratings.upper !== '-') {
+						if (ratings.selected == 'equal') {
+							bottom = ratings.lower;
+							top = ratings.lower;
+						}
+						if (ratings.selected == 'greater') {
+							bottom = ratings.lower;
+						} else if (ratings.selected == 'lesser') {
+							top = ratings.lower;
+						} else if (ratings.selected == 'between') {
+							if (ratings.bottom !== '-') {
+								bottom = ratings.lower;
+							} else {
+								bottom = 2;
+							}
+							if (ratings.upper !== '-') {
+								top = ratings.upper;
+							} else {
+								top = 15;
+							}
+						}
+
+					}
+
+					/*
+					* reverse ratings list
+					*/
+					var reverseList = ratings.list.slice(0, sLength);
+					reverseList.splice(0, 1);
+					reverseList.reverse();
+					sLength--;
+
+					for (var k = 0; k < sLength; k++) {
+						if (results[k.toString()]) {
+							pushBar(results[k], reverseList[k].label);
+						} else {
+							pushBar(0, reverseList[k].label);
+						}
+					}
 				}
 			}
 
 			/*
+			* if maxQty = 0, set to 1,
 			* get line spacing depending on maxQty
 			* and set number of lines and yPos
 			*/
+			if (!maxQty) {
+				maxQty = 1;
+			}
+
 			root.dims.lineSpacing = root.dims.height / (maxQty + 1);
 
-			for (var i = 0; i < (maxQty); i++) {
+			for (var i = 0; i < maxQty; i++) {
 				var yPos = root.dims.lineSpacing * (i + 1);
 				root.lines.push({
 					'label': maxQty - i,

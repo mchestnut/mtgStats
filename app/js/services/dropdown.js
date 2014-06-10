@@ -26,6 +26,7 @@ angular.module('myApp.services')
 				svc.hideUpper = false;
 			} else {
 				svc.hideUpper = true;
+				svc.upper = svc.blank;
 			}
 		}
 
