@@ -16,14 +16,14 @@ angular.module('myApp.services')
 		=================================*/
 		this.list = [
 				{'label': 'Sets', 'name': 'set'},
-				// {'label': 'Colors', 'name': 'cost'},
+				{'label': 'Colors', 'name': 'color'},
 				{'label': 'Rarities', 'name': 'rarity'},
 				{'label': 'Types', 'name': 'type'},
 				{'label': 'CMCs', 'name': 'cmc'},
 				{'label': 'Ratings', 'name': 'rating'},
 				// {'label': 'Abilities', 'name': 'abilities'}
 			];
-		this.selected = 'set';
+		this.selected = 'cmc';
 
 
 		/*=================================

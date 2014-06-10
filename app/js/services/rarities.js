@@ -16,10 +16,10 @@ angular.module('myApp.services')
 		=================================*/
 
 		this.list = [
-			{'label': 'Mythic', 'name': 'Mythic Rare'},
-			{'label': 'Rare', 'name': 'Rare'},
-			{'label': 'Uncommon', 'name': 'Uncommon'},
 			{'label': 'Common', 'name': 'Common'},
+			{'label': 'Uncommon', 'name': 'Uncommon'},
+			{'label': 'Rare', 'name': 'Rare'},
+			{'label': 'Mythic', 'name': 'Mythic Rare'},
 			{'label': 'Basic Land', 'name': 'Land'}
 		];
 		this.selected = [];

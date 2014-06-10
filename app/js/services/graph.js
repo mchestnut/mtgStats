@@ -44,6 +44,20 @@ angular.module('myApp.services')
 
 
 			/*
+			* get size of object literal
+			*/			
+			var getObjectSize = function(obj) {
+				var size = 0;
+				for (var key in obj) {
+					if (obj.hasOwnProperty(key)) {
+						size++;
+					}
+				}
+				return size;
+			}
+
+
+			/*
 			* for each set, if result set exists,
 			* combine stored metrics into one array
 			* get maximum quantity of metric
@@ -82,10 +96,8 @@ angular.module('myApp.services')
 				}
 
 				var percentage = tQty / (maxQty + 1);
-				var height = (percentage * root.dims.height) + 1;
+				var height = (percentage * root.dims.height) + .5;
 				var yPos = root.dims.height - height;
-
-				console.log(percentage);
 
 				root.bars.push({
 					'label': label,
@@ -115,25 +127,100 @@ angular.module('myApp.services')
 				*/	
 				for (j = 0; j < 3; j++) {
 					if (sets.selected[j].result) {
-						pushBar(sets.selected[j].result.get().length, sets.selected[j].name)
+						pushBar(sets.selected[j].result.get().length, sets.selected[j].name);
 					}
 				}
 
 			} else {
-				if (metric === 'rarity') {
-					var sLength = rarities.list.length;
+				if (metric === 'color') {
+					results = combineResults('colors');
+					var sLength = colors.list.length;
+
+					/*
+					* get monocolored and colorless
+					*/
+					for (var k = 0; k < sLength; k++) {
+						pushBar(results[colors.list[k].name], colors.list[k].name);
+						delete results[colors.list[k].name];
+					}
+
+					sLength = getObjectSize(results);
+
+					/*
+					* get multicolored
+					*/
+					for (var l = 1; l < 6; l++) {
+						for (var key in results) {
+							if (key.length == l) {
+								pushBar(results[key], key);
+							}
+						}
+					}
+
+				} else if (metric === 'rarity') {
 					results = combineResults('rarities');
+					var sLength = rarities.list.length;
 
 					for (var k = 0; k < sLength; k++) {
-						pushBar(results[rarities.list[k].name], rarities.list[k].name)
+						pushBar(results[rarities.list[k].name], rarities.list[k].name);
 					}
 
 				} else if (metric === 'type') {
-					var sLength = types.list.length;
 					results = combineResults('types');
+					var sLength = types.list.length;
 
 					for (var k = 0; k < sLength; k++) {
-						pushBar(results[types.list[k].name], types.list[k].name)
+						pushBar(results[types.list[k].name], types.list[k].name);
+					}
+
+				} else if (metric === 'cmc') {
+					results = combineResults('cmcs');
+					var bottom = 0,
+						top = 0;
+
+					/*
+					* find range of cmcs in results
+					*/					
+					for (var key in results) {
+						if (!bottom) {
+							bottom = key
+						}
+						if (top < key) {
+							top = key;
+						}
+					}
+
+					if (cmcs.lower) {
+						if (cmcs.selected == 'equal') {
+							bottom = cmcs.lower;
+							top = cmcs.lower;
+						}
+						if (cmcs.selected == 'greater') {
+							bottom = cmcs.lower;
+							if (!top) {
+								top = bottom;
+							}
+						} else if (cmcs.selected == 'lesser') {
+							bottom = 0;
+							top = cmcs.lower;
+						} else if (cmcs.selected == 'between') {
+							bottom = cmcs.lower;
+							if (cmcs.upper) {
+								top = cmcs.upper;
+							} else {
+								top = bottom;
+							}
+						}
+
+					}
+
+					top++;
+					for (var k = bottom; k < top; k++) {
+						if (results[k.toString()]) {
+							pushBar(results[k], k);
+						} else {
+							pushBar(0, k);
+						}
 					}
 				}
 			}

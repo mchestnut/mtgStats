@@ -93,9 +93,9 @@
 			<option value="{{comparison.name}}" ng-repeat="comparison in cmcs.comparisons">{{comparison.label}}</option>
 		</select>
 
-		<input type="text" class="form-control" ng-model="cmcs.lower" ng-blur="selectQuery()" />
+		<input type="text" class="form-control" ng-model="cmcs.lower" ng-blur="getQuery()" />
 		<div ng-hide="cmcs.hideUpper">
-			&nbsp;&ndash;&nbsp;<input type="text" class="form-control" ng-model="cmcs.upper" ng-blur="selectQuery()" />
+			&nbsp;&ndash;&nbsp;<input type="text" class="form-control" ng-model="cmcs.upper" ng-blur="getQuery()" />
 		</div>
 	</fieldset>
 
@@ -105,12 +105,12 @@
 			<option value="{{comparison.name}}" ng-repeat="comparison in ratings.comparisons">{{comparison.label}}</option>
 		</select>
 
-		<select class="form-control" ng-model="ratings.lower">
+		<select class="form-control" ng-model="ratings.lower" ng-change="getQuery()">
 			<option value="{{option.name}}" ng-repeat="option in ratings.list">{{option.label}}</option>
 		</select>
 		<div ng-hide="ratings.hideUpper">
 			&nbsp;&ndash;&nbsp;
-			<select class="form-control" ng-model="ratings.upper">
+			<select class="form-control" ng-model="ratings.upper" ng-change="getQuery()">
 				<option value="{{option.name}}" ng-repeat="option in ratings.list">{{option.label}}</option>
 			</select>
 		</div>
@@ -156,7 +156,7 @@
 	<graph></graph>
 
 	<select class="form-control" ng-model="metrics.selected" ng-change="updateGraph()">
-		<option value="{{metric.name}}" ng-repeat="metric in metrics.list">{{metric.label}}</option>
+		<option value="{{metric.name}}" ng-repeat="metric in metrics.list" ng-selected="{{metrics.selected == metric.name}}">{{metric.label}}</option>
 	</select>
 
 	<h3>Details</h3>
