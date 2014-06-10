@@ -15,15 +15,17 @@ angular.module('myApp.services')
 		* public properties
 		=================================*/
 		this.dims = {
-			'width': 200,
-			'height': 100,
-			'padding': 10,
-			'spacing': 1,
-			'totalSpacing': 1
+			'padding': 2,
+			'barSpacing': 1,
+			'totalSpacing': 1,
+			'lineSpacing': 0
 		};
+		this.dims.height = 100 - (this.dims.padding * 4);
+		this.dims.width = 100 - (this.dims.padding * 2);
+		this.lines = [];
 		this.bars = [];
 		this.barsWidth = 0;
-		this.lines = [];	
+		this.lines = [];
 		
 
 
@@ -36,7 +38,8 @@ angular.module('myApp.services')
 			var results = [],
 				maxQty = 0;
 
-			// reset bars array
+			// reset lines and bars arrays
+			root.lines = [];
 			root.bars = [];
 
 
@@ -82,7 +85,7 @@ angular.module('myApp.services')
 
 				root.bars.push({
 					'label': label,
-					'height': (percentage * 100) + 1
+					'height': (percentage * root.dims.height) + 1
 				})
 			}
 
@@ -131,20 +134,35 @@ angular.module('myApp.services')
 			}
 
 			/*
+			* get line spacing depending on maxQty
+			* and set number of lines and yPos
+			*/
+			root.dims.lineSpacing = root.dims.height / (maxQty + 1);
+
+			for (var i = 0; i < (maxQty); i++) {
+				var yPos = root.dims.lineSpacing * (i + 1);
+				root.lines.push({
+					'label': i,
+					'y': yPos + (100 - root.dims.height)
+				});
+			}
+			
+
+			/*
 			* get total spacing depending on number of bars
 			* set bar width depending on number of bars
 			*/
-			root.dims.totalSpacing = (root.bars.length - 1) * root.dims.spacing;
-			root.barsWidth = (100 - root.dims.totalSpacing) / root.bars.length;
-			var xPos = 0;
+			root.dims.totalSpacing = (root.bars.length - 1) * root.dims.barSpacing;
+			root.barsWidth = (root.dims.width - root.dims.totalSpacing) / root.bars.length;
 
 			/*
 			* for each bar
 			* set starting x position
 			*/
-			for (var i = 0; i < root.bars.length; i++) {
-				xPos = (root.barsWidth + root.dims.spacing) * i;
+			for (i = 0; i < root.bars.length; i++) {
+				var xPos = ((root.barsWidth + root.dims.barSpacing) * i) + root.dims.padding;
 				root.bars[i].x = xPos;
+				root.bars[i].y = 100 - root.dims.height;
 			}
 		}
 		
