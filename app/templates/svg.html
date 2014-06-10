@@ -4,8 +4,8 @@
 		<stop style="stop-color:#dddddd" offset="0"></stop>
 		<stop style="stop-color:#dddddd" offset="1"></stop>
 	</linearGradient>
-	<g transform="translate(0, 40) scale(1, -1)">
-		<line ng-repeat="line in graph.lines"
+	<g ng-repeat="line in graph.lines">
+		<line
 			ng-attr-x1="{{graph.dims.padding}}%"
 			ng-attr-y1="{{line.y}}%"
 			ng-attr-x2="{{100 - graph.dims.padding}}%"
@@ -13,7 +13,15 @@
 			stroke-width=".1"
 			stroke="gray">
 		</line>
-		<rect ng-repeat="bar in graph.bars" 
+		<text
+			x="0"
+			ng-attr-y="{{line.y}}%"
+			font-size="1.5">
+			{{line.label}}
+		</text>
+	</g>
+	<g ng-repeat="bar in graph.bars">
+		<rect 
 			ng-attr-width="{{graph.barsWidth}}%"
 			ng-attr-height="{{bar.height}}%"
 			ng-attr-x="{{bar.x}}%"
@@ -22,6 +30,13 @@
 			stroke="gray"
 			fill="url(#gradient)">
 		</rect>
+		<text
+			ng-attr-x="{{bar.labelX}}%"
+			ng-attr-y="{{bar.labelY}}%"
+			font-size="1.5"
+			style="text-anchor: middle">
+			{{bar.label}}
+		</text>
 	</g>
 	<rect
 		ng-attr-width="{{graph.dims.width}}%"

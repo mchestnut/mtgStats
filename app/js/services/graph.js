@@ -15,7 +15,7 @@ angular.module('myApp.services')
 		* public properties
 		=================================*/
 		this.dims = {
-			'padding': 2,
+			'padding': 3,
 			'barSpacing': 1,
 			'totalSpacing': 1,
 			'lineSpacing': 0
@@ -82,10 +82,15 @@ angular.module('myApp.services')
 				}
 
 				var percentage = tQty / (maxQty + 1);
+				var height = (percentage * root.dims.height) + 1;
+				var yPos = root.dims.height - height;
+
+				console.log(percentage);
 
 				root.bars.push({
 					'label': label,
-					'height': (percentage * root.dims.height) + 1
+					'height': height,
+					'y': yPos
 				})
 			}
 
@@ -142,8 +147,8 @@ angular.module('myApp.services')
 			for (var i = 0; i < (maxQty); i++) {
 				var yPos = root.dims.lineSpacing * (i + 1);
 				root.lines.push({
-					'label': i,
-					'y': yPos + (100 - root.dims.height)
+					'label': maxQty - i,
+					'y': yPos
 				});
 			}
 			
@@ -162,7 +167,8 @@ angular.module('myApp.services')
 			for (i = 0; i < root.bars.length; i++) {
 				var xPos = ((root.barsWidth + root.dims.barSpacing) * i) + root.dims.padding;
 				root.bars[i].x = xPos;
-				root.bars[i].y = 100 - root.dims.height;
+				root.bars[i].labelX = xPos + (root.barsWidth / 2);
+				root.bars[i].labelY = root.dims.height + (root.dims.padding * 2);
 			}
 		}
 		
