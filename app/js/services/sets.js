@@ -114,14 +114,14 @@ angular.module('myApp.services')
 
 							// check is item already in shared list
 							for (var g = 0; g < gLength; g++) {
-								if (abilities.list[g].label == ability) {
+								if (abilities.list[g].label == ability.label) {
 									found = true;
 								}
 							}
 
 							// if item is not found, push
 							if (!found) {
-								abilities.list.push({'label': ability, 'name': ability});
+								abilities.list.push({'label': ability.label, 'name': ability.label, 'abbr': ability.abbr});
 							}
 						}
 					}

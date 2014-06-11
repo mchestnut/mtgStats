@@ -299,20 +299,24 @@ angular.module('myApp.services')
 					* if list is too large,
 					* use abbreviations
 					*/
-					
+					if (sLength > 12) {
+						var label = 'abbr';
+					} else {
+						var label = 'name';
+					}
 
 
 					if (filtered) {
 						for (var key in abilities.selected) {
 							if (results[abilities.list[key].name]) {
-								pushBar(results[abilities.list[key].name], abilities.list[key].name);
+								pushBar(results[abilities.list[key].name], abilities.list[key][label]);
 							} else {
-								pushBar(0, abilities.list[key].name);
+								pushBar(0, abilities.list[key][label]);
 							}
 						}
 					} else {
 						for (var k = 0; k < sLength; k++) {
-							pushBar(results[abilities.list[k].name], abilities.list[k].name);
+							pushBar(results[abilities.list[k].name], abilities.list[k][label]);
 						}
 					}					
 				}
