@@ -142,6 +142,7 @@ angular.module('myApp.controllers', [])
 
 		$scope.getQuery = function() {
 			query.strings.abilities = checkbox.getQuery(abilities);
+			abilities.cleanSelected();
 			query.sets();
 		}
 

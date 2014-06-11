@@ -21,9 +21,9 @@ angular.module('myApp.services')
 				{'label': 'Types', 'name': 'type'},
 				{'label': 'CMCs', 'name': 'cmc'},
 				{'label': 'Ratings', 'name': 'rating'},
-				// {'label': 'Abilities', 'name': 'abilities'}
+				{'label': 'Abilities', 'name': 'abilities'}
 			];
-		this.selected = 'rating';
+		this.selected = 'abilities';
 
 
 		/*=================================

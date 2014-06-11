@@ -26,5 +26,20 @@ angular.module('myApp.services')
 		* public methods
 		=================================*/
 		
+		this.cleanSelected = function() {
+			var empty = true;
+
+			for (var key in root.selected) {
+				if (root.selected[key]) {
+					empty = false;
+				} else {
+					delete root.selected[key];
+				}
+			}
+
+			if (empty) {
+				root.selected = [];
+			}
+		}
 
 	});

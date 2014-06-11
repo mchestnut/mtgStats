@@ -54,11 +54,10 @@ angular.module('myApp.services')
 
 				case 'between':
 					if (svc.upper && svc.upper != '-') {
-
 						/*
 						* transpose values if necessary
 						*/							
-						if (svc.lower > svc.upper) {
+						if (parseInt(svc.lower) > parseInt(svc.upper)) {
 							var lower = svc.upper,
 								upper = svc.lower;
 

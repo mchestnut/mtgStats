@@ -232,9 +232,6 @@ angular.module('myApp.services')
 						bottom = 2,
 						top = 15;
 
-					console.log(results);
-					console.log(ratings.list);
-
 					/*
 					* override range if values present
 					*/
@@ -270,13 +267,54 @@ angular.module('myApp.services')
 					reverseList.reverse();
 					sLength--;
 
+					// console.log('range: ' + bottom + ' - '  + top);
+
 					for (var k = 0; k < sLength; k++) {
-						if (results[k.toString()]) {
-							pushBar(results[k], reverseList[k].label);
-						} else {
-							pushBar(0, reverseList[k].label);
+						if (reverseList[k].name >= bottom && reverseList[k].name <= top) {
+							if (results[k.toString()]) {
+								pushBar(results[k], reverseList[k].label);
+							} else {
+								pushBar(0, reverseList[k].label);
+							}
 						}
 					}
+
+				} else if (metric === 'abilities') {
+					results = combineResults('abilities');
+					var sLength,
+						filtered = false;
+
+					/*
+					* use selected list if has values,
+					* else use full list of abilities
+					*/					
+					if (abilities.selected.length) {
+						sLength = abilities.selected.length;
+						filtered = true;
+					} else {
+						sLength = abilities.list.length;
+					}
+
+					/*
+					* if list is too large,
+					* use abbreviations
+					*/
+					
+
+
+					if (filtered) {
+						for (var key in abilities.selected) {
+							if (results[abilities.list[key].name]) {
+								pushBar(results[abilities.list[key].name], abilities.list[key].name);
+							} else {
+								pushBar(0, abilities.list[key].name);
+							}
+						}
+					} else {
+						for (var k = 0; k < sLength; k++) {
+							pushBar(results[abilities.list[k].name], abilities.list[k].name);
+						}
+					}					
 				}
 			}
 
