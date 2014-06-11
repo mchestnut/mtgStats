@@ -323,17 +323,31 @@ angular.module('myApp.services')
 			}
 
 			/*
-			* if maxQty = 0, set to 1,
-			* get line spacing depending on maxQty
-			* and set number of lines and yPos
+			* if maxQty = 0, set to 1
 			*/
 			if (!maxQty) {
 				maxQty = 1;
 			}
 
-			root.dims.lineSpacing = root.dims.height / (maxQty + 1);
+			/*
+			* set line incrementation
+			*/			
+			if (maxQty > 200) {
+				var increment = 25;
+			} else if (maxQty > 100) {
+				var increment = 10;
+			} else if (maxQty > 50) {
+				var increment = 5;
+			} else {
+				var increment = 1;
+			}
 
-			for (var i = 0; i < maxQty; i++) {
+			/*
+			* get line spacing depending on maxQty
+			* and set number of lines and yPos
+			*/
+			root.dims.lineSpacing = root.dims.height / (maxQty + 1);
+			for (var i = 0; i < maxQty; i += increment) {
 				var yPos = root.dims.lineSpacing * (i + 1);
 				root.lines.push({
 					'label': maxQty - i,
@@ -341,7 +355,6 @@ angular.module('myApp.services')
 				});
 			}
 			
-
 			/*
 			* get total spacing depending on number of bars
 			* set bar width depending on number of bars

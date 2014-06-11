@@ -23,7 +23,7 @@ angular.module('myApp.services')
 				{'label': 'Ratings', 'name': 'rating'},
 				{'label': 'Abilities', 'name': 'abilities'}
 			];
-		this.selected = 'abilities';
+		this.selected = 'set';
 
 
 		/*=================================
