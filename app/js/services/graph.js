@@ -36,7 +36,8 @@ angular.module('myApp.services')
 		this.update = function(metric) {
 
 			var results = [],
-				maxQty = 0;
+				maxQty = 0,
+				increment = 1;
 
 			// reset lines and bars arrays
 			root.lines = [];
@@ -54,6 +55,33 @@ angular.module('myApp.services')
 					}
 				}
 				return size;
+			}
+
+
+			/*
+			* set incrementation based on maxQty,
+			* and round maxQty up to give space
+			* at the top of the graph
+			*/			
+			var roundMax = function() {
+
+				if (!maxQty) {
+					maxQty = 1;
+				}
+
+				if (maxQty > 200) {
+					increment = 25;
+				} else if (maxQty > 100) {
+					increment = 10;
+				} else if (maxQty > 50) {
+					increment = 5;
+				} else if (maxQty > 20) {
+					increment = 2;
+				} else {
+					increment = 1;
+				}
+
+				maxQty += increment - (maxQty % increment);
 			}
 
 
@@ -81,6 +109,8 @@ angular.module('myApp.services')
 					}
 				}
 
+				roundMax()
+
 				return tResults;
 			}
 
@@ -95,14 +125,20 @@ angular.module('myApp.services')
 					tQty = 0;
 				}
 
-				var percentage = tQty / (maxQty + 1);
-				var height = (percentage * root.dims.height) + .5;
-				var yPos = root.dims.height - height;
+				var percentage = tQty / (maxQty + increment),
+					height = percentage * root.dims.height,
+					yPos = root.dims.height - height;
+
+				if (!height) {
+					height++;
+					yPos--;
+				}
 
 				root.bars.push({
 					'label': label,
 					'height': height,
-					'y': yPos
+					'y': yPos,
+					'qty': qty
 				})
 			}
 
@@ -120,6 +156,7 @@ angular.module('myApp.services')
 						}
 					}
 				}
+				roundMax();
 
 				/*
 				* for each set, if result set exists
@@ -322,35 +359,15 @@ angular.module('myApp.services')
 				}
 			}
 
-			/*
-			* if maxQty = 0, set to 1
-			*/
-			if (!maxQty) {
-				maxQty = 1;
-			}
-
-			/*
-			* set line incrementation
-			*/			
-			if (maxQty > 200) {
-				var increment = 25;
-			} else if (maxQty > 100) {
-				var increment = 10;
-			} else if (maxQty > 50) {
-				var increment = 5;
-			} else if (maxQty > 20) {
-				var increment = 2;
-			} else {
-				var increment = 1;
-			}
+			
 
 			/*
 			* get line spacing depending on maxQty
 			* and set number of lines and yPos
 			*/
-			root.dims.lineSpacing = root.dims.height / (maxQty + 1);
+			root.dims.lineSpacing = root.dims.height / (maxQty + increment);
 			for (var i = 0; i < maxQty; i += increment) {
-				var yPos = root.dims.lineSpacing * (i + 1);
+				var yPos = (root.dims.lineSpacing * (i + increment));
 				root.lines.push({
 					'label': maxQty - i,
 					'labelY': yPos + 1,
@@ -362,7 +379,7 @@ angular.module('myApp.services')
 			* get total spacing depending on number of bars
 			* set bar width depending on number of bars
 			*/
-			root.dims.totalSpacing = (root.bars.length - 1) * root.dims.barSpacing;
+			root.dims.totalSpacing = (root.bars.length + 1) * root.dims.barSpacing;
 			root.barsWidth = (root.dims.width - root.dims.totalSpacing) / root.bars.length;
 
 			/*
@@ -370,11 +387,10 @@ angular.module('myApp.services')
 			* set starting x position
 			*/
 			for (i = 0; i < root.bars.length; i++) {
-				var xPos = ((root.barsWidth + root.dims.barSpacing) * i) + root.dims.padding;
+				var xPos = ((root.barsWidth + root.dims.barSpacing) * i) + root.dims.barSpacing + root.dims.padding;
 				root.bars[i].x = xPos;
 				root.bars[i].labelX = xPos + (root.barsWidth / 2);
-				root.bars[i].labelY = root.dims.height + (root.dims.padding * 2);
+				root.bars[i].labelY = root.dims.height + (root.dims.padding * 1.5);
 			}
 		}
-		
 	});

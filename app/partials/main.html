@@ -150,15 +150,18 @@
 </nav>
 
 
-<nav ng-controller="graphCtrl">
-	<h2>Results</h2>
+<div ng-controller="graphCtrl">
+	<h2 class="pull-left">Results</h2>
+	<form class="col-md-2">
+		<select class="form-control" ng-model="metrics.selected" ng-change="updateGraph()">
+			<option value="{{metric.name}}" ng-repeat="metric in metrics.list" ng-selected="{{metrics.selected == metric.name}}">{{metric.label}}</option>
+		</select>
+	</form>
 
 	<graph></graph>
+</div>
 
-	<select class="form-control" ng-model="metrics.selected" ng-change="updateGraph()">
-		<option value="{{metric.name}}" ng-repeat="metric in metrics.list" ng-selected="{{metrics.selected == metric.name}}">{{metric.label}}</option>
-	</select>
-
-	<h3>Details</h3>
-	<p ng-repeat="bar in graph.bars">{{bar.label}}: {{bar.height}}</p>
-</nav>
+<div ng-controller="statsCtrl">
+	<h2>Details</h2>
+	<p ng-repeat="bar in graph.bars">{{bar.label}}: {{bar.qty}}</p>
+</div>

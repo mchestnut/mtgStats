@@ -35,7 +35,8 @@
 			ng-attr-y="{{bar.labelY}}%"
 			font-size="1.2"
 			style="text-anchor: middle">
-			{{bar.label}}
+			<tspan ng-attr-x="{{bar.labelX}}%">{{bar.label}}</tspan><tspan ng-attr-x="{{bar.labelX}}%" dy="1.6">{{bar.qty}}</tspan>
+			<!-- no break between tspans, otherwise inserts space in browser -->
 		</text>
 	</g>
 	<rect

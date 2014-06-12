@@ -189,8 +189,6 @@ angular.module('myApp.services')
 						temp[svc.column] = {'regex': regex};
 					}
 
-					console.log(regex);
-
 					if (includedStr.length || colorless) {
 						string.push(temp);					
 					}
