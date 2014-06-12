@@ -338,6 +338,8 @@ angular.module('myApp.services')
 				var increment = 10;
 			} else if (maxQty > 50) {
 				var increment = 5;
+			} else if (maxQty > 20) {
+				var increment = 2;
 			} else {
 				var increment = 1;
 			}
@@ -351,6 +353,7 @@ angular.module('myApp.services')
 				var yPos = root.dims.lineSpacing * (i + 1);
 				root.lines.push({
 					'label': maxQty - i,
+					'labelY': yPos + 1,
 					'y': yPos
 				});
 			}
