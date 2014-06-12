@@ -77,7 +77,7 @@ angular.module('myApp.services')
 
 			var result = 'failure';
 
-			$http.get('json/' + selected.name + '.json').success(function(data) {
+			$http.get('json/' + selected.name.toLowerCase() + '.json').success(function(data) {
 
 				// store selected abilities
 				var sLength = abilities.list.length,

@@ -171,8 +171,8 @@ angular.module('myApp.controllers', [])
 	* handles statistics of record
 	###########################################*/
 	
-	.controller('statsCtrl', function($scope) {
-		
+	.controller('detailsCtrl', function($scope, details) {
+		$scope.details = details;
 	})
 
 

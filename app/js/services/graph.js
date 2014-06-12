@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('graph', function(sets, colors, rarities, types, cmcs, ratings, abilities) {
+	.service('graph', function(sets, colors, rarities, types, cmcs, ratings, abilities, details) {
 
 		/*=================================
 		* private properties
@@ -392,5 +392,10 @@ angular.module('myApp.services')
 				root.bars[i].labelX = xPos + (root.barsWidth / 2);
 				root.bars[i].labelY = root.dims.height + (root.dims.padding * 1.5);
 			}
+
+			/*
+			* once graph drawn, update details
+			*/
+			details.update();			
 		}
 	});

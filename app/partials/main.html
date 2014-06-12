@@ -161,7 +161,7 @@
 	<graph></graph>
 </div>
 
-<div ng-controller="statsCtrl">
+<div ng-controller="detailsCtrl">
 	<h2>Details</h2>
-	<p ng-repeat="bar in graph.bars">{{bar.label}}: {{bar.qty}}</p>
+	<p ng-repeat="detail in details.data">{{detail.label}}: {{detail.value}}</p>
 </div>

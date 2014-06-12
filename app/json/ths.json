@@ -1120,20 +1120,6 @@
         "rating": 6
     },
     {
-        "id": 247,
-        "name": "Forest",
-        "cmc": 0,
-        "cost": "",
-        "type": "Basic Land - Forest",
-        "rarity": "Land",
-        "abilities": "",
-        "text": "{T}: Add {G} to your mana pool.",
-        "power": null,
-        "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373625&type=card",
-        "rating": 0
-    },
-    {
         "id": 49,
         "name": "Gainsay",
         "cmc": 2,
@@ -1398,20 +1384,6 @@
         "toughness": 2,
         "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373670&type=card",
         "rating": 9
-    },
-    {
-        "id": 235,
-        "name": "Island",
-        "cmc": 0,
-        "cost": "",
-        "type": "Basic Land - Island",
-        "rarity": "Land",
-        "abilities": "",
-        "text": "{T}: Add {U} to your mana pool.",
-        "power": null,
-        "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373595&type=card",
-        "rating": 0
     },
     {
         "id": 160,
@@ -1720,20 +1692,6 @@
         "toughness": 2,
         "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373565&type=card",
         "rating": 9
-    },
-    {
-        "id": 243,
-        "name": "Mountain",
-        "cmc": 0,
-        "cost": "",
-        "type": "Basic Land - Mountain",
-        "rarity": "Land",
-        "abilities": "",
-        "text": "{T}: Add {R} to your mana pool.",
-        "power": null,
-        "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373746&type=card",
-        "rating": 0
     },
     {
         "id": 163,
@@ -2056,20 +2014,6 @@
         "toughness": 7,
         "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373657&type=card",
         "rating": 6
-    },
-    {
-        "id": 231,
-        "name": "Plains",
-        "cmc": 0,
-        "cost": "",
-        "type": "Basic Land - Plains",
-        "rarity": "Land",
-        "abilities": "",
-        "text": "{T}: Add {W} to your mana pool.",
-        "power": null,
-        "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373533&type=card",
-        "rating": 0
     },
     {
         "id": 198,
@@ -2742,20 +2686,6 @@
         "toughness": null,
         "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373721&type=card",
         "rating": 5
-    },
-    {
-        "id": 239,
-        "name": "Swamp",
-        "cmc": 0,
-        "cost": "",
-        "type": "Basic Land - Swamp",
-        "rarity": "Land",
-        "abilities": "",
-        "text": "{T}: Add {B} to your mana pool.",
-        "power": null,
-        "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373567&type=card",
-        "rating": 0
     },
     {
         "id": 65,
