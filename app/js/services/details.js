@@ -32,7 +32,9 @@ angular.module('myApp.services')
 				totalCmcs = 0,
 				totalRatings = 0,
 				avgCmc,
-				avgRating;
+				avgRating,
+				avgCards = [],
+				avgCardsTotal;
 
 
 			var findAvg = function(metric) {
@@ -45,13 +47,24 @@ angular.module('myApp.services')
 					}
 				}
 
-				var avg = parseFloat((totalCmcs / totalCards).toPrecision(3));
+				var avg = parseFloat((totalCmcs / totalCards).toPrecision(2));
 
 				if (isNaN(avg)) {
 					avg = 0;
 				}
 
 				return avg;
+			}
+
+
+			var findQty = function(rarity, packQty) {
+				var resultQty = sets.selected[i].metrics.rarities[rarity];
+				var setQty = sets.selected[i].rarities[rarity];
+
+				if (!resultQty) {
+					resultQty = 0;
+				}
+				return (resultQty / setQty) * packQty;
 			}
 
 
@@ -73,12 +86,32 @@ angular.module('myApp.services')
 							break;
 						}
 					}
+
+					/*
+					* calculate average in pack
+					*/
+					var cQty = findQty('Common', 10);
+					var uQty = findQty('Uncommon', 3);
+					var rQty = findQty('Rare', .875);
+					var mQty = findQty('Mythic Rare', .125);
+					avgCards[i] = cQty + uQty + rQty + mQty;
+					avgCards[i] = +(Math.round(avgCards[i] + "e+2") + "e-2");
 				}
 			}
 
 			root.data.push({'label': 'Total Cards', 'value': totalCards});
 			root.data.push({'label': 'Average CMC', 'value': avgCmc});
 			root.data.push({'label': 'Average Rating', 'value': avgRating});
+
+			/*
+			* find average cards
+			*/
+			for (i = 0; i < 3; i++) {
+				root.data.push({'label': 'Average Qty in ' + sets.selected[i].name + ' Pack', 'value': avgCards[i]});
+			}
+			avgCardsTotal = avgCards[0] + avgCards[1] + avgCards[2];
+			avgCardsTotal = +(Math.round(avgCardsTotal + "e+2") + "e-2");			
+			root.data.push({'label': 'Average Qty in Full Draft', 'value': avgCardsTotal});
 		}
 		
 	});

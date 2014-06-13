@@ -25,6 +25,7 @@ angular.module('myApp.services')
 				'name': 'JOU',
 				'data': null,
 				'abilities': [],
+				'rarities': {},
 				'result': null,
 				'metrics': {
 					'sets': [],
@@ -40,6 +41,7 @@ angular.module('myApp.services')
 				'name': 'BNG',
 				'data': null,
 				'abilities': [],
+				'rarities': {},
 				'result': null,
 				'metrics': {
 					'sets': [],
@@ -55,6 +57,7 @@ angular.module('myApp.services')
 				'name': 'THS',
 				'data': null,
 				'abilities': [],
+				'rarities': {},
 				'result': null,
 				'metrics': {
 					'sets': [],
@@ -126,6 +129,10 @@ angular.module('myApp.services')
 						}
 					}
 				}
+
+				var raritiesObj = selected.data({'rarities': {'isObject': true}}).get();
+				selected.rarities = raritiesObj[0].rarities;
+				selected.data({'rarities': {'isObject': true}}).remove(false);
 
 				// sort abilities alphabetically
 				abilities.list.sort(function(a, b) {

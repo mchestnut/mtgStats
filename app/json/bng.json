@@ -28,6 +28,14 @@
         ]
     },
     {
+        "rarities": {
+            "Common": 60,
+            "Uncommon": 60,
+            "Rare": 35,
+            "Mythic Rare": 10
+        }
+    },
+    {
         "id": 1,
         "name": "Acolyte's Reward",
         "cmc": 2,

@@ -1,33 +1,41 @@
 [
-  {
-    "abilities": [
-        {"label": "Deathtouch", "abbr": "DTch"},
-        {"label": "Defender", "abbr": "Dfdr"},
-        {"label": "Double Strike", "abbr": "DStr"},
-        {"label": "Enchant", "abbr": "Ench"},
-        {"label": "Equip", "abbr": "Eqip"},
-        {"label": "Fight", "abbr": "Fght"},
-        {"label": "First Strike", "abbr": "FStr"},
-        {"label": "Flash", "abbr": "Flsh"},
-        {"label": "Flying", "abbr": "Fly"},
-        {"label": "Haste", "abbr": "Hste"},
-        {"label": "Hexproof", "abbr": "Hxpf"},
-        {"label": "Indestructible", "abbr": "NDes"},
-        {"label": "Intimidate", "abbr": "Ntim"},
-        {"label": "Lifelink", "abbr": "LfLk"},
-        {"label": "Protection", "abbr": "Pro"},
-        {"label": "Reach", "abbr": "Reac"},
-        {"label": "Regeneration", "abbr": "Regn"},
-        {"label": "Trample", "abbr": "Trmp"},
-        {"label": "Vigilance", "abbr": "Vigl"},
-        {"label": "Bestow", "abbr": "Bstw"},
-        {"label": "Devotion", "abbr": "Devo"},
-        {"label": "Heroic", "abbr": "Hero"},
-        {"label": "Monstrosity", "abbr": "Mons"},
-        {"label": "Scry", "abbr": "Scry"}
-    ]
-  },
-  {
+    {
+        "abilities": [
+            {"label": "Deathtouch", "abbr": "DTch"},
+            {"label": "Defender", "abbr": "Dfdr"},
+            {"label": "Double Strike", "abbr": "DStr"},
+            {"label": "Enchant", "abbr": "Ench"},
+            {"label": "Equip", "abbr": "Eqip"},
+            {"label": "Fight", "abbr": "Fght"},
+            {"label": "First Strike", "abbr": "FStr"},
+            {"label": "Flash", "abbr": "Flsh"},
+            {"label": "Flying", "abbr": "Fly"},
+            {"label": "Haste", "abbr": "Hste"},
+            {"label": "Hexproof", "abbr": "Hxpf"},
+            {"label": "Indestructible", "abbr": "NDes"},
+            {"label": "Intimidate", "abbr": "Ntim"},
+            {"label": "Lifelink", "abbr": "LfLk"},
+            {"label": "Protection", "abbr": "Pro"},
+            {"label": "Reach", "abbr": "Reac"},
+            {"label": "Regeneration", "abbr": "Regn"},
+            {"label": "Trample", "abbr": "Trmp"},
+            {"label": "Vigilance", "abbr": "Vigl"},
+            {"label": "Bestow", "abbr": "Bstw"},
+            {"label": "Devotion", "abbr": "Devo"},
+            {"label": "Heroic", "abbr": "Hero"},
+            {"label": "Monstrosity", "abbr": "Mons"},
+            {"label": "Scry", "abbr": "Scry"}
+        ]
+    },
+    {
+        "rarities": {
+            "Common": 101,
+            "Uncommon": 60,
+            "Rare": 53,
+            "Mythic Rare": 15
+        }
+    },
+    {
         "id": 75,
         "name": "Abhorrent Overlord",
         "cmc": 7,
