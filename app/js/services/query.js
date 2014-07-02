@@ -64,11 +64,13 @@ angular.module('myApp.services')
 				}
 			};
 
+
 			/*
 			* if all sets are ready,
 			* store metrics
 			*/
 			if (ready) {
+				// console.log(sets.selected[0].result.get());
 				metrics.store();
 			}
 		}

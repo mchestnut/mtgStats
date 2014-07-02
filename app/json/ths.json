@@ -46,7 +46,6 @@
         "text": "Flying<br>When Abhorrent Overlord enters the battlefield, put a number of 1/1 black Harpy creature tokens with flying onto the battlefield equal to your devotion to black. <i>(Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</i><br>At the beginning of your upkeep, sacrifice a creature.",
         "power": 6,
         "toughness": 6,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373661&type=card",
         "rating": 12
     },
     {
@@ -60,7 +59,6 @@
         "text": "{2}{U}: Agent of Horizons can't be blocked this turn.",
         "power": 3,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373712&type=card",
         "rating": 8
     },
     {
@@ -74,7 +72,6 @@
         "text": "Deathtouch<br>Heroic- Whenever you cast a spell that targets Agent of the Fates, each opponent sacrifices a creature.",
         "power": 3,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373543&type=card",
         "rating": 11
     },
     {
@@ -88,7 +85,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Akroan Crusader, put a 1/1 red Soldier creature token with haste onto the battlefield.",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373578&type=card",
         "rating": 5
     },
     {
@@ -102,7 +98,6 @@
         "text": "Whenever Akroan Hoplite attacks, it gets +X/+0 until end of turn, where X is the number of attacking creatures you control.",
         "power": 1,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373590&type=card",
         "rating": 8
     },
     {
@@ -116,7 +111,6 @@
         "text": "Defender<br>When Akroan Horse enters the battlefield, an opponent gains control of it.<br>At the beginning of your upkeep, each opponent puts a 1/1 white Soldier creature token onto the battlefield.",
         "power": 0,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373550&type=card",
         "rating": 6
     },
     {
@@ -130,7 +124,6 @@
         "text": "First strike, vigilance<br>Heroic- Whenever you cast a spell that targets Anax and Cymede, creatures you control get +1/+1 and gain trample until end of turn.",
         "power": 3,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373530&type=card",
         "rating": 12
     },
     {
@@ -144,7 +137,6 @@
         "text": "Anger of the Gods deals 3 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373604&type=card",
         "rating": 11
     },
     {
@@ -158,7 +150,6 @@
         "text": "Counter target artifact or enchantment spell.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373584&type=card",
         "rating": 5
     },
     {
@@ -172,7 +163,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Anthousa, Setessan Hero, up to three target lands you control each become 2/2 Warrior creatures until end of turn. They're still lands.",
         "power": 4,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373671&type=card",
         "rating": 9
     },
     {
@@ -186,7 +176,6 @@
         "text": "Flying, first strike",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373677&type=card",
         "rating": 6
     },
     {
@@ -200,7 +189,6 @@
         "text": "Enchant creature<br>Enchanted creature can't be blocked.<br>Whenever enchanted creature attacks, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373715&type=card",
         "rating": 7
     },
     {
@@ -214,7 +202,6 @@
         "text": "Reach<br>{3}{G}{G}{G}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i><br>When Arbor Colossus becomes monstrous, destroy target creature with flying an opponent controls.",
         "power": 6,
         "toughness": 6,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373740&type=card",
         "rating": 11
     },
     {
@@ -228,7 +215,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Arena Athlete, target creature an opponent controls can't block this turn.",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373585&type=card",
         "rating": 7
     },
     {
@@ -242,7 +228,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Artisan of Forms, you may have Artisan of Forms become a copy of target creature and gain this ability.",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373742&type=card",
         "rating": 7
     },
     {
@@ -256,7 +241,6 @@
         "text": "Destroy target artifact or enchantment. Scry 2. <i>(Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373506&type=card",
         "rating": 7
     },
     {
@@ -270,7 +254,6 @@
         "text": "Flying<br>When Ashen Rider enters the battlefield or dies, exile target permanent.",
         "power": 5,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373689&type=card",
         "rating": 8
     },
     {
@@ -284,7 +267,6 @@
         "text": "+2: Exile the top three cards of target opponent's library.<br>-X: Put a creature card with converted mana cost X exiled with Ashiok, Nightmare Weaver onto the battlefield under your control. That creature is a Nightmare in addition to its other types.<br",
         "power": null,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373500&type=card",
         "rating": 11
     },
     {
@@ -298,7 +280,6 @@
         "text": "{2}{B}: Regenerate Asphodel Wanderer.",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373631&type=card",
         "rating": 5
     },
     {
@@ -312,7 +293,6 @@
         "text": "Bestow {4}{B} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Deathtouch <i>(Any amount of damage this deals to a creature is enough to destroy it.)</i><br>Enchanted creature gets +1/+1 and has deathtouch.",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373720&type=card",
         "rating": 8
     },
     {
@@ -326,7 +306,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Battlewise Hoplite, put a +1/+1 counter on Battlewise Hoplite, then scry 1. <i>(To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</i>",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373612&type=card",
         "rating": 9
     },
     {
@@ -340,7 +319,6 @@
         "text": "Target creature gets +2/+2 until end of turn. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373627&type=card",
         "rating": 8
     },
     {
@@ -354,7 +332,6 @@
         "text": "Hexproof <i>(This creature can't be the target of spells or abilities your opponents control.)</i>",
         "power": 4,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373583&type=card",
         "rating": 7
     },
     {
@@ -368,7 +345,6 @@
         "text": "Whenever a creature you control deals combat damage to a player, you may draw a card.<br>{1}{U}, {T}: Creatures your opponents control attack this turn if able.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373544&type=card",
         "rating": 8
     },
     {
@@ -382,7 +358,6 @@
         "text": "Flying<br>When Blood-Toll Harpy enters the battlefield, each player loses 1 life.",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373638&type=card",
         "rating": 7
     },
     {
@@ -396,7 +371,6 @@
         "text": "Target creature gets +2/+0 until end of turn. Regenerate it. You lose 2 life.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373642&type=card",
         "rating": 7
     },
     {
@@ -410,7 +384,6 @@
         "text": "Flash<br>Bestow {3}{G}{G} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Enchanted creature gets +4/+2.",
         "power": 4,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373509&type=card",
         "rating": 12
     },
     {
@@ -424,7 +397,6 @@
         "text": "",
         "power": 4,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373659&type=card",
         "rating": 8
     },
     {
@@ -438,8 +410,7 @@
         "text": "Boulderfall deals 5 damage divided as you choose among any number of target creatures and/or players.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373714&type=card",
-        "rating": 3
+        "rating": 2
     },
     {
         "id": 153,
@@ -452,7 +423,6 @@
         "text": "Attacking creatures you control have deathtouch.<br>{1}{G}, {T}: Choose one- Put a +1/+1 counter on target creature; or Bow of Nylea deals 2 damage to target creature with flying; or you gain 3 life; or put up to four target cards from your graveyard on the bottom of your library in any order.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373603&type=card",
         "rating": 12
     },
     {
@@ -466,7 +436,6 @@
         "text": "Flash <i>(You may cast this spell any time you could cast an instant.)</i><br>When Breaching Hippocamp enters the battlefield, untap another target creature you control.",
         "power": 3,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373636&type=card",
         "rating": 6
     },
     {
@@ -480,7 +449,6 @@
         "text": "",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373730&type=card",
         "rating": 4
     },
     {
@@ -494,7 +462,6 @@
         "text": "{3}, Sacrifice Burnished Hart: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373620&type=card",
         "rating": 8
     },
     {
@@ -508,7 +475,6 @@
         "text": "Flying<br>Whenever Cavalry Pegasus attacks, each attacking Human gains flying until end of turn.",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373684&type=card",
         "rating": 5
     },
     {
@@ -522,7 +488,6 @@
         "text": "Bestow {5}{B} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Intimidate<br>Enchanted creature gets +2/+2 and has intimidate.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373726&type=card",
         "rating": 9
     },
     {
@@ -536,7 +501,6 @@
         "text": "Bestow {5}{W}{W} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Flying, first strike<br>Enchanted creature gets +4/+4 and has flying and first strike.",
         "power": 4,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373503&type=card",
         "rating": 13
     },
     {
@@ -550,7 +514,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Centaur Battlemaster, put three +1/+1 counters on Centaur Battlemaster.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373594&type=card",
         "rating": 11
     },
     {
@@ -564,7 +527,6 @@
         "text": "Enchant Mountain you control<br>When Chained to the Rocks enters the battlefield, exile target creature an opponent controls until Chained to the Rocks leaves the battlefield. <i>(That creature returns under its owner's control.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373521&type=card",
         "rating": 11
     },
     {
@@ -578,7 +540,6 @@
         "text": "Enchant creature<br>When Chosen by Heliod enters the battlefield, draw a card.<br>Enchanted creature gets +0/+2.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373561&type=card",
         "rating": 5
     },
     {
@@ -592,7 +553,6 @@
         "text": "When Chronicler of Heroes enters the battlefield, draw a card if you control a creature with a +1/+1 counter on it.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373621&type=card",
         "rating": 9
     },
     {
@@ -606,7 +566,6 @@
         "text": "Flying<br>{1}{W}: Coastline Chimera can block an additional creature this turn.",
         "power": 1,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373707&type=card",
         "rating": 8
     },
     {
@@ -620,7 +579,6 @@
         "text": "Defender, indestructible<br>{1}0: Monstrosity 10. <i>(If this creature isn't monstrous, put ten +1/+1 counters on it and it becomes monstrous.)</i><br>As long as Colossus of Akros is monstrous, it has trample and can attack as though it didn't have defender.",
         "power": 10,
         "toughness": 10,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373555&type=card",
         "rating": 4
     },
     {
@@ -634,7 +592,6 @@
         "text": "Reveal the top five cards of your library. You may put a creature or enchantment card from among them into your hand. Put the rest into your graveyard.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373656&type=card",
         "rating": 6
     },
     {
@@ -648,7 +605,6 @@
         "text": "Up to two target creatures each get +1/+0 and gain first strike until end of turn.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373513&type=card",
         "rating": 8
     },
     {
@@ -662,7 +618,6 @@
         "text": "{2}{R}, Sacrifice Crackling Triton: Crackling Triton deals 2 damage to target creature or player.",
         "power": 2,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373588&type=card",
         "rating": 8
     },
     {
@@ -676,7 +631,6 @@
         "text": "Exile X target creatures. For each creature exiled this way, its controller puts a 2/2 green Boar creature token onto the battlefield.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373542&type=card",
         "rating": 11
     },
     {
@@ -690,7 +644,6 @@
         "text": "Up to two target creatures each get +1/+1 and gain lifelink until end of turn.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373660&type=card",
         "rating": 5
     },
     {
@@ -704,7 +657,6 @@
         "text": "Destroy target black creature.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373504&type=card",
         "rating": 2
     },
     {
@@ -718,7 +670,6 @@
         "text": "Up to two target creatures each get +2/+2 until end of turn.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373525&type=card",
         "rating": 9
     },
     {
@@ -732,7 +683,6 @@
         "text": "Daxos of Meletis can't be blocked by creatures with power 3 or greater.<br>Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373664&type=card",
         "rating": 9
     },
     {
@@ -746,7 +696,6 @@
         "text": "Deathbellow Raider attacks each turn if able.<br>{2}{B}: Regenerate Deathbellow Raider.",
         "power": 2,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373593&type=card",
         "rating": 6
     },
     {
@@ -760,7 +709,6 @@
         "text": "Flying<br>{1}{W}: Prevent the next 1 combat damage that would be dealt to you this turn.",
         "power": 2,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373577&type=card",
         "rating": 6
     },
     {
@@ -774,7 +722,6 @@
         "text": "Prevent all combat damage that would be dealt to players this turn.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373623&type=card",
         "rating": 2
     },
     {
@@ -788,7 +735,6 @@
         "text": "Destroy target artifact or land.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373537&type=card",
         "rating": 2
     },
     {
@@ -802,7 +748,6 @@
         "text": "Destroy target artifact or enchantment. Destructive Revelry deals 2 damage to that permanent's controller.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373678&type=card",
         "rating": 9
     },
     {
@@ -816,7 +761,6 @@
         "text": "When Disciple of Phenax enters the battlefield, target player reveals a number of cards from his or her hand equal to your devotion to black. You choose one of them. That player discards that card. <i>(Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</i>",
         "power": 1,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373520&type=card",
         "rating": 8
     },
     {
@@ -830,7 +774,6 @@
         "text": "Counter target spell. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373557&type=card",
         "rating": 8
     },
     {
@@ -844,7 +787,6 @@
         "text": "Destroy target attacking or blocking creature.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373648&type=card",
         "rating": 9
     },
     {
@@ -858,7 +800,6 @@
         "text": "Enchant creature<br>When Dragon Mantle enters the battlefield, draw a card.<br>Enchanted creature has ",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373634&type=card",
         "rating": 7
     },
     {
@@ -872,7 +813,6 @@
         "text": "+1: Put three 1/1 white Soldier creature tokens onto the battlefield.<br>-3: Destroy all creatures with power 4 or greater.<br>-7: You get an emblem with ",
         "power": null,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373649&type=card",
         "rating": 14
     },
     {
@@ -886,7 +826,6 @@
         "text": "{5}{R}{R}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i><br>When Ember Swallower becomes monstrous, each player sacrifices three lands.",
         "power": 4,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373597&type=card",
         "rating": 12
     },
     {
@@ -900,8 +839,7 @@
         "text": "{T}: Tap target creature with power 3 or less.",
         "power": 1,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373724&type=card",
-        "rating": 3
+        "rating": 2
     },
     {
         "id": 85,
@@ -914,7 +852,6 @@
         "text": "Indestructible<br>As long as your devotion to black is less than five, Erebos isn't a creature. <i>(Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</i><br>Your opponents can't gain life.<br>{1}{B}, Pay 2 life: Draw a card.",
         "power": 5,
         "toughness": 7,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373589&type=card",
         "rating": 8
     },
     {
@@ -928,7 +865,6 @@
         "text": "Bestow {5}{B} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Discard a creature card: Erebos's Emissary gets +2/+2 until end of turn. If Erebos's Emissary is an Aura, enchanted creature gets +2/+2 until end of turn instead.<br>Enchanted creature gets +3/+3.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373745&type=card",
         "rating": 11
     },
     {
@@ -942,7 +878,6 @@
         "text": "When Evangel of Heliod enters the battlefield, put a number of 1/1 white Soldier creature tokens onto the battlefield equal to your devotion to white. <i>(Each {W} in the mana costs of permanents you control counts toward your devotion to white.)</i>",
         "power": 1,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373641&type=card",
         "rating": 9
     },
     {
@@ -956,7 +891,6 @@
         "text": "Double strike<br>Heroic- Whenever you cast a spell that targets Fabled Hero, put a +1/+1 counter on Fabled Hero.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373606&type=card",
         "rating": 12
     },
     {
@@ -970,7 +904,6 @@
         "text": "Exile target artifact or enchantment.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373576&type=card",
         "rating": 6
     },
     {
@@ -984,7 +917,6 @@
         "text": "When Fanatic of Mogis enters the battlefield, it deals damage to each opponent equal to your devotion to red. <i>(Each {R} in the mana costs of permanents you control counts toward your devotion to red.)</i>",
         "power": 4,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373511&type=card",
         "rating": 9
     },
     {
@@ -998,7 +930,6 @@
         "text": "Enchant creature<br>When Fate Foretold enters the battlefield, draw a card.<br>When enchanted creature dies, its controller draws a card.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373686&type=card",
         "rating": 5
     },
     {
@@ -1012,7 +943,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Favored Hoplite, put a +1/+1 counter on Favored Hoplite and prevent all damage that would be dealt to it this turn.",
         "power": 1,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373596&type=card",
         "rating": 7
     },
     {
@@ -1026,7 +956,6 @@
         "text": "",
         "power": 2,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373674&type=card",
         "rating": 7
     },
     {
@@ -1040,7 +969,6 @@
         "text": "Flash <i>(You may cast this spell any time you could cast an instant.)</i><br>Enchant creature<br>Enchanted creature gets +2/+2.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373703&type=card",
         "rating": 8
     },
     {
@@ -1054,7 +982,6 @@
         "text": "Whenever Firedrinker Satyr is dealt damage, it deals that much damage to you.<br>{1}{R}: Firedrinker Satyr gets +1/+0 until end of turn and deals 1 damage to you.",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373552&type=card",
         "rating": 8
     },
     {
@@ -1068,7 +995,6 @@
         "text": "{5}, {T}, Sacrifice Flamecast Wheel: Flamecast Wheel deals 3 damage to target creature.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373514&type=card",
         "rating": 5
     },
     {
@@ -1082,7 +1008,6 @@
         "text": "Whenever you scry, Flamespeaker Adept gets +2/+0 and gains first strike until end of turn.",
         "power": 2,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373705&type=card",
         "rating": 8
     },
     {
@@ -1096,7 +1021,6 @@
         "text": "{3}{G}{W}: Monstrosity 1. <i>(If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)</i><br>As long as Fleecemane Lion is monstrous, it has hexproof and indestructible.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373562&type=card",
         "rating": 12
     },
     {
@@ -1110,7 +1034,6 @@
         "text": "Equipped creature has flying and haste.<br>Equip {2} <i>({2}: Attach to target creature you control. Equip only as a sorcery.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373501&type=card",
         "rating": 6
     },
     {
@@ -1124,7 +1047,6 @@
         "text": "Whenever another creature dies, tap Fleshmad Steed.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373528&type=card",
         "rating": 6
     },
     {
@@ -1138,7 +1060,6 @@
         "text": "Counter target blue spell.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373682&type=card",
         "rating": 2
     },
     {
@@ -1152,7 +1073,6 @@
         "text": "Enchant creature<br>When enchanted creature dies, return that card to the battlefield under its owner's control. Return Gift of Immortality to the battlefield attached to that creature at the beginning of the next end step.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373566&type=card",
         "rating": 5
     },
     {
@@ -1166,7 +1086,6 @@
         "text": "Exile target white permanent.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373691&type=card",
         "rating": 2
     },
     {
@@ -1180,7 +1099,6 @@
         "text": "Target creature you control gains protection from the color of your choice until end of turn. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373516&type=card",
         "rating": 7
     },
     {
@@ -1194,7 +1112,6 @@
         "text": "When Gray Merchant of Asphodel enters the battlefield, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way. <i>(Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</i>",
         "power": 2,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373645&type=card",
         "rating": 8
     },
     {
@@ -1208,7 +1125,6 @@
         "text": "Put target creature on top of its owner's library.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373519&type=card",
         "rating": 9
     },
     {
@@ -1222,7 +1138,6 @@
         "text": "Defender",
         "power": 0,
         "toughness": 6,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373605&type=card",
         "rating": 6
     },
     {
@@ -1236,7 +1151,6 @@
         "text": "Creatures you control have haste.<br>{2}{R}, {T}, Sacrifice a land: Put a 3/3 colorless Golem enchantment artifact creature token onto the battlefield.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373587&type=card",
         "rating": 13
     },
     {
@@ -1250,7 +1164,6 @@
         "text": "Indestructible<br>As long as your devotion to white is less than five, Heliod isn't a creature. <i>(Each {W} in the mana costs of permanents you control counts toward your devotion to white.)</i><br>Other creatures you control have vigilance.<br>{2}{W}{W}: Put a 2/1 white Cleric enchantment creature token onto the battlefield.",
         "power": 5,
         "toughness": 6,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373524&type=card",
         "rating": 9
     },
     {
@@ -1264,7 +1177,6 @@
         "text": "Bestow {6}{W} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Whenever Heliod's Emissary or enchanted creature attacks, tap target creature an opponent controls.<br>Enchanted creature gets +3/+3.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373729&type=card",
         "rating": 11
     },
     {
@@ -1278,7 +1190,6 @@
         "text": "Destroy target creature or planeswalker.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373575&type=card",
         "rating": 13
     },
     {
@@ -1292,8 +1203,7 @@
         "text": "Bestow {3}{W} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Lifelink <i>(Damage dealt by this creature also causes you to gain that much life.)</i><br>Enchanted creature gets +1/+1 and has lifelink.",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373616&type=card",
-        "rating": 3
+        "rating": 4
     },
     {
         "id": 194,
@@ -1306,7 +1216,6 @@
         "text": "Flash <i>(You may cast this spell any time you could cast an instant.)</i><br>Flying, trample<br>Whenever you draw a card, you gain 1 life.",
         "power": 3,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373738&type=card",
         "rating": 11
     },
     {
@@ -1320,7 +1229,6 @@
         "text": "Flying<br>When Horizon Scholar enters the battlefield, scry 2. <i>(Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>",
         "power": 4,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373628&type=card",
         "rating": 11
     },
     {
@@ -1334,7 +1242,6 @@
         "text": "Vigilance<br>{3}{W}{W}{W}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i><br>As long as Hundred-Handed One is monstrous, it has reach and can block an additional ninety-nine creatures each combat.",
         "power": 3,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373708&type=card",
         "rating": 12
     },
     {
@@ -1348,7 +1255,6 @@
         "text": "Target green creature you control gets +2/+2 until end of turn. It fights target green creature an opponent controls.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373668&type=card",
         "rating": 2
     },
     {
@@ -1362,7 +1268,6 @@
         "text": "Deathtouch<br>{6}{B}{B}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i><br>When Hythonia the Cruel becomes monstrous, destroy all non-Gorgon creatures.",
         "power": 4,
         "toughness": 6,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373673&type=card",
         "rating": 13
     },
     {
@@ -1376,7 +1281,6 @@
         "text": "Trample<br>{5}{R}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373545&type=card",
         "rating": 10
     },
     {
@@ -1390,7 +1294,6 @@
         "text": "Flying, lifelink",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373670&type=card",
         "rating": 9
     },
     {
@@ -1404,7 +1307,6 @@
         "text": "{T}: Add an amount of {G} to your mana pool equal to your devotion to green. <i>(Each {G} in the mana costs of permanents you control counts toward your devotion to green.)</i>",
         "power": 1,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373538&type=card",
         "rating": 7
     },
     {
@@ -1418,7 +1320,6 @@
         "text": "Deathtouch<br>{5}{B}{B}: Monstrosity 1. <i>(If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)</i><br>When Keepsake Gorgon becomes monstrous, destroy target non-Gorgon creature an opponent controls.",
         "power": 2,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373548&type=card",
         "rating": 11
     },
     {
@@ -1432,7 +1333,6 @@
         "text": "Minotaur creatures you control have haste.<br>Whenever a Minotaur you control attacks, it gets +2/+0 until end of turn.",
         "power": 2,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373710&type=card",
         "rating": 9
     },
     {
@@ -1446,7 +1346,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Labyrinth Champion, Labyrinth Champion deals 2 damage to target creature or player.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373586&type=card",
         "rating": 10
     },
     {
@@ -1460,7 +1359,6 @@
         "text": "When Lagonna-Band Elder enters the battlefield, if you control an enchantment, you gain 3 life.",
         "power": 3,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373599&type=card",
         "rating": 8
     },
     {
@@ -1474,7 +1372,6 @@
         "text": "Target creature gets -4/-4 until end of turn.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373610&type=card",
         "rating": 10
     },
     {
@@ -1488,7 +1385,6 @@
         "text": "Exile target creature with power 2 or less. Its controller gains 4 life.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373680&type=card",
         "rating": 7
     },
     {
@@ -1502,7 +1398,6 @@
         "text": "Bestow {3}{G} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Reach<br>Enchanted creature gets +2/+2 and has reach.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373523&type=card",
         "rating": 10
     },
     {
@@ -1516,7 +1411,6 @@
         "text": "When Leonin Snarecaster enters the battlefield, you may tap target creature.",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373600&type=card",
         "rating": 8
     },
     {
@@ -1530,7 +1424,6 @@
         "text": "Lightning Strike deals 3 damage to target creature or player.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373651&type=card",
         "rating": 11
     },
     {
@@ -1544,7 +1437,6 @@
         "text": "{2}{G}: Loathsome Catoblepas must be blocked this turn if able.<br>When Loathsome Catoblepas dies, target creature an opponent controls gets -3/-3 until end of turn.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373731&type=card",
         "rating": 6
     },
     {
@@ -1558,7 +1450,6 @@
         "text": "Target creature gets -3/-0 until end of turn. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373629&type=card",
         "rating": 5
     },
     {
@@ -1572,7 +1463,6 @@
         "text": "Magma Jet deals 2 damage to target creature or player. Scry 2. <i>(Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373704&type=card",
         "rating": 11
     },
     {
@@ -1586,7 +1476,6 @@
         "text": "Return up to two target creature cards from your graveyard to your hand.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373579&type=card",
         "rating": 6
     },
     {
@@ -1600,7 +1489,6 @@
         "text": "Protection from red<br>Elemental creatures you control get +1/+1.<br>When Master of Waves enters the battlefield, put a number of 1/0 blue Elemental creature tokens onto the battlefield equal to your devotion to blue. <i>(Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)</i>",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373536&type=card",
         "rating": 10
     },
     {
@@ -1614,7 +1502,6 @@
         "text": "Flying<br>Whenever Medomai the Ageless deals combat damage to a player, take an extra turn after this one.<br>Medomai the Ageless can't attack during extra turns.",
         "power": 4,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373675&type=card",
         "rating": 12
     },
     {
@@ -1628,7 +1515,6 @@
         "text": "{2}{U}, {T}: The controller of target instant or sorcery spell copies it. That player may choose new targets for the copy.",
         "power": 2,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373741&type=card",
         "rating": 9
     },
     {
@@ -1642,7 +1528,6 @@
         "text": "Enchant creature<br>Enchanted creature has trample and haste.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373699&type=card",
         "rating": 2
     },
     {
@@ -1656,7 +1541,6 @@
         "text": "Haste<br>When Minotaur Skullcleaver enters the battlefield, it gets +2/+0 until end of turn.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373698&type=card",
         "rating": 8
     },
     {
@@ -1670,7 +1554,6 @@
         "text": "Mistcutter Hydra can't be countered.<br>Haste, protection from blue<br>Mistcutter Hydra enters the battlefield with X +1/+1 counters on it.",
         "power": 0,
         "toughness": 0,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373727&type=card",
         "rating": 9
     },
     {
@@ -1684,7 +1567,6 @@
         "text": "Defender<br>When Mnemonic Wall enters the battlefield, you may return target instant or sorcery card from your graveyard to your hand.",
         "power": 0,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373658&type=card",
         "rating": 8
     },
     {
@@ -1698,7 +1580,6 @@
         "text": "When Mogis's Marauder enters the battlefield, up to X target creatures each gain intimidate and haste until end of turn, where X is your devotion to black. <i>(Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</i>",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373565&type=card",
         "rating": 9
     },
     {
@@ -1712,7 +1593,6 @@
         "text": "Nemesis of Mortals costs {1} less to cast for each creature card in your graveyard.<br>{7}{G}{G}: Monstrosity 5. This ability costs {1} less to activate for each creature card in your graveyard. <i>(If this creature isn't monstrous, put five +1/+1 counters on it and it becomes monstrous.)</i>",
         "power": 5,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373694&type=card",
         "rating": 10
     },
     {
@@ -1726,7 +1606,6 @@
         "text": "Reach<br>{6}{G}: Monstrosity 4. <i>(If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)</i>",
         "power": 4,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373650&type=card",
         "rating": 9
     },
     {
@@ -1740,7 +1619,6 @@
         "text": "",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373581&type=card",
         "rating": 8
     },
     {
@@ -1754,7 +1632,6 @@
         "text": "Bestow {2}{B}{B} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Nighthowler and enchanted creature each get +X/+X, where X is the number of creature cards in all graveyards.",
         "power": 0,
         "toughness": 0,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373564&type=card",
         "rating": 9
     },
     {
@@ -1768,21 +1645,19 @@
         "text": "Bestow {4}{U} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Flying<br>Enchanted creature gets +2/+2 and has flying.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373719&type=card",
         "rating": 11
     },
     {
         "id": 223,
         "name": "Nykthos, Shrine to Nyx",
         "cmc": 0,
-        "cost": "",
+        "cost": "{0}",
         "type": "Legendary Land",
         "rarity": "Rare",
         "abilities": "Devotion",
         "text": "{T}: Add {1} to your mana pool.<br>{2}, {T}: Choose a color. Add to your mana pool an amount of mana of that color equal to your devotion to that color. <i>(Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373713&type=card",
         "rating": 5
     },
     {
@@ -1796,7 +1671,6 @@
         "text": "Indestructible<br>As long as your devotion to green is less than five, Nylea isn't a creature. <i>(Each {G} in the mana costs of permanents you control counts toward your devotion to green.)</i><br>Other creatures you control have trample.<br>{3}{G}: Target creature gets +2/+2 until end of turn.",
         "power": 6,
         "toughness": 6,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373559&type=card",
         "rating": 11
     },
     {
@@ -1810,7 +1684,6 @@
         "text": "When Nylea's Disciple enters the battlefield, you gain life equal to your devotion to green. <i>(Each {G} in the mana costs of permanents you control counts toward your devotion to green.)</i>",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373498&type=card",
         "rating": 8
     },
     {
@@ -1824,7 +1697,6 @@
         "text": "Bestow {5}{G} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Trample<br>Enchanted creature gets +3/+3 and has trample.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373510&type=card",
         "rating": 11
     },
     {
@@ -1838,7 +1710,6 @@
         "text": "Enchant land<br>When Nylea's Presence enters the battlefield, draw a card.<br>Enchanted land is every basic land type in addition to its other types.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373580&type=card",
         "rating": 8
     },
     {
@@ -1852,7 +1723,6 @@
         "text": "Bestow {4}{W} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Vigilance<br>Enchanted creature gets +2/+2 and has vigilance.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373733&type=card",
         "rating": 8
     },
     {
@@ -1866,7 +1736,6 @@
         "text": "When Omenspeaker enters the battlefield, scry 2. <i>(Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>",
         "power": 1,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373693&type=card",
         "rating": 9
     },
     {
@@ -1880,7 +1749,6 @@
         "text": "{T}: Add one mana of any color to your mana pool.",
         "power": 1,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373611&type=card",
         "rating": 7
     },
     {
@@ -1894,7 +1762,6 @@
         "text": "Enchant creature<br>Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Erebos.<br>When you sacrifice Ordeal of Erebos, target player discards two cards.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373646&type=card",
         "rating": 5
     },
     {
@@ -1908,7 +1775,6 @@
         "text": "Enchant creature<br>Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Heliod.<br>When you sacrifice Ordeal of Heliod, you gain 10 life.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373619&type=card",
         "rating": 8
     },
     {
@@ -1922,7 +1788,6 @@
         "text": "Enchant creature<br>Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Nylea.<br>When you sacrifice Ordeal of Nylea, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373553&type=card",
         "rating": 6
     },
     {
@@ -1936,7 +1801,6 @@
         "text": "Enchant creature<br>Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Purphoros.<br>When you sacrifice Ordeal of Purphoros, it deals 3 damage to target creature or player.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373647&type=card",
         "rating": 8
     },
     {
@@ -1950,7 +1814,6 @@
         "text": "Enchant creature<br>Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Thassa.<br>When you sacrifice Ordeal of Thassa, draw two cards.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373696&type=card",
         "rating": 8
     },
     {
@@ -1964,7 +1827,6 @@
         "text": "Destroy target Mountain. Peak Eruption deals 3 damage to that land's controller.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373507&type=card",
         "rating": 2
     },
     {
@@ -1978,7 +1840,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Phalanx Leader, put a +1/+1 counter on each creature you control.",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373592&type=card",
         "rating": 10
     },
     {
@@ -1992,7 +1853,6 @@
         "text": "Pharika's Cure deals 2 damage to target creature and you gain 2 life.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373722&type=card",
         "rating": 8
     },
     {
@@ -2006,7 +1866,6 @@
         "text": "When Pharika's Mender enters the battlefield, you may return target creature or enchantment card from your graveyard to your hand.",
         "power": 4,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373569&type=card",
         "rating": 10
     },
     {
@@ -2020,7 +1879,6 @@
         "text": "",
         "power": 3,
         "toughness": 7,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373657&type=card",
         "rating": 6
     },
     {
@@ -2034,7 +1892,6 @@
         "text": "Trample, protection from enchantments<br>{4}{R}{G}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i><br>Whenever Polis Crusher deals combat damage to a player, if Polis Crusher is monstrous, destroy target enchantment that player controls.",
         "power": 4,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373716&type=card",
         "rating": 13
     },
     {
@@ -2048,7 +1905,6 @@
         "text": "{X}{X}{G}: Monstrosity X. <i>(If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)</i><br>When Polukranos, World Eater becomes monstrous, it deals X damage divided as you choose among any number of target creatures your opponents control. Each of those creatures deals damage equal to its power to Polukranos.",
         "power": 5,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373549&type=card",
         "rating": 13
     },
     {
@@ -2062,7 +1918,6 @@
         "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373667&type=card",
         "rating": 5
     },
     {
@@ -2076,7 +1931,6 @@
         "text": "Flying<br>Whenever you cast an instant or sorcery spell, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": 3,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373643&type=card",
         "rating": 10
     },
     {
@@ -2090,7 +1944,6 @@
         "text": "{3}{W}, Sacrifice Priest of Iroas: Destroy target enchantment.",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373614&type=card",
         "rating": 6
     },
     {
@@ -2104,7 +1957,6 @@
         "text": "Flying<br>Discard a card: Prognostic Sphinx gains hexproof until end of turn. Tap it.<br>Whenever Prognostic Sphinx attacks, scry 3. <i>(Look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>",
         "power": 3,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373617&type=card",
         "rating": 14
     },
     {
@@ -2118,7 +1970,6 @@
         "text": "Untap all creatures and lands you control during each other player's untap step.<br>You may cast creature cards as though they had flash.",
         "power": 2,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373635&type=card",
         "rating": 9
     },
     {
@@ -2132,7 +1983,6 @@
         "text": "Equipped creature can't be blocked except by Walls.<br>Equip {2}",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373626&type=card",
         "rating": 7
     },
     {
@@ -2146,7 +1996,6 @@
         "text": "Target opponent reveals his or her hand. You choose a nonland card from that player's graveyard or hand and exile it. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373695&type=card",
         "rating": 8
     },
     {
@@ -2160,7 +2009,6 @@
         "text": "Indestructible<br>As long as your devotion to red is less than five, Purphoros isn't a creature.<br>Whenever another creature enters the battlefield under your control, Purphoros deals 2 damage to each opponent.<br>{2}{R}: Creatures you control get +1/+0 until end of turn.",
         "power": 6,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373556&type=card",
         "rating": 9
     },
     {
@@ -2174,7 +2022,6 @@
         "text": "Bestow {6}{R} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Purphoros's Emissary can't be blocked except by two or more creatures.<br>Enchanted creature gets +3/+3 and can't be blocked except by two or more creatures.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373505&type=card",
         "rating": 11
     },
     {
@@ -2188,7 +2035,6 @@
         "text": "{T}: Each player exiles the top card of his or her library face down.<br>{7}, {T}, Sacrifice Pyxis of Pandemonium: Each player turns face up all cards he or she owns exiled with Pyxis of Pandemonium, then puts all permanent cards among them onto the battlefield.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373669&type=card",
         "rating": 2
     },
     {
@@ -2202,7 +2048,6 @@
         "text": "Rage of Purphoros deals 4 damage to target creature. It can't be regenerated this turn. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373663&type=card",
         "rating": 9
     },
     {
@@ -2216,7 +2061,6 @@
         "text": "Trample<br>Other Minotaur creatures you control get +1/+1 and have trample.",
         "power": 2,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373672&type=card",
         "rating": 8
     },
     {
@@ -2230,7 +2074,6 @@
         "text": "Destroy target enchantment. You gain 3 life.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373739&type=card",
         "rating": 7
     },
     {
@@ -2244,7 +2087,6 @@
         "text": "Scry 2, then draw two cards. You lose 2 life. <i>(To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373725&type=card",
         "rating": 9
     },
     {
@@ -2258,7 +2100,6 @@
         "text": "Whenever another creature dies, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i><br>{B}: Reaper of the Wilds gains deathtouch until end of turn.<br>{1}{G}: Reaper of the Wilds gains hexproof until end of turn.",
         "power": 4,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373570&type=card",
         "rating": 12
     },
     {
@@ -2272,7 +2113,6 @@
         "text": "As an additional cost to cast Rescue from the Underworld, sacrifice a creature.<br>Choose target creature card in your graveyard. Return that card and the sacrificed card to the battlefield under your control at the beginning of your next upkeep. Exile Rescue from the Underworld.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373532&type=card",
         "rating": 8
     },
     {
@@ -2286,7 +2126,6 @@
         "text": "When Returned Centaur enters the battlefield, target player puts the top four cards of his or her library into his or her graveyard.",
         "power": 2,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373644&type=card",
         "rating": 7
     },
     {
@@ -2300,7 +2139,6 @@
         "text": "Defender<br>{1}{U}: Returned Phalanx can attack this turn as though it didn't have defender.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373508&type=card",
         "rating": 7
     },
     {
@@ -2314,7 +2152,6 @@
         "text": "When Reverent Hunter enters the battlefield, put a number of +1/+1 counters on it equal to your devotion to green. <i>(Each {G} in the mana costs of permanents you control counts toward your devotion to green.)</i>",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373601&type=card",
         "rating": 10
     },
     {
@@ -2328,7 +2165,6 @@
         "text": "{R}, Sacrifice Satyr Hedonist: Add {R}{R}{R} to your mana pool.",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373744&type=card",
         "rating": 6
     },
     {
@@ -2342,7 +2178,6 @@
         "text": "{3}{G}: Target creature must be blocked this turn if able.",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373728&type=card",
         "rating": 6
     },
     {
@@ -2356,7 +2191,6 @@
         "text": "Trample",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373737&type=card",
         "rating": 8
     },
     {
@@ -2370,7 +2204,6 @@
         "text": "Target creature gets +2/+2 until end of turn. Untap that creature.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373602&type=card",
         "rating": 8
     },
     {
@@ -2384,7 +2217,6 @@
         "text": "{2}{B}: Each opponent loses 1 life. You gain life equal to the life lost this way.",
         "power": 1,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373692&type=card",
         "rating": 6
     },
     {
@@ -2398,7 +2230,6 @@
         "text": "Enchant creature<br>When Scourgemark enters the battlefield, draw a card.<br>Enchanted creature gets +1/+0.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373652&type=card",
         "rating": 6
     },
     {
@@ -2412,7 +2243,6 @@
         "text": "Return up to three target creatures your opponents control to their owners' hands. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373517&type=card",
         "rating": 10
     },
     {
@@ -2426,7 +2256,6 @@
         "text": "Sealock Monster can't attack unless defending player controls an Island.<br>{5}{U}{U}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i><br>When Sealock Monster becomes monstrous, target land becomes an Island in addition to its other types.",
         "power": 5,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373653&type=card",
         "rating": 10
     },
     {
@@ -2440,7 +2269,6 @@
         "text": "Deathtouch <i>(Any amount of damage this deals to a creature is enough to destroy it.)</i>",
         "power": 1,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373718&type=card",
         "rating": 8
     },
     {
@@ -2454,7 +2282,6 @@
         "text": "Flying, vigilance<br>{W}{B}, Pay 3 life: Regenerate Sentry of the Underworld.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373697&type=card",
         "rating": 11
     },
     {
@@ -2468,7 +2295,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Setessan Battle Priest, you gain 2 life.",
         "power": 1,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373515&type=card",
         "rating": 5
     },
     {
@@ -2482,7 +2308,6 @@
         "text": "Flying<br>{2}{G}{G}: Setessan Griffin gets +2/+2 until end of turn. Activate this ability only once each turn.",
         "power": 3,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373574&type=card",
         "rating": 8
     },
     {
@@ -2496,7 +2321,6 @@
         "text": "{6}{U}{U}: Monstrosity 4. <i>(If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)</i><br>When Shipbreaker Kraken becomes monstrous, tap up to four target creatures. Those creatures don't untap during their controllers' untap steps for as long as you control Shipbreaker Kraken.",
         "power": 6,
         "toughness": 6,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373637&type=card",
         "rating": 13
     },
     {
@@ -2510,7 +2334,6 @@
         "text": "Flying<br>{1}{U}: Target creature an opponent controls attacks this turn if able.<br>{1}{B}, {T}: Attacking creatures get -1/-1 until end of turn.",
         "power": 1,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373702&type=card",
         "rating": 10
     },
     {
@@ -2524,7 +2347,6 @@
         "text": "Shredding Winds deals 7 damage to target creature with flying.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373676&type=card",
         "rating": 2
     },
     {
@@ -2538,7 +2360,6 @@
         "text": "",
         "power": 3,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373573&type=card",
         "rating": 7
     },
     {
@@ -2552,7 +2373,6 @@
         "text": "Destroy target creature. Its controller loses 2 life.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373598&type=card",
         "rating": 9
     },
     {
@@ -2566,7 +2386,6 @@
         "text": "Protection from multicolored<br>Whenever an opponent casts a multicolored spell, you gain 1 life.",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373529&type=card",
         "rating": 8
     },
     {
@@ -2580,7 +2399,6 @@
         "text": "Spark Jolt deals 1 damage to target creature or player. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373618&type=card",
         "rating": 8
     },
     {
@@ -2594,7 +2412,6 @@
         "text": "Creatures you control get +1/+1.<br>{1}{W}{W}, {T}: Destroy target creature that dealt damage to you this turn.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373717&type=card",
         "rating": 11
     },
     {
@@ -2608,7 +2425,6 @@
         "text": "Bestow {5}{R} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>First strike<br>Enchanted creature gets +2/+2 and has first strike.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373732&type=card",
         "rating": 9
     },
     {
@@ -2622,7 +2438,6 @@
         "text": "Flying, trample<br>Spellheart Chimera's power is equal to the number of instant and sorcery cards in your graveyard.",
         "power": "*",
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373554&type=card",
         "rating": 7
     },
     {
@@ -2636,7 +2451,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Staunch-Hearted Warrior, put two +1/+1 counters on Staunch-Hearted Warrior.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373591&type=card",
         "rating": 8
     },
     {
@@ -2650,7 +2464,6 @@
         "text": "Reveal the top five cards of your library and separate them into two piles. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373539&type=card",
         "rating": 9
     },
     {
@@ -2664,7 +2477,6 @@
         "text": "{6}{R}{R}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i><br>When Stoneshock Giant becomes monstrous, creatures without flying your opponents control can't block this turn.",
         "power": 5,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373687&type=card",
         "rating": 10
     },
     {
@@ -2678,7 +2490,6 @@
         "text": "Flying, haste, protection from white<br>{5}{R}{R}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i><br>When Stormbreath Dragon becomes monstrous, it deals damage to each opponent equal to the number of cards in that player's hand.",
         "power": 4,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373679&type=card",
         "rating": 13
     },
     {
@@ -2692,7 +2503,6 @@
         "text": "Counter target spell unless its controller pays {1}. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373721&type=card",
         "rating": 5
     },
     {
@@ -2706,7 +2516,6 @@
         "text": "Counter target enchantment, instant, or sorcery spell. Its controller puts a 2/2 blue Bird creature token with flying onto the battlefield.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373701&type=card",
         "rating": 4
     },
     {
@@ -2720,77 +2529,71 @@
         "text": "Defender, hexproof<br>{T}: Add one mana of any color to your mana pool.",
         "power": 0,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373624&type=card",
         "rating": 8
     },
     {
         "id": 224,
         "name": "Temple of Abandon",
         "cmc": 0,
-        "cost": "",
+        "cost": "{0}",
         "type": "Land",
         "rarity": "Rare",
         "abilities": "Scry",
         "text": "Temple of Abandon enters the battlefield tapped.<br>When Temple of Abandon enters the battlefield, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i><br>{T}: Add {R} or {G} to your mana pool.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373711&type=card",
         "rating": 9
     },
     {
         "id": 225,
         "name": "Temple of Deceit",
         "cmc": 0,
-        "cost": "",
+        "cost": "{0}",
         "type": "Land",
         "rarity": "Rare",
         "abilities": "Scry",
         "text": "Temple of Deceit enters the battlefield tapped.<br>When Temple of Deceit enters the battlefield, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i><br>{T}: Add {U} or {B} to your mana pool.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373734&type=card",
         "rating": 9
     },
     {
         "id": 226,
         "name": "Temple of Mystery",
         "cmc": 0,
-        "cost": "",
+        "cost": "{0}",
         "type": "Land",
         "rarity": "Rare",
         "abilities": "Scry",
         "text": "Temple of Mystery enters the battlefield tapped.<br>When Temple of Mystery enters the battlefield, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i><br>{T}: Add {G} or {U} to your mana pool.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373571&type=card",
         "rating": 9
     },
     {
         "id": 227,
         "name": "Temple of Silence",
         "cmc": 0,
-        "cost": "",
+        "cost": "{0}",
         "type": "Land",
         "rarity": "Rare",
         "abilities": "Scry",
         "text": "Temple of Silence enters the battlefield tapped.<br>When Temple of Silence enters the battlefield, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i><br>{T}: Add {W} or {B} to your mana pool.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373522&type=card",
         "rating": 9
     },
     {
         "id": 228,
         "name": "Temple of Triumph",
         "cmc": 0,
-        "cost": "",
+        "cost": "{0}",
         "type": "Land",
         "rarity": "Rare",
         "abilities": "Scry",
         "text": "Temple of Triumph enters the battlefield tapped.<br>When Temple of Triumph enters the battlefield, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i><br>{T}: Add {R} or {W} to your mana pool.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373560&type=card",
         "rating": 9
     },
     {
@@ -2804,7 +2607,6 @@
         "text": "Indestructible<br>As long as your devotion to blue is less than five, Thassa isn't a creature. <i>(Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)</i><br>At the beginning of your upkeep, scry 1.<br>{1}{U}: Target creature you control can't be blocked this turn.",
         "power": 5,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373535&type=card",
         "rating": 11
     },
     {
@@ -2818,7 +2620,6 @@
         "text": "Draw three cards. Target player puts the top three cards of his or her library into his or her graveyard.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373662&type=card",
         "rating": 8
     },
     {
@@ -2832,7 +2633,6 @@
         "text": "Bestow {5}{U} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Whenever Thassa's Emissary or enchanted creature deals combat damage to a player, draw a card.<br>Enchanted creature gets +3/+3.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373735&type=card",
         "rating": 11
     },
     {
@@ -2846,7 +2646,6 @@
         "text": "Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373632&type=card",
         "rating": 9
     },
     {
@@ -2860,7 +2659,6 @@
         "text": "Choose target creature an opponent controls. When that creature dies this turn, you gain 3 life. Target creature you control fights that<br>creature. <i>(Each deals damage equal to its power to the other.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373633&type=card",
         "rating": 8
     },
     {
@@ -2874,7 +2672,6 @@
         "text": "Each Human creature you control has ",
         "power": 5,
         "toughness": 6,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373630&type=card",
         "rating": 9
     },
     {
@@ -2888,7 +2685,6 @@
         "text": "Target creature gets +3/+1 until end of turn. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373607&type=card",
         "rating": 8
     },
     {
@@ -2902,7 +2698,6 @@
         "text": "Tormented Hero enters the battlefield tapped.<br>Heroic- Whenever you cast a spell that targets Tormented Hero, each opponent loses 1 life. You gain life equal to the life lost this way.",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373541&type=card",
         "rating": 8
     },
     {
@@ -2916,7 +2711,6 @@
         "text": "{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373690&type=card",
         "rating": 8
     },
     {
@@ -2930,7 +2724,6 @@
         "text": "",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373512&type=card",
         "rating": 8
     },
     {
@@ -2944,7 +2737,6 @@
         "text": "{1}, {T}: Put a fate counter on another target creature.<br>{W}, {T}: Exile target creature that has a fate counter on it, then return it to the battlefield under its owner's control.<br>{B}, {T}: Exile target creature that has a fate counter on it. Its controller draws two cards.",
         "power": 3,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373685&type=card",
         "rating": 9
     },
     {
@@ -2958,7 +2750,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Triton Fortune Hunter, draw a card.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373531&type=card",
         "rating": 9
     },
     {
@@ -2972,7 +2763,6 @@
         "text": "",
         "power": 1,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373551&type=card",
         "rating": 2
     },
     {
@@ -2986,7 +2776,6 @@
         "text": "Up to two target creatures each get +0/+3 until end of turn. Untap those creatures. At this turn's next end of combat, tap each creature that was blocked by one of those creatures this turn and it doesn't untap during its controller's next untap step.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373639&type=card",
         "rating": 5
     },
     {
@@ -3000,7 +2789,6 @@
         "text": "Double strike <i>(This creature deals both first-strike and regular combat damage.)</i>",
         "power": 1,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373540&type=card",
         "rating": 8
     },
     {
@@ -3014,7 +2802,6 @@
         "text": "{1}{R}, Sacrifice another creature: Tymaret, the Murder King deals 2 damage to target player.<br>{1}{B}, Sacrifice a creature: Return Tymaret from your graveyard to your hand.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373665&type=card",
         "rating": 10
     },
     {
@@ -3028,21 +2815,19 @@
         "text": "Underworld Cerberus can't be blocked except by three or more creatures.<br>Cards in graveyards can't be the targets of spells or abilities.<br>When Underworld Cerberus dies, exile it and each player returns all creature cards from his or her graveyard to his or her hand.",
         "power": 6,
         "toughness": 6,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373666&type=card",
         "rating": 12
     },
     {
         "id": 229,
         "name": "Unknown Shores",
         "cmc": 0,
-        "cost": "",
+        "cost": "{0}",
         "type": "Land",
         "rarity": "Common",
         "abilities": "",
         "text": "{T}: Add {1} to your mana pool.<br>{1}, {T}: Add one mana of any color to your mana pool.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373743&type=card",
         "rating": 5
     },
     {
@@ -3056,7 +2841,6 @@
         "text": "Destroy target creature with power 4 or greater. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373640&type=card",
         "rating": 8
     },
     {
@@ -3070,7 +2854,6 @@
         "text": "Flying<br>Vaporkin can block only creatures with flying.",
         "power": 2,
         "toughness": 1,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373547&type=card",
         "rating": 9
     },
     {
@@ -3084,7 +2867,6 @@
         "text": "Enchant creature<br>Enchanted creature gets -1/-1, and its activated abilities can't be activated.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373499&type=card",
         "rating": 5
     },
     {
@@ -3098,7 +2880,6 @@
         "text": "Return target creature to its owner's hand. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373527&type=card",
         "rating": 10
     },
     {
@@ -3112,7 +2893,6 @@
         "text": "{T}: Untap target land.",
         "power": 1,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373518&type=card",
         "rating": 8
     },
     {
@@ -3126,7 +2906,6 @@
         "text": "Trample",
         "power": 6,
         "toughness": 5,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373655&type=card",
         "rating": 8
     },
     {
@@ -3140,7 +2919,6 @@
         "text": "Until end of turn, up to two target creatures you control each gain ",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373613&type=card",
         "rating": 5
     },
     {
@@ -3154,7 +2932,6 @@
         "text": "Heroic- Whenever you cast a spell that targets Wavecrash Triton, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
         "power": 1,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373534&type=card",
         "rating": 8
     },
     {
@@ -3168,7 +2945,6 @@
         "text": "Creatures you control have lifelink.<br>{2}{B}{B}, {T}: Return target creature card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step. If it would leave the battlefield, exile it instead of putting it anywhere else. Activate this ability only any time you could cast a sorcery.",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373709&type=card",
         "rating": 12
     },
     {
@@ -3182,7 +2958,6 @@
         "text": "When Wild Celebrants enters the battlefield, you may destroy target artifact.",
         "power": 5,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373526&type=card",
         "rating": 8
     },
     {
@@ -3196,7 +2971,6 @@
         "text": "Flying<br>Heroic- Whenever you cast a spell that targets Wingsteed Rider, put a +1/+1 counter on Wingsteed Rider.",
         "power": 2,
         "toughness": 2,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373563&type=card",
         "rating": 10
     },
     {
@@ -3210,7 +2984,6 @@
         "text": "Equipped creature has ",
         "power": null,
         "toughness": null,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373622&type=card",
         "rating": 5
     },
     {
@@ -3224,7 +2997,6 @@
         "text": "+1: Add X mana in any combination of {R} and/or {G} to your mana pool, where X is the number of creatures you control.<br>0: Put a 2/2 red and green Satyr creature token with haste onto the battlefield.<br>-6: Exile the top seven cards of your library. Yo",
         "power": null,
         "toughness": 3,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373502&type=card",
         "rating": 12
     },
     {
@@ -3238,7 +3010,6 @@
         "text": "",
         "power": 0,
         "toughness": 4,
-        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=373572&type=card",
         "rating": 5
     }
 ]

@@ -308,6 +308,12 @@ angular.module('myApp.services')
 
 					for (var k = 0; k < sLength; k++) {
 						if (reverseList[k].name >= bottom && reverseList[k].name <= top) {
+							console.log(results[k.toString()]);
+							if (k == 1) {
+								console.log('skip 3');
+								continue;
+							}
+
 							if (results[k.toString()]) {
 								pushBar(results[k], reverseList[k].label);
 							} else {

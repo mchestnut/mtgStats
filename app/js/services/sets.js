@@ -38,7 +38,7 @@ angular.module('myApp.services')
 				}
 			},
 			{
-				'name': 'BNG',
+				'name': 'JOU',
 				'data': null,
 				'abilities': [],
 				'rarities': {},
@@ -54,7 +54,7 @@ angular.module('myApp.services')
 				}
 			},
 			{
-				'name': 'THS',
+				'name': 'JOU',
 				'data': null,
 				'abilities': [],
 				'rarities': {},

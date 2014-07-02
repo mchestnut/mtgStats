@@ -119,6 +119,7 @@ angular.module('myApp.services')
 						temp[svc.column] = {'regex': regex};
 						string.push(temp);
 					}
+					console.log(string);
 
 				/*
 				*  if any other column
@@ -161,20 +162,24 @@ angular.module('myApp.services')
 			} else if (svc.includes == 'exactly') {
 				/*
 				* if cost (color)
-				* [{'cost': {'regex': /(?=.*W)(?=.*B)(?!.*[URG])/}}]
+				* [{'cost': {'regex': /(?=^{W|.*[^URGW]}{W)(?=^{B|.*[^URGB]}{B)(?!.*[URG])/}}]
 				*/
 				if (svc.column === 'cost') {
 
+					// get excludedStr
+					for (var i = 0; i <oLength; i++) {
+						if (!svc.selected[i] && svc.list[i].name !== 'C') {
+							excludedStr += svc.list[i].name;
+						}
+					}
+
+					// get includeStr
 					for (var i = 0; i < oLength; i++) {
 						if (svc.selected[i]) {
 							if (svc.list[i].name === 'C') {
 								colorless = true;
 							} else {
-								includedStr += '(?=.*' + svc.list[i].name + ')';
-							}
-						} else {
-							if (svc.list[i].name !== 'C') {
-								excludedStr += svc.list[i].name;
+								includedStr += '(?=^{' + svc.list[i].name + '|.*[^' + excludedStr + svc.list[i].name + ']}{' + svc.list[i].name + ')';
 							}
 						}
 					}

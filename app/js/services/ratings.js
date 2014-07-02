@@ -29,7 +29,7 @@ angular.module('myApp.services')
 			{'label': 'D+', 'name': 6},
 			{'label': 'D', 'name': 5},
 			{'label': 'D-', 'name': 4},
-			{'label': 'F+', 'name': 2}
+			{'label': 'F', 'name': 2}
 		];
 		this.selected = 'equal';
 		this.comparisons = [
