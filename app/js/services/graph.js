@@ -21,7 +21,7 @@ angular.module('myApp.services')
 			'lineSpacing': 0
 		};
 		this.dims.height = 100 - (this.dims.padding * 4);
-		this.dims.width = 100 - (this.dims.padding * 2);
+		this.dims.width = 100 - (this.dims.padding);
 		this.lines = [];
 		this.bars = [];
 		this.barsWidth = 0;
@@ -304,18 +304,13 @@ angular.module('myApp.services')
 					reverseList.reverse();
 					sLength--;
 
-					// console.log('range: ' + bottom + ' - '  + top);
-
 					for (var k = 0; k < sLength; k++) {
-						if (reverseList[k].name >= bottom && reverseList[k].name <= top) {
-							console.log(results[k.toString()]);
-							if (k == 1) {
-								console.log('skip 3');
-								continue;
-							}
+						var rating = reverseList[k].name;
 
-							if (results[k.toString()]) {
-								pushBar(results[k], reverseList[k].label);
+						if (rating >= bottom && rating <= top) {
+
+							if (results[rating]) {
+								pushBar(results[rating], reverseList[k].label);
 							} else {
 								pushBar(0, reverseList[k].label);
 							}

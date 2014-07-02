@@ -1,11 +1,13 @@
-<nav class="clearfix" ng-controller="menuCtrl">
+<nav class="clearfix row" ng-controller="menuCtrl">
 	<h1 class="pull-left">Stats</h1>
 	<form class="form-inline pull-right">
-		<select class="form-control" ng-repeat="selected in sets.selected" ng-model="selected.name" ng-change="getData(selected)">
+		<select class="form-control select" ng-repeat="selected in sets.selected" ng-model="selected.name" ng-change="getData(selected)">
 			<option value="{{set}}" ng-repeat="set in sets.list" ng-selected="{{selected.name == set}}">{{set}}</option>
 		</select>
 	</form>
 </nav>
+
+<hr />
 
 <nav class="row">
 	<h2>Options</h2>
@@ -149,10 +151,11 @@
 	</fieldset>
 </nav>
 
+<hr />
 
 <div ng-controller="graphCtrl">
 	<h2 class="pull-left">Results</h2>
-	<form class="col-md-2">
+	<form class="form-inline pull-right">
 		<select class="form-control" ng-model="metrics.selected" ng-change="updateGraph()">
 			<option value="{{metric.name}}" ng-repeat="metric in metrics.list" ng-selected="{{metrics.selected == metric.name}}">{{metric.label}}</option>
 		</select>
@@ -160,6 +163,8 @@
 
 	<graph></graph>
 </div>
+
+<hr />
 
 <div ng-controller="detailsCtrl">
 	<h2>Details</h2>

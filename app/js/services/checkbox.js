@@ -126,7 +126,6 @@ angular.module('myApp.services')
 						temp[svc.column] = {'regex': regex};
 						string.push(temp);
 					}
-					console.log(string);
 
 				/*
 				*  if any other column
