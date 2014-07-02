@@ -89,30 +89,37 @@ angular.module('myApp.services')
 			} else if (svc.includes == 'only') {
 				/*
 				* if cost (color)
-				* [{'cost': {'regex': /([\dX](?!.*[WUBRG]))|([WB])(?!.*[URG]/}}]
+				* [{'cost': {'regex': /([\dX](?!.*[WUBRG]))|(?=^{W|[^URGW]}{W|^{B|[^URGB]}{B)(?!.*[URG])/}}]
 				*/
 				if (svc.column === 'cost') {
 
+					// get excludedStr
+					for (var i = 0; i <oLength; i++) {
+						if (!svc.selected[i] && svc.list[i].name !== 'C') {
+							excludedStr += svc.list[i].name;
+						}
+					}
+
+					// get includeStr
 					for (var i = 0; i < oLength; i++) {
 						if (svc.selected[i]) {
 							if (svc.list[i].name === 'C') {
 								colorless = true;
 							} else {
-								includedStr += svc.list[i].name;
-							}
-						} else {
-							if (svc.list[i].name !== 'C') {
-								excludedStr += svc.list[i].name;
+								if (includedStr) {
+									includedStr += '|';
+								}
+								includedStr += '^{' + svc.list[i].name + '|[^' + excludedStr + svc.list[i].name + ']}{' + svc.list[i].name;
 							}
 						}
 					}
 
 					if (colorless && includedStr) {
-						regex = new RegExp('([\\dX](?!.*[WUBRG]))|([' + includedStr + '])(?!.*[' + excludedStr + '])');
+						regex = new RegExp('([\\dX](?!.*[WUBRG]))|(?=' + includedStr + ')(?!.*[' + excludedStr + '])');
 					} else if (colorless) {
 						regex = new RegExp('[\\dX](?!.*[WUBRG])');
 					} else if (includedStr) {
-						regex = new RegExp('([' + includedStr + '])(?!.*[' + excludedStr + '])');
+						regex = new RegExp('(?=' + includedStr + ')(?!.*[' + excludedStr + '])');
 					}
 
 					if (regex) {
