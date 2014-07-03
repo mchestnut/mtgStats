@@ -1,192 +1,199 @@
-<nav class="clearfix row" ng-controller="menuCtrl">
-	<h1 class="pull-left">Stats</h1>
-	<form class="form-inline pull-right">
-		<select class="form-control select" ng-repeat="selected in sets.selected" ng-model="selected.name" ng-change="getData(selected)">
-			<option value="{{set}}" ng-repeat="set in sets.list" ng-selected="{{selected.name == set}}">{{set}}</option>
-		</select>
-	</form>
-</nav>
+<div class="navbar">
+	<div class="container">
+		<nav class="clearfix row menu" ng-controller="menuCtrl">
+			<h1 class="pull-left">Stats</h1>
+			<form class="form-inline pull-right">
+				<select class="form-control select" ng-repeat="selected in sets.selected" ng-model="selected.name" ng-change="getData(selected)">
+					<option value="{{set}}" ng-repeat="set in sets.list" ng-selected="{{selected.name == set}}">{{set}}</option>
+				</select>
+			</form>
+		</nav>
+	</div>
+</div>
 
-<hr />
+<div class="content container">
+	<nav>
+		<h2>Options</h2>
+		<div class="row">
+			<fieldset class="col-md-2 form-group" ng-controller="colorsCtrl">
+				<legend>Colors</legend>
+				<div class="checkbox" ng-repeat="option in colors.list">
+					<label>
+						<input type="checkbox" ng-model="colors.selected[$index]" ng-change="getQuery()" />
+						{{option.label}}
+					</label>
+				</div>
+				<hr />
+				<p>Includes:</p>
+				<div class="radio">
+					<label>
+						<input type="radio" value="any" ng-model="colors.includes" ng-change="getQuery()" />
+						Any Checked Colors
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" value="only" ng-model="colors.includes" ng-change="getQuery()" />
+						Only Checked Colors
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" value="exactly" ng-model="colors.includes" ng-change="getQuery()" />
+						Exactly Checked Colors
+					</label>
+				</div>
+				<hr />
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" ng-model="colors.group" ng-change="getQuery()" />
+						Group Multicolored
+					</label>
+				</div>
+			</fieldset>
 
-<nav class="row">
-	<h2>Options</h2>
-	<fieldset class="col-md-2 form-group" ng-controller="colorsCtrl">
+			<fieldset class="col-md-2 form-group" ng-controller="raritiesCtrl">
+				<legend>Rarities</legend>
+				<div class="checkbox" ng-repeat="option in rarities.list">
+					<label>
+						<input type="checkbox" ng-model="rarities.selected[$index]" ng-change="getQuery()" />
+						{{option.label}}
+					</label>
+				</div>
+			</fieldset>
 
-		<legend>Colors</legend>
-		<div class="checkbox" ng-repeat="option in colors.list">
-			<label>
-				<input type="checkbox" ng-model="colors.selected[$index]" ng-change="getQuery()" />
-				{{option.label}}
-			</label>
-		</div>
-		<hr />
-		<p>Includes:</p>
-		<div class="radio">
-			<label>
-				<input type="radio" value="any" ng-model="colors.includes" ng-change="getQuery()" />
-				Any Checked Colors
-			</label>
-		</div>
-		<div class="radio">
-			<label>
-				<input type="radio" value="only" ng-model="colors.includes" ng-change="getQuery()" />
-				Only Checked Colors
-			</label>
-		</div>
-		<div class="radio">
-			<label>
-				<input type="radio" value="exactly" ng-model="colors.includes" ng-change="getQuery()" />
-				Exactly Checked Colors
-			</label>
-		</div>
-		<hr />
-		<div class="checkbox">
-			<label>
-				<input type="checkbox" ng-model="colors.group" ng-change="getQuery()" />
-				Group Multicolored
-			</label>
-		</div>
-	</fieldset>
+			<fieldset class="col-md-2 form-group" ng-controller="typesCtrl">
+				<legend>Type</legend>
+				<div class="checkbox" ng-repeat="option in types.list">
+					<label>
+						<input type="checkbox" ng-model="types.selected[$index]" ng-change="getQuery()" />
+						{{option.label}}
+					</label>
+				</div>
+				<hr />
+				<p>Includes:</p>
+				<div class="radio">
+					<label>
+						<input type="radio" value="any" ng-model="types.includes" ng-change="getQuery()" />
+						Any Checked Types
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" value="only" ng-model="types.includes" ng-change="getQuery()" />
+						Only Checked Types
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" value="exactly" ng-model="types.includes" ng-change="getQuery()" />
+						Exactly Checked Types
+					</label>
+				</div>
+			</fieldset>
 
-	<fieldset class="col-md-2 form-group" ng-controller="raritiesCtrl">
-		<legend>Rarities</legend>
-		<div class="checkbox" ng-repeat="option in rarities.list">
-			<label>
-				<input type="checkbox" ng-model="rarities.selected[$index]" ng-change="getQuery()" />
-				{{option.label}}
-			</label>
-		</div>
-	</fieldset>
+			<fieldset class="col-md-2 form-group" ng-controller="cmcsCtrl">
+				<legend>CMC</legend>
+				<select class="form-control" ng-model="cmcs.selected" ng-change="toggleUpper()">
+					<option value="{{comparison.name}}" ng-repeat="comparison in cmcs.comparisons">{{comparison.label}}</option>
+				</select>
 
-	<fieldset class="col-md-2 form-group" ng-controller="typesCtrl">
-		<legend>Type</legend>
-		<div class="checkbox" ng-repeat="option in types.list">
-			<label>
-				<input type="checkbox" ng-model="types.selected[$index]" ng-change="getQuery()" />
-				{{option.label}}
-			</label>
+				<input type="text" class="form-control" ng-model="cmcs.lower" ng-blur="getQuery()" />
+				<div ng-hide="cmcs.hideUpper">
+					&nbsp;&ndash;&nbsp;<input type="text" class="form-control" ng-model="cmcs.upper" ng-blur="getQuery()" />
+				</div>
+			</fieldset>
+
+			<fieldset class="col-md-2 form-group" ng-controller="ratingsCtrl">
+				<legend>Rating</legend>
+				<select class="form-control" ng-model="ratings.selected" ng-change="toggleUpper()">
+					<option value="{{comparison.name}}" ng-repeat="comparison in ratings.comparisons">{{comparison.label}}</option>
+				</select>
+
+				<select class="form-control" ng-model="ratings.lower" ng-change="getQuery()">
+					<option value="{{option.name}}" ng-repeat="option in ratings.list">{{option.label}}</option>
+				</select>
+				<div ng-hide="ratings.hideUpper">
+					&nbsp;&ndash;&nbsp;
+					<select class="form-control" ng-model="ratings.upper" ng-change="getQuery()">
+						<option value="{{option.name}}" ng-repeat="option in ratings.list">{{option.label}}</option>
+					</select>
+				</div>
+			</fieldset>
+
+			<fieldset class="col-md-2 form-group " ng-controller="abilitiesCtrl">
+				<legend>Abilities</legend>
+				<div class="scroll-vertical">
+					<div class="checkbox" ng-repeat="option in abilities.list">
+						<label>
+							<input type="checkbox" ng-model="abilities.selected[$index]" ng-change="getQuery()" />
+							{{option.label}}
+						</label>
+					</div>
+				</div>
+				<hr />
+				<p>Includes:</p>
+				<div class="radio">
+					<label>
+						<input type="radio" value="any" ng-model="abilities.includes" ng-change="getQuery()" />
+						Any Checked Abilities
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" value="only" ng-model="abilities.includes" ng-change="getQuery()" />
+						Only Checked Abilities
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" value="exactly" ng-model="abilities.includes" ng-change="getQuery()" />
+						Exactly Checked Abilities
+					</label>
+				</div>
+			</fieldset>
 		</div>
+	</nav>
+
 	<hr />
-		<p>Includes:</p>
-		<div class="radio">
-			<label>
-				<input type="radio" value="any" ng-model="types.includes" ng-change="getQuery()" />
-				Any Checked Types
-			</label>
-		</div>
-		<div class="radio">
-			<label>
-				<input type="radio" value="only" ng-model="types.includes" ng-change="getQuery()" />
-				Only Checked Types
-			</label>
-		</div>
-		<div class="radio">
-			<label>
-				<input type="radio" value="exactly" ng-model="types.includes" ng-change="getQuery()" />
-				Exactly Checked Types
-			</label>
-		</div>
-	</fieldset>
 
-	<fieldset class="col-md-2 form-group" ng-controller="cmcsCtrl">
-		<legend>CMC</legend>
-		<select class="form-control" ng-model="cmcs.selected" ng-change="toggleUpper()">
-			<option value="{{comparison.name}}" ng-repeat="comparison in cmcs.comparisons">{{comparison.label}}</option>
-		</select>
-
-		<input type="text" class="form-control" ng-model="cmcs.lower" ng-blur="getQuery()" />
-		<div ng-hide="cmcs.hideUpper">
-			&nbsp;&ndash;&nbsp;<input type="text" class="form-control" ng-model="cmcs.upper" ng-blur="getQuery()" />
-		</div>
-	</fieldset>
-
-	<fieldset class="col-md-2 form-group" ng-controller="ratingsCtrl">
-		<legend>Rating</legend>
-		<select class="form-control" ng-model="ratings.selected" ng-change="toggleUpper()">
-			<option value="{{comparison.name}}" ng-repeat="comparison in ratings.comparisons">{{comparison.label}}</option>
-		</select>
-
-		<select class="form-control" ng-model="ratings.lower" ng-change="getQuery()">
-			<option value="{{option.name}}" ng-repeat="option in ratings.list">{{option.label}}</option>
-		</select>
-		<div ng-hide="ratings.hideUpper">
-			&nbsp;&ndash;&nbsp;
-			<select class="form-control" ng-model="ratings.upper" ng-change="getQuery()">
-				<option value="{{option.name}}" ng-repeat="option in ratings.list">{{option.label}}</option>
+	<div ng-controller="graphCtrl">
+		<h2 class="pull-left">Results</h2>
+		<form class="form-inline pull-right">
+			<select class="form-control" ng-model="metrics.selected" ng-change="updateGraph()">
+				<option value="{{metric.name}}" ng-repeat="metric in metrics.list" ng-selected="{{metrics.selected == metric.name}}">{{metric.label}}</option>
 			</select>
-		</div>
-	</fieldset>
+		</form>
 
-	<fieldset class="col-md-2 form-group " ng-controller="abilitiesCtrl">
-		<legend>Abilities</legend>
-		<div class="scroll-vertical">
-			<div class="checkbox" ng-repeat="option in abilities.list">
+		<graph></graph>
+	</div>
+
+	<hr />
+
+	<div ng-controller="detailsCtrl">
+		<h2>Details</h2>
+		<p ng-repeat="detail in details.data">{{detail.label}}: {{detail.value}}</p>
+	</div>
+
+	<hr />
+
+	<div class="card-list" ng-controller="cardsCtrl">
+		<div class="clearfix">
+			<h2 class="pull-left">Card List</h2>
+			<form class="form-inline pull-right">
 				<label>
-					<input type="checkbox" ng-model="abilities.selected[$index]" ng-change="getQuery()" />
-					{{option.label}}
+					<input type="checkbox" ng-model="toggle" />
+					Show List
 				</label>
+			</form>
+		</div>
+		<div ng-repeat="card in cards.list" ng-show="toggle">
+			<div class="col-md-3">
+				<dl class="card">
+					<dt>{{card.name}}</dt>
+					<dd>{{card.cost}}</dd>
+				</dl>
 			</div>
 		</div>
-	<hr />
-		<p>Includes:</p>
-		<div class="radio">
-			<label>
-				<input type="radio" value="any" ng-model="abilities.includes" ng-change="getQuery()" />
-				Any Checked Abilities
-			</label>
-		</div>
-		<div class="radio">
-			<label>
-				<input type="radio" value="only" ng-model="abilities.includes" ng-change="getQuery()" />
-				Only Checked Abilities
-			</label>
-		</div>
-		<div class="radio">
-			<label>
-				<input type="radio" value="exactly" ng-model="abilities.includes" ng-change="getQuery()" />
-				Exactly Checked Abilities
-			</label>
-		</div>
-	</fieldset>
-</nav>
-
-<hr />
-
-<div ng-controller="graphCtrl">
-	<h2 class="pull-left">Results</h2>
-	<form class="form-inline pull-right">
-		<select class="form-control" ng-model="metrics.selected" ng-change="updateGraph()">
-			<option value="{{metric.name}}" ng-repeat="metric in metrics.list" ng-selected="{{metrics.selected == metric.name}}">{{metric.label}}</option>
-		</select>
-	</form>
-
-	<graph></graph>
-</div>
-
-<hr />
-
-<div ng-controller="detailsCtrl">
-	<h2>Details</h2>
-	<p ng-repeat="detail in details.data">{{detail.label}}: {{detail.value}}</p>
-</div>
-
-<hr />
-
-<div ng-controller="cardsCtrl">
-	<div class="clearfix">
-		<h2 class="pull-left">Card List</h2>
-		<form class="form-inline pull-right">
-			<label>
-				<input type="checkbox" ng-model="toggle" />
-				Show List
-			</label>
-		</form>
-	</div>
-	<div ng-repeat="card in cards.list" ng-show="toggle">
-		<dl class="card col-md-3">
-			<dt>{{card.name}}</dt>
-			<dd>{{card.cost}}</dd>
-		</dl>
 	</div>
 </div>

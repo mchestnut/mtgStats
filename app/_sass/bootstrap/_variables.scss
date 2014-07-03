@@ -23,8 +23,13 @@ $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
-$brown-darker:			#3c3226;
-$brown-lighter:			#ebe6df;
+$brown-darkest:			#080605;
+$brown-darker:			#262017;
+$brown-dark:			#45392a;
+$brown:					#4d402f;
+$brown-light:			#6c5942;
+$brown-lighter:			#cbb59a;
+$brown-lightest:		#ece7e0;
 
 
 //== Scaffolding
@@ -32,9 +37,9 @@ $brown-lighter:			#ebe6df;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff !default;
+$body-bg:               $brown-dark !default;
 //** Global text color on `<body>`.
-$text-color:            $gray-darker !default;
+$text-color:            $brown-lightest !default;
 
 //** Global textual link color.
 $link-color:            $brand-primary !default;
@@ -46,22 +51,55 @@ $link-hover-color:      darken($link-color, 15%) !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular-webfont.eot');
+	src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+		 url('../fonts/OpenSans-Regular-webfont.svg') format('svg'), /* list before woff if chrome aa desired */
+		 url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Light-webfont.eot');
+	src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+		 url('../fonts/OpenSans-Light-webfont.svg') format('svg'), /* list before woff if chrome aa desired */
+		 url('../fonts/OpenSans-Light-webfont.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Semibold-webfont.eot');
+	src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+		 url('../fonts/OpenSans-Semibold-webfont.svg') format('svg'), /* list before woff if chrome aa desired */
+		 url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+$font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
 $font-size-base:          12px !default;
-$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-large:         ceil(($font-size-base * 1.25)) !default;
+$font-size-small:         ceil(($font-size-base * 0.85)) !default;
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
-$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h1:            floor(($font-size-base * 2.8)) !default;
+$font-size-h2:            floor(($font-size-base * 1.7)) !default;
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default;
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default;
 $font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default;
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.428571429 !default; // 20/14
@@ -203,7 +241,7 @@ $input-height-large:             (ceil($font-size-large * $line-height-large) + 
 //** Small `.form-control` height
 $input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;
 
-$legend-color:                   $gray-dark !default;
+$legend-color:                   $brown-lightest !default;
 $legend-border-color:            #e5e5e5 !default;
 
 //** Background color for textual input addons
@@ -848,6 +886,6 @@ $page-header-border-color:    $gray-lighter !default;
 //** Width of horizontal description list titles
 $dl-horizontal-offset:        $component-offset-horizontal !default;
 //** Horizontal line color.
-$hr-border:                   $gray-lighter !default;
+$hr-border:                   $brown-lighter !default;
 
 

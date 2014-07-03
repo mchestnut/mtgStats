@@ -1,0 +1,94 @@
+/*###########################################
+* text
+###########################################*/
+
+body {
+	text-shadow: black 0 1px 1px;
+}
+
+h1 {
+	font-weight: 100;
+}
+
+h2 {
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+
+
+/*###########################################
+* form elements
+###########################################*/
+
+.form-inline {
+	padding-top: 16px;
+}
+
+.select {
+	color: $brown-lightest;
+	padding-right: 0;
+	padding-left: 20px;
+	border-color: $brown-light;
+	background-color: $brown-darkest;
+}
+
+.scroll-vertical {
+	height: 300px;
+	overflow-y: scroll;
+}
+
+
+
+/*###########################################
+* layout elements
+###########################################*/
+
+hr {
+	height: 1px;
+	margin-top: 56px;
+	border: 0;
+	background-color: white;
+}
+
+
+/*###########################################
+* sections
+###########################################*/
+
+.navbar {
+	margin-bottom: 0;
+	border-bottom: 1px solid black;
+	background-color: $brown-darker;
+	box-shadow: rgba(0, 0, 0, .5) 0 1px 1px;
+
+	.select {
+		margin-left: 4px;
+		border-color: $brown-dark;
+	}
+}
+
+.content {
+	&.container {
+		padding-top: 10px;
+		background-color: $brown;
+		box-shadow: rgba(0, 0, 0, .8) 0 0 5px;
+	}
+}
+
+.graph {
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.card-list {
+	padding-bottom: 56px;
+
+	.card {
+		border: 1px solid $brown;
+		padding: 4px;
+		background-color: $brown-dark;
+		box-shadow: rgba(0, 0, 0, .8) 0 1px 5px;
+	}
+}

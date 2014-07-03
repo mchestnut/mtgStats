@@ -11,12 +11,13 @@
 			x2="100%"
 			ng-attr-y2="{{line.y}}%"
 			stroke-width=".1"
-			stroke="gray">
+			stroke="#ece7e0">
 		</line>
 		<text
 			x="0"
 			ng-attr-y="{{line.labelY}}%"
-			font-size="1.2">
+			font-size="1.2"
+			fill="#ece7e0">
 			{{line.label}}
 		</text>
 	</g>
@@ -27,13 +28,14 @@
 			ng-attr-x="{{bar.x}}%"
 			ng-attr-y="{{bar.y}}%"
 			stroke-width=".1"
-			stroke="gray"
-			fill="url(#gradient)">
+			stroke="#45392a"
+			fill="#ece7e0">
 		</rect>
 		<text
 			ng-attr-x="{{bar.labelX}}%"
 			ng-attr-y="{{bar.labelY}}%"
 			font-size="1.2"
+			fill="#ece7e0"
 			style="text-anchor: middle">
 			<tspan ng-attr-x="{{bar.labelX}}%">{{bar.label}}</tspan><tspan ng-attr-x="{{bar.labelX}}%" dy="1.6">{{bar.qty}}</tspan>
 			<!-- no break between tspans, otherwise inserts space in browser -->
@@ -45,7 +47,7 @@
 		ng-attr-x="{{graph.dims.padding}}%"
 		y="0"
 		stroke-width=".1"
-		stroke="black"
+		stroke="white"
 		fill="none">
 	</rect>
 </svg>
