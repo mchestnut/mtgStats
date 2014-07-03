@@ -136,6 +136,18 @@ angular.module('myApp.controllers', [])
 	})
 
 
+	.controller('textCtrl', function($scope, text, query) {
+		
+		$scope.text = text;
+
+		$scope.getQuery = function() {
+			query.strings.text = text.getQuery(text);
+			query.sets();		
+		}
+
+	})
+
+
 	.controller('abilitiesCtrl', function($scope, abilities, checkbox, query) {
 		
 		$scope.abilities = abilities;
