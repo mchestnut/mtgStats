@@ -81,7 +81,7 @@
 		"type": "Planeswalker - Ajani",
 		"rarity": "Mythic Rare",
 		"abilities": "",
-		"text": "+1: Distribute three +1/+1 counters among one, two, or three target creatures you control.<br>+1: Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on",
+		"text": "+1: Distribute three +1/+1 counters among one, two, or three target creatures you control.<br>+1: Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library.",
 		"power": null,
 		"toughness": 4,
 		"rating": 8

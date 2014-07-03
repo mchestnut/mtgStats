@@ -264,7 +264,7 @@
         "type": "Planeswalker - Ashiok",
         "rarity": "Mythic Rare",
         "abilities": "",
-        "text": "+2: Exile the top three cards of target opponent's library.<br>-X: Put a creature card with converted mana cost X exiled with Ashiok, Nightmare Weaver onto the battlefield under your control. That creature is a Nightmare in addition to its other types.<br",
+        "text": "+2: Exile the top three cards of target opponent's library.<br>-X: Put a creature card with converted mana cost X exiled with Ashiok, Nightmare Weaver onto the battlefield under your control. That creature is a Nightmare in addition to its other types.<br>",
         "power": null,
         "toughness": 3,
         "rating": 11

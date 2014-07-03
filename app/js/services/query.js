@@ -50,11 +50,6 @@ angular.module('myApp.services')
 					// for each string in query.strings
 					// (ex: colors, rarities, rating)
 					for (var string in root.strings) {
-						console.log('------');
-						console.log(string);
-						console.log(root.strings[string]);
-						console.log('');
-
 						var sLength = root.strings[string].length;
 
 						// for each filter in string,
