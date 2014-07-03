@@ -170,3 +170,23 @@
 	<h2>Details</h2>
 	<p ng-repeat="detail in details.data">{{detail.label}}: {{detail.value}}</p>
 </div>
+
+<hr />
+
+<div ng-controller="cardsCtrl">
+	<div class="clearfix">
+		<h2 class="pull-left">Card List</h2>
+		<form class="form-inline pull-right">
+			<label>
+				<input type="checkbox" ng-model="toggle" />
+				Show List
+			</label>
+		</form>
+	</div>
+	<div ng-repeat="card in cards.list" ng-show="toggle">
+		<dl class="card col-md-3">
+			<dt>{{card.name}}</dt>
+			<dd>{{card.cost}}</dd>
+		</dl>
+	</div>
+</div>

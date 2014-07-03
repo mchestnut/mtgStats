@@ -178,6 +178,17 @@ angular.module('myApp.controllers', [])
 
 
 	/*###########################################
+	* subcontroller of main,
+	* handles full list of cards
+	###########################################*/
+	
+	.controller('cardsCtrl', function($scope, cards) {
+		$scope.cards = cards;
+	})
+
+
+
+	/*###########################################
 	* controller for help view
 	###########################################*/
 	

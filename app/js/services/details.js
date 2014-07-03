@@ -2,7 +2,7 @@
 
 angular.module('myApp.services')
 
-	.service('details', function(sets, ratings) {
+	.service('details', function(sets, ratings, cards) {
 
 		/*=================================
 		* private properties
@@ -112,6 +112,11 @@ angular.module('myApp.services')
 			avgCardsTotal = avgCards[0] + avgCards[1] + avgCards[2];
 			avgCardsTotal = +(Math.round(avgCardsTotal + "e+2") + "e-2");			
 			root.data.push({'label': 'Average Qty in Full Draft', 'value': avgCardsTotal});
+
+			/*
+			* once details updated, update cards list
+			*/
+			cards.update();
 		}
 		
 	});
