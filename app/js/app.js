@@ -2,13 +2,13 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('myApp', [
+angular.module('mtgStats', [
   'ngRoute',
   'ngSanitize',
-  'myApp.filters',
-  'myApp.services',
-  'myApp.directives',
-  'myApp.controllers'
+  'mtgStats.filters',
+  'mtgStats.services',
+  'mtgStats.directives',
+  'mtgStats.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/main', {templateUrl: 'partials/main.html', controller: 'mainCtrl'});

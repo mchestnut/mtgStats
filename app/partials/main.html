@@ -1,7 +1,7 @@
 <div class="navbar">
 	<div class="container">
 		<nav class="clearfix row menu" ng-controller="menuCtrl">
-			<h1 class="pull-left">Stats</h1>
+			<h1 class="pull-left">MTG Stats</h1>
 			<form class="form-inline pull-right">
 				<select class="form-control select" ng-repeat="selected in sets.selected" ng-model="selected.name" ng-change="getData(selected)">
 					<option value="{{set}}" ng-repeat="set in sets.list" ng-selected="{{selected.name == set}}">{{set}}</option>

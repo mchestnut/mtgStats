@@ -21,7 +21,7 @@ Add a `<script>` to your `index.html`:
 And add `ngSanitize` as a dependency for your app:
 
 ```javascript
-angular.module('myApp', ['ngSanitize']);
+angular.module('mtgStats', ['ngSanitize']);
 ```
 
 ## Documentation

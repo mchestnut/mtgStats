@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('myApp.services')
+angular.module('mtgStats.services')
 
 	.service('details', function(sets, ratings, cards) {
 

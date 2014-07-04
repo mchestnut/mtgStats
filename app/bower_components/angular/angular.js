@@ -5006,8 +5006,8 @@ function $CacheFactoryProvider() {
  * Adding via the $templateCache service:
  *
  * ```js
- * var myApp = angular.module('myApp', []);
- * myApp.run(function($templateCache) {
+ * var mtgStats = angular.module('mtgStats', []);
+ * mtgStats.run(function($templateCache) {
  *   $templateCache.put('templateId.html', 'This is the content of the template');
  * });
  * ```
@@ -12929,15 +12929,15 @@ function adjustMatchers(matchers) {
  *
  * **Example**:  Consider the following case. <a name="example"></a>
  *
- * - your app is hosted at url `http://myapp.example.com/`
+ * - your app is hosted at url `http://mtgStats.example.com/`
  * - but some of your templates are hosted on other domains you control such as
  *   `http://srv01.assets.example.com/`,  `http://srv02.assets.example.com/`, etc.
- * - and you have an open redirect at `http://myapp.example.com/clickThru?...`.
+ * - and you have an open redirect at `http://mtgStats.example.com/clickThru?...`.
  *
  * Here is what a secure configuration for this scenario might look like:
  *
  * <pre class="prettyprint">
- *    angular.module('myApp', []).config(function($sceDelegateProvider) {
+ *    angular.module('mtgStats', []).config(function($sceDelegateProvider) {
  *      $sceDelegateProvider.resourceUrlWhitelist([
  *        // Allow same origin resource loads.
  *        'self',
@@ -12946,7 +12946,7 @@ function adjustMatchers(matchers) {
  *
  *      // The blacklist overrides the whitelist so the open redirect here is blocked.
  *      $sceDelegateProvider.resourceUrlBlacklist([
- *        'http://myapp.example.com/clickThru**']);
+ *        'http://mtgStats.example.com/clickThru**']);
  *      });
  * </pre>
  */
@@ -13401,7 +13401,7 @@ function $SceDelegateProvider() {
  * @example
 <example module="mySceApp" deps="angular-sanitize.js">
 <file name="index.html">
-  <div ng-controller="myAppController as myCtrl">
+  <div ng-controller="mtgStatsController as myCtrl">
     <i ng-bind-html="myCtrl.explicitlyTrustedHtml" id="explicitlyTrustedHtml"></i><br><br>
     <b>User comments</b><br>
     By default, HTML that isn't explicitly trusted (e.g. Alice's comment) is sanitized when
@@ -13420,7 +13420,7 @@ function $SceDelegateProvider() {
 <file name="script.js">
   var mySceApp = angular.module('mySceApp', ['ngSanitize']);
 
-  mySceApp.controller("myAppController", function myAppController($http, $templateCache, $sce) {
+  mySceApp.controller("mtgStatsController", function mtgStatsController($http, $templateCache, $sce) {
     var self = this;
     $http.get("test_data.json", {cache: $templateCache}).success(function(userComments) {
       self.userComments = userComments;
@@ -13472,7 +13472,7 @@ function $SceDelegateProvider() {
  * That said, here's how you can completely disable SCE:
  *
  * <pre class="prettyprint">
- *   angular.module('myAppWithSceDisabledmyApp', []).config(function($sceProvider) {
+ *   angular.module('mtgStatsWithSceDisabledmtgStats', []).config(function($sceProvider) {
  *     // Completely disable SCE.  For demonstration purposes only!
  *     // Do not use in new projects.
  *     $sceProvider.enabled(false);

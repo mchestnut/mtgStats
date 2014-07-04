@@ -2,7 +2,7 @@
 
 /* Services */
 
-angular.module('myApp.services', [])
+angular.module('mtgStats.services', [])
 
 	/*###########################################
 	* service to handle form fields

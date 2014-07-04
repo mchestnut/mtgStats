@@ -2,7 +2,7 @@
 
 /* Directives */
 
-angular.module('myApp.directives', [])
+angular.module('mtgStats.directives', [])
 
 	/*###########################################
 	* directive for svg graph

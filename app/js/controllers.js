@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', ['ngSanitize'])
+angular.module('mtgStats.controllers', ['ngSanitize'])
 
 
 	/*###########################################
