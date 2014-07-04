@@ -49,6 +49,7 @@ h2 {
 ###########################################*/
 
 hr {
+	width: 100%; /* fixes chrome bug */
 	height: 1px;
 	margin-top: 56px;
 	border: 0;
@@ -83,16 +84,21 @@ hr {
 .graph {
 	min-width: 100%;
 	max-width: 100%;
+	max-height: 500px;
 }
 
 .card-list {
 	padding-bottom: 56px;
 
 	.card {
-		// height: 320px;
+		height: 260px;
 		border: 1px solid $brown;
 		padding: 4px;
 		background-color: $brown-dark;
 		box-shadow: rgba(0, 0, 0, .8) 0 1px 5px;
+
+		i {
+			display: none;
+		}
 	}
 }
