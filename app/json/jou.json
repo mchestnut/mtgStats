@@ -43,8 +43,8 @@
         "rarity": "Rare",
         "abilities": "Hexproof",
         "text": "You have hexproof. <i>(You can't be the target of spells or abilities your opponents control.)</i>",
-        "power": "2",
-        "toughness": "1",
+        "power": 2,
+        "toughness": 1,
         "rating": 8
     },
     {
@@ -56,8 +56,8 @@
         "rarity": "Common",
         "abilities": "Strive, Indestructible",
         "text": "Strive- Ajani's Presence costs {2}{W} more to cast for each target beyond the first.<br>Any number of target creatures each get +1/+1 and gain indestructible until end of turn. <i>(Damage and effects that say \"destroy\" don't destroy them.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 12
     },
     {
@@ -69,8 +69,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "{W}, {T}: Tap target creature.",
-        "power": "2",
-        "toughness": "2",
+        "power": 2,
+        "toughness": 2,
         "rating": 7
     },
     {
@@ -82,8 +82,8 @@
         "rarity": "Common",
         "abilities": "Enchant, Double Strike",
         "text": "Enchant creature<br>Enchanted creature has double strike as long as it's an enchantment. Otherwise, prevent all damage that would be dealt by enchanted creature. <i>(A creature with double strike deals both first-strike and regular combat damage.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 14
     },
     {
@@ -95,8 +95,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. <i>(That permanent returns under its owner's control.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 11
     },
     {
@@ -108,8 +108,8 @@
         "rarity": "Rare",
         "abilities": "Flying, Lifelink, Heroic",
         "text": "Flying, lifelink<br>Heroic- Whenever you cast a spell that targets Dawnbringer Charioteers, put a +1/+1 counter on Dawnbringer Charioteers.",
-        "power": "2",
-        "toughness": "4",
+        "power": 2,
+        "toughness": 4,
         "rating": 9
     },
     {
@@ -121,8 +121,8 @@
         "rarity": "Rare",
         "abilities": "",
         "text": "Exile target enchantment. If the exiled card is a God card, search its controller's graveyard, hand, and library for any number of cards with the same name as that card and exile them, then that player shuffles his or her library.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 10
     },
     {
@@ -134,8 +134,8 @@
         "rarity": "Rare",
         "abilities": "Flash",
         "text": "Flash<br>Creatures you control get +2/+2.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 2
     },
     {
@@ -147,8 +147,8 @@
         "rarity": "Common",
         "abilities": "Flying, Vigilance",
         "text": "Flying, vigilance",
-        "power": "2",
-        "toughness": "1",
+        "power": 2,
+        "toughness": 1,
         "rating": 7
     },
     {
@@ -160,8 +160,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "Each player can't cast more than one spell each turn.",
-        "power": "1",
-        "toughness": "4",
+        "power": 1,
+        "toughness": 4,
         "rating": 7
     },
     {
@@ -173,8 +173,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "{2}{W}, Sacrifice Font of Vigor: You gain 7 life.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 11
     },
     {
@@ -186,8 +186,8 @@
         "rarity": "Mythic Rare",
         "abilities": "Equip",
         "text": "Equipped creature gets +3/+3.<br>Whenever equipped creature blocks or becomes blocked by one or more creatures, you may exile one of those creatures.<br>Opponents can't cast cards with the same name as cards exiled with Godsend.<br>Equip {3}",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 9
     },
     {
@@ -199,8 +199,8 @@
         "rarity": "Common",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Harvestguard Alseids or another enchantment enters the battlefield under your control, prevent all damage that would be dealt to target creature this turn.",
-        "power": "2",
-        "toughness": "3",
+        "power": 2,
+        "toughness": 3,
         "rating": 10
     },
     {
@@ -212,8 +212,8 @@
         "rarity": "Common",
         "abilities": "Heroic",
         "text": "Heroic- Whenever you cast a spell that targets Lagonna-Band Trailblazer, put a +1/+1 counter on Lagonna-Band Trailblazer.",
-        "power": "0",
-        "toughness": "4",
+        "power": 0,
+        "toughness": 4,
         "rating": 6
     },
     {
@@ -225,8 +225,8 @@
         "rarity": "Rare",
         "abilities": "Strive",
         "text": "Strive- Launch the Fleet costs {1} more to cast for each target beyond the first.<br>Until end of turn, any number of target creatures each gain \"Whenever this creature attacks, put a 1/1 white Soldier creature token onto the battlefield tapped and attacking.\"",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 2
     },
     {
@@ -238,8 +238,8 @@
         "rarity": "Uncommon",
         "abilities": "Heroic",
         "text": "Heroic- Whenever you cast a spell that targets Leonin Iconoclast, destroy target enchantment creature an opponent controls.",
-        "power": "3",
-        "toughness": "2",
+        "power": 3,
+        "toughness": 2,
         "rating": 4
     },
     {
@@ -251,8 +251,8 @@
         "rarity": "Common",
         "abilities": "Enchant",
         "text": "Enchant creature you control<br>Enchanted creature gets +1/+1.<br>Whenever enchanted creature deals combat damage to a player, you may sacrifice Mortal Obstinacy. If you do, destroy target enchantment.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -264,8 +264,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "At the beginning of your upkeep, you gain 1 life.",
-        "power": "0",
-        "toughness": "5",
+        "power": 0,
+        "toughness": 5,
         "rating": 10
     },
     {
@@ -277,8 +277,8 @@
         "rarity": "Common",
         "abilities": "Enchant",
         "text": "Enchant creature<br>Enchanted creature can't attack or block unless its controller pays {3}.<br>Activated abilities of enchanted creature cost {3} more to activate.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 5
     },
     {
@@ -290,8 +290,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "",
-        "power": "3",
-        "toughness": "1",
+        "power": 3,
+        "toughness": 1,
         "rating": 11
     },
     {
@@ -303,8 +303,8 @@
         "rarity": "Uncommon",
         "abilities": "Strive, Double Strike",
         "text": "Strive- Phalanx Formation costs {1}{W} more to cast for each target beyond the first.<br>Any number of target creatures each gain double strike until end of turn. <i>(They deal both first-strike and regular combat damage.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 7
     },
     {
@@ -316,8 +316,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "When Quarry Colossus enters the battlefield, put target creature into its owner's library just beneath the top X cards of that library, where X is the number of Plains you control.",
-        "power": "5",
-        "toughness": "6",
+        "power": 5,
+        "toughness": 6,
         "rating": 8
     },
     {
@@ -329,8 +329,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "Destroy target creature with power 4 or greater. It can't be regenerated.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -342,8 +342,8 @@
         "rarity": "Uncommon",
         "abilities": "Bestow",
         "text": "Bestow {4}{W} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Sightless Brawler can't attack alone.<br>Enchanted creature gets +3/+2 and can't attack alone.",
-        "power": "3",
-        "toughness": "2",
+        "power": 3,
+        "toughness": 2,
         "rating": 9
     },
     {
@@ -355,8 +355,8 @@
         "rarity": "Rare",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Skybind or another enchantment enters the battlefield under your control, exile target nonenchantment permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 7
     },
     {
@@ -368,8 +368,8 @@
         "rarity": "Uncommon",
         "abilities": "Flying, Double Strike",
         "text": "Flying<br>Double strike <i>(This creature deals both first-strike and regular combat damage.)</i>",
-        "power": "2",
-        "toughness": "2",
+        "power": 2,
+        "toughness": 2,
         "rating": 6
     },
     {
@@ -381,8 +381,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "{4}{W}: Prevent all damage that would be dealt to Stonewise Fortifier by target creature this turn.",
-        "power": "2",
-        "toughness": "2",
+        "power": 2,
+        "toughness": 2,
         "rating": 8
     },
     {
@@ -394,8 +394,8 @@
         "rarity": "Common",
         "abilities": "Flying",
         "text": "Flying<br>When Supply-Line Cranes enters the battlefield, put a +1/+1 counter on target creature.",
-        "power": "2",
-        "toughness": "4",
+        "power": 2,
+        "toughness": 4,
         "rating": 12
     },
     {
@@ -407,8 +407,8 @@
         "rarity": "Uncommon",
         "abilities": "Heroic",
         "text": "Heroic- Whenever you cast a spell that targets Tethmos High Priest, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.",
-        "power": "2",
-        "toughness": "3",
+        "power": 2,
+        "toughness": 3,
         "rating": 10
     },
     {
@@ -420,8 +420,8 @@
         "rarity": "Common",
         "abilities": "Strive, Flying",
         "text": "Strive- Aerial Formation costs {2}{U} more to cast for each target beyond the first.<br>Any number of target creatures each get +1/+1 and gain flying until end of turn.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 9
     },
     {
@@ -433,8 +433,8 @@
         "rarity": "Rare",
         "abilities": "Heroic, Hexproof",
         "text": "Each instant and sorcery spell you cast costs {1} less to cast for each creature it targets.<br>Heroic- Whenever you cast a spell that targets Battlefield Thaumaturge, Battlefield Thaumaturge gains hexproof until end of turn.",
-        "power": "2",
-        "toughness": "1",
+        "power": 2,
+        "toughness": 1,
         "rating": 9
     },
     {
@@ -446,8 +446,8 @@
         "rarity": "Common",
         "abilities": "Flash, Flying",
         "text": "Flash <i>(You may cast this spell any time you could cast an instant.)</i><br>Flying",
-        "power": "3",
-        "toughness": "2",
+        "power": 3,
+        "toughness": 2,
         "rating": 10
     },
     {
@@ -459,8 +459,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "Counter target spell. Its controller puts the top four cards of his or her library into his or her graveyard.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 4
     },
     {
@@ -472,8 +472,8 @@
         "rarity": "Uncommon",
         "abilities": "Bestow",
         "text": "Bestow {3}{U}{U} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>When Crystalline Nautilus becomes the target of a spell or ability, sacrifice it.<br>Enchanted creature gets +4/+4 and has \"When this creature becomes the target of a spell or ability, sacrifice it.\"",
-        "power": "4",
-        "toughness": "4",
+        "power": 4,
+        "toughness": 4,
         "rating": 8
     },
     {
@@ -485,8 +485,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "{U}, {T}: Each player reveals the top card of his or her library. You may put the revealed cards into their owners' graveyards. If you don't, each player draws a card.",
-        "power": "1",
-        "toughness": "1",
+        "power": 1,
+        "toughness": 1,
         "rating": 10
     },
     {
@@ -498,8 +498,8 @@
         "rarity": "Rare",
         "abilities": "Inspired",
         "text": "Inspired- Whenever Daring Thief becomes untapped, you may exchange control of target nonland permanent you control and target permanent an opponent controls that shares a card type with it.",
-        "power": "2",
-        "toughness": "3",
+        "power": 2,
+        "toughness": 3,
         "rating": 7
     },
     {
@@ -511,8 +511,8 @@
         "rarity": "Rare",
         "abilities": "Flash",
         "text": "Flash<br>At the beginning of each player's draw step, that player draws an additional card.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 5
     },
     {
@@ -524,8 +524,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "{1}{U}, Sacrifice Font of Fortunes: Draw two cards.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 10
     },
     {
@@ -537,8 +537,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "Godhunter Octopus can't attack unless defending player controls an enchantment or an enchanted permanent.",
-        "power": "5",
-        "toughness": "5",
+        "power": 5,
+        "toughness": 5,
         "rating": 8
     },
     {
@@ -550,8 +550,8 @@
         "rarity": "Uncommon",
         "abilities": "Strive, Flying",
         "text": "Strive- Hour of Need costs {1}{U} more to cast for each target beyond the first.<br>Exile any number of target creatures. For each creature exiled this way, its controller puts a 4/4 blue Sphinx creature token with flying onto the battlefield.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 7
     },
     {
@@ -563,8 +563,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "Return target creature and all Auras attached to it to their owners' hands.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -576,8 +576,8 @@
         "rarity": "Rare",
         "abilities": "Bestow, Flying",
         "text": "Bestow {5}{U}{U} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Flying<br>You control enchanted creature.<br>Enchanted creature gets +1/+1 and has flying.",
-        "power": "1",
-        "toughness": "1",
+        "power": 1,
+        "toughness": 1,
         "rating": 10
     },
     {
@@ -589,8 +589,8 @@
         "rarity": "Uncommon",
         "abilities": "Scry",
         "text": "Scry 3, then reveal the top card of your library. Draw cards equal to that card's converted mana cost. <i>(To scry 3, look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -602,8 +602,8 @@
         "rarity": "Uncommon",
         "abilities": "Strive",
         "text": "Strive- Kiora's Dismissal costs {U} more to cast for each target beyond the first.<br>Return any number of target enchantments to their owners' hands.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 5
     },
     {
@@ -615,8 +615,8 @@
         "rarity": "Common",
         "abilities": "Enchant",
         "text": "Enchant creature<br>Enchanted creature gets -6/-0.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 10
     },
     {
@@ -628,8 +628,8 @@
         "rarity": "Rare",
         "abilities": "Strive",
         "text": "Strive- Polymorphous Rush costs {1}{U} more to cast for each target beyond the first.<br>Choose a creature on the battlefield. Any number of target creatures you control each become a copy of that creature until end of turn.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -641,8 +641,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "Return up to one target instant card and up to one target sorcery card from your graveyard to your hand. Exile Pull from the Deep.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 2
     },
     {
@@ -654,8 +654,8 @@
         "rarity": "Uncommon",
         "abilities": "Flying",
         "text": "Flying<br>At the beginning of your upkeep, return an enchantment you control to its owner's hand.",
-        "power": "3",
-        "toughness": "4",
+        "power": 3,
+        "toughness": 4,
         "rating": 11
     },
     {
@@ -667,8 +667,8 @@
         "rarity": "Common",
         "abilities": "Flying, Scry",
         "text": "Put two 2/2 blue Bird enchantment creature tokens with flying onto the battlefield. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -680,8 +680,8 @@
         "rarity": "Mythic Rare",
         "abilities": "Heroic",
         "text": "Heroic- Whenever you cast a spell that targets Sage of Hours, put a +1/+1 counter on it.<br>Remove all +1/+1 counters from Sage of Hours: For each five counters removed this way, take an extra turn after this one.",
-        "power": "1",
-        "toughness": "1",
+        "power": 1,
+        "toughness": 1,
         "rating": 13
     },
     {
@@ -693,8 +693,8 @@
         "rarity": "Rare",
         "abilities": "",
         "text": "When Scourge of Fleets enters the battlefield, return each creature your opponents control with toughness X or less to its owner's hand, where X is the number of Islands you control.",
-        "power": "6",
-        "toughness": "6",
+        "power": 6,
+        "toughness": 6,
         "rating": 7
     },
     {
@@ -706,8 +706,8 @@
         "rarity": "Common",
         "abilities": "Scry",
         "text": "{T}: Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
-        "power": "0",
-        "toughness": "3",
+        "power": 0,
+        "toughness": 3,
         "rating": 9
     },
     {
@@ -719,8 +719,8 @@
         "rarity": "Common",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Thassa's Devourer or another enchantment enters the battlefield under your control, target player puts the top two cards of his or her library into his or her graveyard.",
-        "power": "2",
-        "toughness": "6",
+        "power": 2,
+        "toughness": 6,
         "rating": 9
     },
     {
@@ -732,8 +732,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "{3}{U}: You may tap or untap target creature.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -745,8 +745,8 @@
         "rarity": "Uncommon",
         "abilities": "Heroic",
         "text": "Heroic- Whenever you cast a spell that targets Triton Cavalry, you may return target enchantment to its owner's hand.",
-        "power": "2",
-        "toughness": "4",
+        "power": 2,
+        "toughness": 4,
         "rating": 5
     },
     {
@@ -758,8 +758,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "Triton Shorestalker can't be blocked.",
-        "power": "1",
-        "toughness": "1",
+        "power": 1,
+        "toughness": 1,
         "rating": 7
     },
     {
@@ -771,8 +771,8 @@
         "rarity": "Common",
         "abilities": "Flying, Heroic",
         "text": "Flying<br>Heroic- Whenever you cast a spell that targets War-Wing Siren, put a +1/+1 counter on War-Wing Siren.",
-        "power": "1",
-        "toughness": "3",
+        "power": 1,
+        "toughness": 3,
         "rating": 9
     },
     {
@@ -784,8 +784,8 @@
         "rarity": "Uncommon",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Whitewater Naiads or another enchantment enters the battlefield under your control, target creature can't be blocked this turn.",
-        "power": "4",
-        "toughness": "4",
+        "power": 4,
+        "toughness": 4,
         "rating": 5
     },
     {
@@ -797,8 +797,8 @@
         "rarity": "Uncommon",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Agent of Erebos or another enchantment enters the battlefield under your control, exile all cards from target player's graveyard.",
-        "power": "2",
-        "toughness": "2",
+        "power": 2,
+        "toughness": 2,
         "rating": 10
     },
     {
@@ -810,8 +810,8 @@
         "rarity": "Common",
         "abilities": "Enchant, Deathtouch",
         "text": "Enchant creature<br>Enchanted creature gets +1/+3 and has deathtouch. <i>(Any amount of damage it deals to a creature is enough to destroy it.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 6
     },
     {
@@ -823,8 +823,8 @@
         "rarity": "Common",
         "abilities": "Heroic",
         "text": "Heroic- Whenever you cast a spell that targets Bloodcrazed Hoplite, put a +1/+1 counter on it.<br>Whenever a +1/+1 counter is placed on Bloodcrazed Hoplite, remove a +1/+1 counter from target creature an opponent controls.",
-        "power": "2",
-        "toughness": "1",
+        "power": 2,
+        "toughness": 1,
         "rating": 8
     },
     {
@@ -836,8 +836,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "When Brain Maggot enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until Brain Maggot leaves the battlefield.",
-        "power": "1",
-        "toughness": "1",
+        "power": 1,
+        "toughness": 1,
         "rating": 11
     },
     {
@@ -849,8 +849,8 @@
         "rarity": "Common",
         "abilities": "Enchant",
         "text": "Enchant creature<br>Enchanted creature gets -2/-0 and can't block.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -862,8 +862,8 @@
         "rarity": "Common",
         "abilities": "Strive, Lifelink",
         "text": "Strive- Cruel Feeding costs {2}{B} more to cast for each target beyond the first.<br>Any number of target creatures each get +1/+0 and gain lifelink until end of turn. <i>(Damage dealt by a creature with lifelink also causes its controller to gain that much life.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 11
     },
     {
@@ -875,8 +875,8 @@
         "rarity": "Rare",
         "abilities": "Flash",
         "text": "Flash<br>Whenever a creature you control dies, each opponent sacrifices a creature.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 10
     },
     {
@@ -888,8 +888,8 @@
         "rarity": "Rare",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Doomwake Giant or another enchantment enters the battlefield under your control, creatures your opponents control get -1/-1 until end of turn.",
-        "power": "4",
-        "toughness": "6",
+        "power": 4,
+        "toughness": 6,
         "rating": 11
     },
     {
@@ -901,8 +901,8 @@
         "rarity": "Common",
         "abilities": "Constellation, Intimidate",
         "text": "Constellation- Whenever Dreadbringer Lampads or another enchantment enters the battlefield under your control, target creature gains intimidate until end of turn. <i>(It can't be blocked except by artifact creatures and/or creatures that share a color with it.)</i>",
-        "power": "4",
-        "toughness": "2",
+        "power": 4,
+        "toughness": 2,
         "rating": 8
     },
     {
@@ -914,8 +914,8 @@
         "rarity": "Rare",
         "abilities": "",
         "text": "Destroy all nonenchantment creatures.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 11
     },
     {
@@ -927,8 +927,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "Destroy target enchanted creature or enchantment creature.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 7
     },
     {
@@ -940,8 +940,8 @@
         "rarity": "Uncommon",
         "abilities": "Deathtouch",
         "text": "Deathtouch<br>Other Minotaur creatures you control have deathtouch.",
-        "power": "2",
-        "toughness": "3",
+        "power": 2,
+        "toughness": 3,
         "rating": 7
     },
     {
@@ -953,8 +953,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "{3}{B}, Sacrifice Font of Return: Return up to three target creature cards from your graveyard to your hand.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 11
     },
     {
@@ -966,8 +966,8 @@
         "rarity": "Uncommon",
         "abilities": "Bestow",
         "text": "Bestow {3}{B} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Gnarled Scarhide can't block.<br>Enchanted creature gets +2/+1 and can't block.",
-        "power": "2",
-        "toughness": "1",
+        "power": 2,
+        "toughness": 1,
         "rating": 10
     },
     {
@@ -979,8 +979,8 @@
         "rarity": "Common",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Grim Guardian or another enchantment enters the battlefield under your control, each opponent loses 1 life.",
-        "power": "1",
-        "toughness": "4",
+        "power": 1,
+        "toughness": 4,
         "rating": 5
     },
     {
@@ -992,8 +992,8 @@
         "rarity": "Rare",
         "abilities": "Inspired",
         "text": "Inspired- Whenever King Macar, the Gold-Cursed becomes untapped, you may exile target creature. If you do, put a colorless artifact token named Gold onto the battlefield. It has \"Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
-        "power": "2",
-        "toughness": "3",
+        "power": 2,
+        "toughness": 3,
         "rating": 4
     },
     {
@@ -1005,8 +1005,8 @@
         "rarity": "Rare",
         "abilities": "Flying",
         "text": "Flying<br>At the beginning of your upkeep, each opponent draws a card.",
-        "power": "5",
-        "toughness": "5",
+        "power": 5,
+        "toughness": 5,
         "rating": 6
     },
     {
@@ -1018,8 +1018,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "Target creature gets -X/-X until end of turn, where X is the number of cards in your hand.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 6
     },
     {
@@ -1031,8 +1031,8 @@
         "rarity": "Common",
         "abilities": "Enchant",
         "text": "Enchant creature<br>Enchanted creature gets +2/+2 as long as it's an enchantment. Otherwise, it gets -2/-2.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 11
     },
     {
@@ -1044,8 +1044,8 @@
         "rarity": "Common",
         "abilities": "Deathtouch",
         "text": "Deathtouch <i>(Any amount of damage this deals to a creature is enough to destroy it.)</i>",
-        "power": "1",
-        "toughness": "1",
+        "power": 1,
+        "toughness": 1,
         "rating": 9
     },
     {
@@ -1057,8 +1057,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "When Returned Reveler dies, each player puts the top three cards of his or her library into his or her graveyard.",
-        "power": "1",
-        "toughness": "3",
+        "power": 1,
+        "toughness": 3,
         "rating": 10
     },
     {
@@ -1070,8 +1070,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "Exile target creature card from your graveyard. Put a black Zombie creature token onto the battlefield. Its power is equal to that card's power and its toughness is equal to that card's toughness.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 10
     },
     {
@@ -1083,8 +1083,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "",
-        "power": "2",
-        "toughness": "5",
+        "power": 2,
+        "toughness": 5,
         "rating": 12
     },
     {
@@ -1096,8 +1096,8 @@
         "rarity": "Rare",
         "abilities": "Strive",
         "text": "Strive- Silence the Believers costs {2}{B} more to cast for each target beyond the first.<br>Exile any number of target creatures and all Auras attached to them.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -1109,8 +1109,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "Destroy target creature and target land.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 3
     },
     {
@@ -1135,8 +1135,8 @@
         "rarity": "Uncommon",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Thoughtrender Lamia or another enchantment enters the battlefield under your control, each opponent discards a card.",
-        "power": "5",
-        "toughness": "3",
+        "power": 5,
+        "toughness": 3,
         "rating": 10
     },
     {
@@ -1148,8 +1148,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "As an additional cost to cast Tormented Thoughts, sacrifice a creature.<br>Target player discards a number of cards equal to the sacrificed creature's power.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 10
     },
     {
@@ -1161,8 +1161,8 @@
         "rarity": "Mythic Rare",
         "abilities": "",
         "text": "You control target player during that player's next turn. Exile Worst Fears. <i>(You see all cards that player could see and make all decisions for the player.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 9
     },
     {
@@ -1174,8 +1174,8 @@
         "rarity": "Uncommon",
         "abilities": "Heroic, Intimidate",
         "text": "Heroic- Whenever you cast a spell that targets Akroan Line Breaker, Akroan Line Breaker gets +2/+0 and gains intimidate until end of turn.",
-        "power": "2",
-        "toughness": "1",
+        "power": 2,
+        "toughness": 1,
         "rating": 14
     },
     {
@@ -1187,8 +1187,8 @@
         "rarity": "Rare",
         "abilities": "",
         "text": "When Bearer of the Heavens dies, destroy all permanents at the beginning of the next end step.",
-        "power": "10",
-        "toughness": "10",
+        "power": 10,
+        "toughness": 10,
         "rating": 6
     },
     {
@@ -1200,8 +1200,8 @@
         "rarity": "Common",
         "abilities": "Intimidate",
         "text": "Intimidate <i>(This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)</i>",
-        "power": "3",
-        "toughness": "2",
+        "power": 3,
+        "toughness": 2,
         "rating": 10
     },
     {
@@ -1213,8 +1213,8 @@
         "rarity": "Uncommon",
         "abilities": "Strive",
         "text": "Strive- Blinding Flare costs {R} more to cast for each target beyond the first.<br>Any number of target creatures can't block this turn.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 6
     },
     {
@@ -1226,8 +1226,8 @@
         "rarity": "Uncommon",
         "abilities": "Haste",
         "text": "Creatures you control have haste.",
-        "power": "5",
-        "toughness": "3",
+        "power": 5,
+        "toughness": 3,
         "rating": 11
     },
     {
@@ -1239,8 +1239,8 @@
         "rarity": "Rare",
         "abilities": "Flash",
         "text": "Flash<br>If a source would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 12
     },
     {
@@ -1252,8 +1252,8 @@
         "rarity": "Rare",
         "abilities": "",
         "text": "Whenever a player casts a spell with converted mana cost 3 or less, Eidolon of the Great Revel deals 2 damage to that player.",
-        "power": "2",
-        "toughness": "2",
+        "power": 2,
+        "toughness": 2,
         "rating": 4
     },
     {
@@ -1265,8 +1265,8 @@
         "rarity": "Common",
         "abilities": "Enchant",
         "text": "Enchant creature you control<br>Enchanted creature gets +1/+1.<br>Whenever enchanted creature deals combat damage to a player, you may sacrifice Flamespeaker's Will. If you do, destroy target artifact.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -1278,8 +1278,8 @@
         "rarity": "Common",
         "abilities": "Haste",
         "text": "Put two 2/3 red Minotaur creature tokens with haste onto the battlefield.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 6
     },
     {
@@ -1291,8 +1291,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "{3}{R}, Sacrifice Font of Ire: Font of Ire deals 5 damage to target player.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 5
     },
     {
@@ -1304,8 +1304,8 @@
         "rarity": "Uncommon",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Forgeborn Oreads or another enchantment enters the battlefield under your control, Forgeborn Oreads deals 1 damage to target creature or player.",
-        "power": "4",
-        "toughness": "2",
+        "power": 4,
+        "toughness": 2,
         "rating": 4
     },
     {
@@ -1317,8 +1317,8 @@
         "rarity": "Common",
         "abilities": "Monstrosity",
         "text": "{5}{R}{R}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>",
-        "power": "5",
-        "toughness": "4",
+        "power": 5,
+        "toughness": 4,
         "rating": 6
     },
     {
@@ -1330,8 +1330,8 @@
         "rarity": "Rare",
         "abilities": "Strive, Haste",
         "text": "Strive- Harness by Force costs {2}{R} more to cast for each target beyond the first.<br>Gain control of any number of target creatures until end of turn. Untap those creatures. They gain haste until end of turn.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 10
     },
     {
@@ -1343,8 +1343,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "Whenever you scry, you may pay {2}. If you do, Knowledge and Power deals 2 damage to target creature or player.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 14
     },
     {
@@ -1356,8 +1356,8 @@
         "rarity": "Common",
         "abilities": "Enchant",
         "text": "Enchant creature<br>When Lightning Diadem enters the battlefield, it deals 2 damage to target creature or player.<br>Enchanted creature gets +2/+2.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 9
     },
     {
@@ -1369,8 +1369,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 3
     },
     {
@@ -1382,8 +1382,8 @@
         "rarity": "Uncommon",
         "abilities": "Bestow",
         "text": "Bestow {2}{R} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Mogis's Warhound attacks each turn if able.<br>Enchanted creature gets +2/+2 and attacks each turn if able.",
-        "power": "2",
-        "toughness": "2",
+        "power": 2,
+        "toughness": 2,
         "rating": 5
     },
     {
@@ -1395,8 +1395,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "",
-        "power": "2",
-        "toughness": "3",
+        "power": 2,
+        "toughness": 3,
         "rating": 10
     },
     {
@@ -1408,8 +1408,8 @@
         "rarity": "Mythic Rare",
         "abilities": "Double Strike, Trample",
         "text": "Double strike, trample<br>Whenever Prophetic Flamespeaker deals combat damage to a player, exile the top card of your library. You may play it this turn.",
-        "power": "1",
-        "toughness": "3",
+        "power": 1,
+        "toughness": 3,
         "rating": 10
     },
     {
@@ -1421,8 +1421,8 @@
         "rarity": "Uncommon",
         "abilities": "Scry",
         "text": "Choose target creature or player. Scry 3, then reveal the top card of your library. Riddle of Lightning deals damage equal to that card's converted mana cost to that creature or player. <i>(To scry 3, look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 2
     },
     {
@@ -1434,8 +1434,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "All creatures get +2/-2 until end of turn.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -1447,8 +1447,8 @@
         "rarity": "Common",
         "abilities": "Strive, Trample",
         "text": "Strive- Rouse the Mob costs {2}{R} more to cast for each target beyond the first.<br>Any number of target creatures each get +2/+0 and gain trample until end of turn.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 7
     },
     {
@@ -1460,8 +1460,8 @@
         "rarity": "Common",
         "abilities": "Heroic",
         "text": "Heroic- Whenever you cast a spell that targets Satyr Hoplite, put a +1/+1 counter on Satyr Hoplite.",
-        "power": "1",
-        "toughness": "1",
+        "power": 1,
+        "toughness": 1,
         "rating": 6
     },
     {
@@ -1473,8 +1473,8 @@
         "rarity": "Common",
         "abilities": "Scry",
         "text": "Whenever Sigiled Skink attacks, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
-        "power": "2",
-        "toughness": "1",
+        "power": 2,
+        "toughness": 1,
         "rating": 8
     },
     {
@@ -1486,8 +1486,8 @@
         "rarity": "Rare",
         "abilities": "Flying",
         "text": "Flying<br>When Spawn of Thraxes enters the battlefield, it deals damage to target creature or player equal to the number of Mountains you control.",
-        "power": "5",
-        "toughness": "5",
+        "power": 5,
+        "toughness": 5,
         "rating": 12
     },
     {
@@ -1499,8 +1499,8 @@
         "rarity": "Uncommon",
         "abilities": "Scry",
         "text": "Spite of Mogis deals damage to target creature equal to the number of instant and sorcery cards in your graveyard. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 10
     },
     {
@@ -1512,8 +1512,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "Starfall deals 3 damage to target creature. If that creature is an enchantment, Starfall deals 3 damage to that creature's controller.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 14
     },
     {
@@ -1525,8 +1525,8 @@
         "rarity": "Rare",
         "abilities": "Strive, Haste",
         "text": "Strive- Twinflame costs {2}{R} more to cast for each target beyond the first.<br>Choose any number of target creatures you control. For each of them, put a token that's a copy of that creature onto the battlefield. Those tokens have haste. Exile them at the beginning of the next end step.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 9
     },
     {
@@ -1538,8 +1538,8 @@
         "rarity": "Uncommon",
         "abilities": "Monstrosity",
         "text": "{5}{R}{R}: Monstrosity 1. <i>(If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)</i><br>When Wildfire Cerberus becomes monstrous, it deals 2 damage to each opponent and each creature your opponents control.",
-        "power": "4",
-        "toughness": "3",
+        "power": 4,
+        "toughness": 3,
         "rating": 9
     },
     {
@@ -1551,8 +1551,8 @@
         "rarity": "Uncommon",
         "abilities": "Hexproof, Reach",
         "text": "Hexproof, reach",
-        "power": "2",
-        "toughness": "1",
+        "power": 2,
+        "toughness": 1,
         "rating": 8
     },
     {
@@ -1564,8 +1564,8 @@
         "rarity": "Uncommon",
         "abilities": "Strive",
         "text": "Strive- Colossal Heroics costs {1}{G} more to cast for each target beyond the first.<br>Any number of target creatures each get +2/+2 until end of turn. Untap those creatures.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 11
     },
     {
@@ -1577,8 +1577,8 @@
         "rarity": "Uncommon",
         "abilities": "Strive",
         "text": "Strive- Consign to Dust costs {2}{G} more to cast for each target beyond the first.<br>Destroy any number of target artifacts and/or enchantments.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -1590,8 +1590,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "Destroy target enchantment or land.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 5
     },
     {
@@ -1603,8 +1603,8 @@
         "rarity": "Rare",
         "abilities": "Flash",
         "text": "Flash<br>Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 7
     },
     {
@@ -1616,8 +1616,8 @@
         "rarity": "Rare",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Eidolon of Blossoms or another enchantment enters the battlefield under your control, draw a card.",
-        "power": "2",
-        "toughness": "2",
+        "power": 2,
+        "toughness": 2,
         "rating": 8
     },
     {
@@ -1629,8 +1629,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "{1}{G}, Sacrifice Font of Fertility: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 5
     },
     {
@@ -1642,8 +1642,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "{T}: Add {G} to your mana pool.",
-        "power": "2",
-        "toughness": "1",
+        "power": 2,
+        "toughness": 1,
         "rating": 5
     },
     {
@@ -1655,8 +1655,8 @@
         "rarity": "Uncommon",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Goldenhide Ox or another enchantment enters the battlefield under your control, target creature must be blocked this turn if able.",
-        "power": "5",
-        "toughness": "4",
+        "power": 5,
+        "toughness": 4,
         "rating": 11
     },
     {
@@ -1668,8 +1668,8 @@
         "rarity": "Rare",
         "abilities": "",
         "text": "Heroes' Bane enters the battlefield with four +1/+1 counters on it.<br>{2}{G}{G}: Put X +1/+1 counters on Heroes' Bane, where X is its power.",
-        "power": "0",
-        "toughness": "0",
+        "power": 0,
+        "toughness": 0,
         "rating": 6
     },
     {
@@ -1681,8 +1681,8 @@
         "rarity": "Common",
         "abilities": "Constellation, Trample",
         "text": "Constellation- Whenever Humbler of Mortals or another enchantment enters the battlefield under your control, creatures you control gain trample until end of turn.",
-        "power": "5",
-        "toughness": "5",
+        "power": 5,
+        "toughness": 5,
         "rating": 12
     },
     {
@@ -1694,8 +1694,8 @@
         "rarity": "Rare",
         "abilities": "Monstrosity",
         "text": "{X}{X}{G}: Monstrosity X. <i>(If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)</i><br>When Hydra Broodmaster becomes monstrous, put X X/X green Hydra creature tokens onto the battlefield.",
-        "power": "7",
-        "toughness": "7",
+        "power": 7,
+        "toughness": 7,
         "rating": 11
     },
     {
@@ -1707,8 +1707,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "Reveal the top six cards of your library. Put up to three enchantment cards from among them into your hand and the rest of the revealed cards into your graveyard.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 6
     },
     {
@@ -1720,8 +1720,8 @@
         "rarity": "Common",
         "abilities": "Enchant",
         "text": "Enchant land<br>Whenever enchanted land is tapped for mana, its controller adds two mana in any combination of colors to his or her mana pool <i>(in addition to the mana the land produces)</i>.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 6
     },
     {
@@ -1733,8 +1733,8 @@
         "rarity": "Common",
         "abilities": "Strive",
         "text": "Strive- Nature's Panoply costs {2}{G} more to cast for each target beyond the first.<br>Choose any number of target creatures. Put a +1/+1 counter on each of them.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 5
     },
     {
@@ -1746,8 +1746,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "When Nessian Game Warden enters the battlefield, look at the top X cards of your library, where X is the number of Forests you control. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
-        "power": "4",
-        "toughness": "5",
+        "power": 4,
+        "toughness": 5,
         "rating": 9
     },
     {
@@ -1759,8 +1759,8 @@
         "rarity": "Common",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Oakheart Dryads or another enchantment enters the battlefield under your control, target creature gets +1/+1 until end of turn.",
-        "power": "2",
-        "toughness": "3",
+        "power": 2,
+        "toughness": 3,
         "rating": 4
     },
     {
@@ -1772,8 +1772,8 @@
         "rarity": "Common",
         "abilities": "Heroic",
         "text": "Heroic- Whenever you cast a spell that targets Pheres-Band Thunderhoof, put two +1/+1 counters on Pheres-Band Thunderhoof.",
-        "power": "3",
-        "toughness": "4",
+        "power": 3,
+        "toughness": 4,
         "rating": 6
     },
     {
@@ -1785,8 +1785,8 @@
         "rarity": "Rare",
         "abilities": "Vigilance, Trample",
         "text": "Vigilance, trample<br>Other Centaur creatures you control get +1/+1 and have vigilance and trample.",
-        "power": "3",
-        "toughness": "3",
+        "power": 3,
+        "toughness": 3,
         "rating": 7
     },
     {
@@ -1798,8 +1798,8 @@
         "rarity": "Common",
         "abilities": "Vigilance, Monstrosity",
         "text": "Vigilance<br>{6}{G}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>",
-        "power": "2",
-        "toughness": "4",
+        "power": 2,
+        "toughness": 4,
         "rating": 4
     },
     {
@@ -1811,8 +1811,8 @@
         "rarity": "Common",
         "abilities": "Reach",
         "text": "{1}{G}, Sacrifice Renowned Weaver: Put a 1/3 green Spider enchantment creature token with reach onto the battlefield. <i>(It can block creatures with flying.)</i>",
-        "power": "1",
-        "toughness": "1",
+        "power": 1,
+        "toughness": 1,
         "rating": 8
     },
     {
@@ -1824,8 +1824,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "Choose one or both- Return target creature card from your graveyard to your hand; and/or return target enchantment card from your graveyard to your hand.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 5
     },
     {
@@ -1837,8 +1837,8 @@
         "rarity": "Common",
         "abilities": "",
         "text": "When Satyr Grovedancer enters the battlefield, put a +1/+1 counter on target creature.",
-        "power": "1",
-        "toughness": "1",
+        "power": 1,
+        "toughness": 1,
         "rating": 4
     },
     {
@@ -1850,8 +1850,8 @@
         "rarity": "Rare",
         "abilities": "Strive, Fight",
         "text": "Strive- Setessan Tactics costs {G} more to cast for each target beyond the first.<br>Until end of turn, any number of target creatures each get +1/+1 and gain \"{T}: This creature fights another target creature.\"",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 12
     },
     {
@@ -1863,8 +1863,8 @@
         "rarity": "Uncommon",
         "abilities": "Strive",
         "text": "Strive- Solidarity of Heroes costs {1}{G} more to cast for each target beyond the first.<br>Choose any number of target creatures. Double the number of +1/+1 counters on each of them.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 9
     },
     {
@@ -1876,8 +1876,8 @@
         "rarity": "Uncommon",
         "abilities": "Bestow",
         "text": "Bestow {4}{G} <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i><br>Spirespine blocks each turn if able.<br>Enchanted creature gets +4/+1 and blocks each turn if able.",
-        "power": "4",
-        "toughness": "1",
+        "power": 4,
+        "toughness": 1,
         "rating": 2
     },
     {
@@ -1889,8 +1889,8 @@
         "rarity": "Uncommon",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Strength from the Fallen or another enchantment enters the battlefield under your control, target creature gets +X/+X until end of turn, where X is the number of creature cards in your graveyard.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 7
     },
     {
@@ -1902,8 +1902,8 @@
         "rarity": "Uncommon",
         "abilities": "Monstrosity, Reach",
         "text": "When you're dealt combat damage, sacrifice Swarmborn Giant.<br>{4}{G}{G}: Monstrosity 2. <i>(If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous.)</i><br>As long as Swarmborn Giant is monstrous, it has reach.",
-        "power": "6",
-        "toughness": "6",
+        "power": 6,
+        "toughness": 6,
         "rating": 10
     },
     {
@@ -1915,8 +1915,8 @@
         "rarity": "Mythic Rare",
         "abilities": "",
         "text": "+1: Distribute three +1/+1 counters among one, two, or three target creatures you control.<br>+1: Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.<br>-8: You gain 100 life.",
-        "power": "",
-        "toughness": "4",
+        "power": null,
+        "toughness": 4,
         "rating": 8
     },
     {
@@ -1928,8 +1928,8 @@
         "rarity": "Mythic Rare",
         "abilities": "Indestructible, Devotion",
         "text": "Indestructible<br>As long as your devotion to white and black is less than seven, Athreos isn't a creature.<br>Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life.",
-        "power": "5",
-        "toughness": "4",
+        "power": 5,
+        "toughness": 4,
         "rating": 4
     },
     {
@@ -1941,8 +1941,8 @@
         "rarity": "Uncommon",
         "abilities": "Strive, First Strike, Vigilance",
         "text": "Strive- Desperate Stand costs {R}{W} more to cast for each target beyond the first.<br>Any number of target creatures each get +2/+0 and gain first strike and vigilance until end of turn.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -1954,8 +1954,8 @@
         "rarity": "Uncommon",
         "abilities": "Inspired",
         "text": "Inspired- Whenever Disciple of Deceit becomes untapped, you may discard a nonland card. If you do, search your library for a card with the same converted mana cost as that card, reveal it, put it into your hand, then shuffle your library.",
-        "power": "1",
-        "toughness": "3",
+        "power": 1,
+        "toughness": 3,
         "rating": 9
     },
     {
@@ -1967,8 +1967,8 @@
         "rarity": "Uncommon",
         "abilities": "Flash, Flying, Deathtouch, Monstrosity",
         "text": "Flash <i>(You may cast this spell any time you could cast an instant.)</i><br>Flying, deathtouch<br>{5}{G}{U}: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>",
-        "power": "3",
-        "toughness": "3",
+        "power": 3,
+        "toughness": 3,
         "rating": 9
     },
     {
@@ -1980,8 +1980,8 @@
         "rarity": "Mythic Rare",
         "abilities": "Indestructible, Devotion",
         "text": "Indestructible<br>As long as your devotion to red and white is less than seven, Iroas isn't a creature.<br>Creatures you control can't be blocked except by two or more creatures.<br>Prevent all damage that would be dealt to attacking creatures you control.",
-        "power": "7",
-        "toughness": "4",
+        "power": 7,
+        "toughness": 4,
         "rating": 10
     },
     {
@@ -1993,8 +1993,8 @@
         "rarity": "Mythic Rare",
         "abilities": "Indestructible, Devotion",
         "text": "Indestructible<br>As long as your devotion to blue and red is less than seven, Keranos isn't a creature.<br>Reveal the first card you draw on each of your turns. Whenever you reveal a land card this way, draw a card. Whenever you reveal a nonland card this way, Keranos deals 3 damage to target creature or player.",
-        "power": "6",
-        "toughness": "5",
+        "power": 6,
+        "toughness": 5,
         "rating": 5
     },
     {
@@ -2006,8 +2006,8 @@
         "rarity": "Mythic Rare",
         "abilities": "Indestructible, Devotion",
         "text": "Indestructible<br>As long as your devotion to green and blue is less than seven, Kruphix isn't a creature.<br>You have no maximum hand size.<br>If unused mana would empty from your mana pool, that mana becomes colorless instead.",
-        "power": "4",
-        "toughness": "7",
+        "power": 4,
+        "toughness": 7,
         "rating": 9
     },
     {
@@ -2019,8 +2019,8 @@
         "rarity": "Uncommon",
         "abilities": "Reach",
         "text": "Reach<br>At the beginning of your upkeep, put the top two cards of your library into your graveyard.<br>{1}{B}{G}, Exile Nyx Weaver: Return target card from your graveyard to your hand.",
-        "power": "2",
-        "toughness": "3",
+        "power": 2,
+        "toughness": 3,
         "rating": 7
     },
     {
@@ -2032,8 +2032,8 @@
         "rarity": "Mythic Rare",
         "abilities": "Indestructible, Devotion, Deathtouch",
         "text": "Indestructible<br>As long as your devotion to black and green is less than seven, Pharika isn't a creature.<br>{B}{G}: Exile target creature card from a graveyard. Its owner puts a 1/1 black and green Snake enchantment creature token with deathtouch onto the battlefield.",
-        "power": "5",
-        "toughness": "5",
+        "power": 5,
+        "toughness": 5,
         "rating": 12
     },
     {
@@ -2045,8 +2045,8 @@
         "rarity": "Rare",
         "abilities": "Haste",
         "text": "Put four 2/2 red and green Satyr creature tokens with haste onto the battlefield.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -2058,8 +2058,8 @@
         "rarity": "Uncommon",
         "abilities": "Flying, Scry",
         "text": "Flying<br>{2}{U}{R}: Scry 1, then reveal the top card of your library. Stormchaser Chimera gets +X/+0 until end of turn, where X is that card's converted mana cost. <i>(To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</i>",
-        "power": "2",
-        "toughness": "3",
+        "power": 2,
+        "toughness": 3,
         "rating": 7
     },
     {
@@ -2071,8 +2071,8 @@
         "rarity": "Uncommon",
         "abilities": "Constellation",
         "text": "Constellation- Whenever Underworld Coinsmith or another enchantment enters the battlefield under your control, you gain 1 life.<br>{W}{B}, Pay 1 life: Each opponent loses 1 life.",
-        "power": "2",
-        "toughness": "2",
+        "power": 2,
+        "toughness": 2,
         "rating": 8
     },
     {
@@ -2084,8 +2084,8 @@
         "rarity": "Uncommon",
         "abilities": "Equip",
         "text": "Whenever equipped creature attacks, put a +1/+1 counter on it.<br>Equip {2}",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -2097,8 +2097,8 @@
         "rarity": "Uncommon",
         "abilities": "Equip, First Strike, Trample, Haste",
         "text": "Equipped creature has first strike, trample, and haste.<br>Equip {1}",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 8
     },
     {
@@ -2110,8 +2110,8 @@
         "rarity": "Uncommon",
         "abilities": "",
         "text": "You may choose not to untap Deserter's Quarters during your untap step.<br>{6}, {T}: Tap target creature. It doesn't untap during its controller's untap step for as long as Deserter's Quarters remains tapped.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 9
     },
     {
@@ -2123,8 +2123,8 @@
         "rarity": "Uncommon",
         "abilities": "Flying",
         "text": "Flying",
-        "power": "4",
-        "toughness": "4",
+        "power": 4,
+        "toughness": 4,
         "rating": 12
     },
     {
@@ -2136,8 +2136,8 @@
         "rarity": "Rare",
         "abilities": "",
         "text": "As Hall of Triumph enters the battlefield, choose a color.<br>Creatures you control of the chosen color get +1/+1.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 9
     },
     {
@@ -2149,8 +2149,8 @@
         "rarity": "Rare",
         "abilities": "",
         "text": "{T}, Pay 1 life: Add one mana of any color to your mana pool.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 10
     },
     {
@@ -2162,8 +2162,8 @@
         "rarity": "Rare",
         "abilities": "Scry",
         "text": "Temple of Epiphany enters the battlefield tapped.<br>When Temple of Epiphany enters the battlefield, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i><br>{T}: Add {U} or {R} to your mana pool.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 11
     },
     {
@@ -2175,8 +2175,8 @@
         "rarity": "Rare",
         "abilities": "Scry",
         "text": "Temple of Malady enters the battlefield tapped.<br>When Temple of Malady enters the battlefield, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i><br>{T}: Add {B} or {G} to your mana pool.",
-        "power": "",
-        "toughness": "",
+        "power": null,
+        "toughness": null,
         "rating": 2
     }
 ]

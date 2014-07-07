@@ -119,6 +119,40 @@ angular.module('mtgStats.controllers', ['ngSanitize'])
 	})
 
 
+	.controller('powerCtrl', function($scope, power, dropdown, query) {
+
+		$scope.power = power;
+
+		$scope.toggleUpper = function() {
+			dropdown.toggleUpper(power);
+			$scope.getQuery();
+		}
+
+		$scope.getQuery = function() {
+			query.strings.power = dropdown.getQuery(power);
+			query.sets();
+		}
+
+	})
+
+
+	.controller('toughnessCtrl', function($scope, toughness, dropdown, query) {
+
+		$scope.toughness = toughness;
+
+		$scope.toggleUpper = function() {
+			dropdown.toggleUpper(toughness);
+			$scope.getQuery();
+		}
+
+		$scope.getQuery = function() {
+			query.strings.toughness = dropdown.getQuery(toughness);
+			query.sets();
+		}
+
+	})
+
+
 	.controller('ratingsCtrl', function($scope, ratings, dropdown, query) {
 		
 		$scope.ratings = ratings;

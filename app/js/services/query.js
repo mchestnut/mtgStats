@@ -19,6 +19,8 @@ angular.module('mtgStats.services')
 			'rarities': [{}],
 			'types': [{}],
 			'cmcs': [{}],
+			'power': [{}],
+			'toughness': [{}],
 			'ratings': [{}],
 			'text': [{}],
 			'abilities': [{}],

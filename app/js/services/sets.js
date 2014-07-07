@@ -33,6 +33,8 @@ angular.module('mtgStats.services')
 					'rarities': [],
 					'types': [],
 					'cmcs': [],
+					'power': [],
+					'toughness': [],
 					'ratings': [],
 					'abilities': []
 				}
@@ -49,6 +51,8 @@ angular.module('mtgStats.services')
 					'rarities': [],
 					'types': [],
 					'cmcs': [],
+					'power': [],
+					'toughness': [],
 					'ratings': [],
 					'abilities': []
 				}
@@ -65,6 +69,8 @@ angular.module('mtgStats.services')
 					'rarities': [],
 					'types': [],
 					'cmcs': [],
+					'power': [],
+					'toughness': [],
 					'ratings': [],
 					'abilities': []
 				}

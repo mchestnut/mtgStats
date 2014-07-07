@@ -13,7 +13,7 @@
 
 <div class="content container">
 	<nav>
-		<h2>Options</h2>
+		<h2>Filters</h2>
 		<div class="row">
 			<div class="col-md-2">
 				<fieldset class="form-group" ng-controller="colorsCtrl">
@@ -111,6 +111,32 @@
 					</div>
 				</fieldset>
 
+				<fieldset class="form-group" ng-controller="powerCtrl">
+					<legend>Power</legend>
+					<select class="form-control" ng-model="power.selected" ng-change="toggleUpper()">
+						<option value="{{comparison.name}}" ng-repeat="comparison in power.comparisons">{{comparison.label}}</option>
+					</select>
+
+					<input type="text" class="form-control" ng-model="power.lower" ng-blur="getQuery()" />
+					<div ng-hide="power.hideUpper">
+						&nbsp;&ndash;&nbsp;<input type="text" class="form-control" ng-model="power.upper" ng-blur="getQuery()" />
+					</div>
+				</fieldset>
+
+				<fieldset class="form-group" ng-controller="toughnessCtrl">
+					<legend>Toughness</legend>
+					<select class="form-control" ng-model="toughness.selected" ng-change="toggleUpper()">
+						<option value="{{comparison.name}}" ng-repeat="comparison in toughness.comparisons">{{comparison.label}}</option>
+					</select>
+
+					<input type="text" class="form-control" ng-model="toughness.lower" ng-blur="getQuery()" />
+					<div ng-hide="toughness.hideUpper">
+						&nbsp;&ndash;&nbsp;<input type="text" class="form-control" ng-model="toughness.upper" ng-blur="getQuery()" />
+					</div>
+				</fieldset>
+			</div>
+
+			<div class="col-md-2">
 				<fieldset class="form-group" ng-controller="ratingsCtrl">
 					<legend>Rating</legend>
 					<select class="form-control" ng-model="ratings.selected" ng-change="toggleUpper()">
@@ -127,9 +153,7 @@
 						</select>
 					</div>
 				</fieldset>
-			</div>
 
-			<div class="col-md-2">
 				<fieldset class="form-group" ng-controller="textCtrl">
 					<legend>Text</legend>
 					<input type="text" class="form-control" ng-model="text.str" ng-blur="getQuery()" />

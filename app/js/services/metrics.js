@@ -2,7 +2,7 @@
 
 angular.module('mtgStats.services')
 
-	.service('metrics', function(sets, colors, rarities, types, cmcs, ratings, abilities, graph) {
+	.service('metrics', function(sets, colors, rarities, types, cmcs, power, toughness, ratings, abilities, graph) {
 
 		/*=================================
 		* private properties
@@ -20,6 +20,8 @@ angular.module('mtgStats.services')
 				{'label': 'Rarities', 'name': 'rarity'},
 				{'label': 'Types', 'name': 'type'},
 				{'label': 'CMCs', 'name': 'cmc'},
+				{'label': 'Power', 'name': 'power'},
+				{'label': 'Toughness', 'name': 'toughness'},
 				{'label': 'Ratings', 'name': 'rating'},
 				{'label': 'Abilities', 'name': 'abilities'}
 			];
@@ -48,6 +50,8 @@ angular.module('mtgStats.services')
 				sets.selected[i].metrics.rarities = [];
 				sets.selected[i].metrics.types = [];
 				sets.selected[i].metrics.cmcs = [];
+				sets.selected[i].metrics.power = [];
+				sets.selected[i].metrics.toughness = [];
 				sets.selected[i].metrics.ratings = [];
 				sets.selected[i].metrics.abilities = [];
 
@@ -107,6 +111,8 @@ angular.module('mtgStats.services')
 					storeValue('colors', tCost);
 					storeValue('rarities', result[j].rarity);
 					storeValue('cmcs', result[j].cmc);
+					storeValue('power', result[j].power);
+					storeValue('toughness', result[j].toughness);
 					storeValue('ratings', result[j].rating);
 
 					for (var t = 0; t < tType.length; t++) {
@@ -120,7 +126,7 @@ angular.module('mtgStats.services')
 					}
 				}
 			}
-
+			
 			/*
 			* once metrics stored, update graph
 			*/

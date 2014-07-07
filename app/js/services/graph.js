@@ -2,7 +2,7 @@
 
 angular.module('mtgStats.services')
 
-	.service('graph', function(sets, colors, rarities, types, cmcs, ratings, abilities, details) {
+	.service('graph', function(sets, colors, rarities, types, cmcs, power, toughness, ratings, abilities, details) {
 
 		/*=================================
 		* private properties
@@ -211,21 +211,24 @@ angular.module('mtgStats.services')
 					}
 
 				} else if (metric === 'cmc') {
+
 					results = combineResults('cmcs');
 					var bottom = 0,
 						top = 0;
 
+
 					/*
-					* find range of cmcs in results
+					* find range of model in results
 					*/					
 					for (var key in results) {
 						if (!bottom) {
 							bottom = key
 						}
-						if (top < key) {
+						if (parseInt(top) < parseInt(key)) {
 							top = key;
 						}
 					}
+
 
 					/*
 					* override range if values present
@@ -251,7 +254,73 @@ angular.module('mtgStats.services')
 								top = bottom;
 							}
 						}
+					}
+					
+					top++;
+					for (var k = bottom; k < top; k++) {
+						if (results[k.toString()]) {
+							pushBar(results[k], k);
+						} else {
+							pushBar(0, k);
+						}
+					}
 
+				} else if (metric === 'power' || metric === 'toughness') {
+
+					if (metric === 'power') {
+						results = combineResults('power');
+						var model = power;
+					} else if (metric === 'toughness') {
+						results = combineResults('toughness');
+						var model = toughness;
+					}
+
+					var bottom = 0,
+						top = 0;
+
+					/*
+					* find range of model in results
+					*/					
+					for (var key in results) {
+						if (isNaN(key) || key == null) {
+							delete results[key];
+							continue;
+						}
+
+						if (!bottom) {
+							bottom = key
+						}
+
+						if (parseInt(top) < parseInt(key)) {
+							top = key;
+						}
+					}
+
+					console.log(top);
+					/*
+					* override range if values present
+					*/
+					if (model.lower || model.upper) {
+						if (model.selected == 'equal') {
+							bottom = model.lower;
+							top = model.lower;
+						}
+						if (model.selected == 'greater') {
+							bottom = model.lower;
+							if (!top) {
+								top = bottom;
+							}
+						} else if (model.selected == 'lesser') {
+							bottom = 0;
+							top = model.lower;
+						} else if (model.selected == 'between') {
+							bottom = model.lower;
+							if (model.upper) {
+								top = model.upper;
+							} else {
+								top = bottom;
+							}
+						}
 					}
 					
 					top++;
