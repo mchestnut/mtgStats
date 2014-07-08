@@ -36,14 +36,29 @@ angular.module('mtgStats.controllers', ['ngSanitize'])
 		}
 
 
+		/*
+		* toggle between single set and 3
+		*/
+		
+		$scope.toggleSingle = function() {
+			sets.toggleSingle();
+			query.strings.abilities = checkbox.getQuery(abilities);
+			query.sets();
+		}
+
+
 		/*=================================
 		* init set data
 		=================================*/
 
+		if (sets.single) {
+			sets.toggleSingle();
+		}
+
 		/*
 		* get data for each set
 		*/
-		for (var i = 0; i < 3; i++) {
+		for (var i = 0; i < sets.selected.length; i++) {
 			if (sets.selected[i].data === null) {
 				sets.getData(sets.selected[i]);
 			}

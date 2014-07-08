@@ -36,9 +36,9 @@ angular.module('mtgStats.services')
 			var ready = true;
 			
 			/************************
-			* for each of the 3 selected sets
+			* for each of the selected sets
 			************************/			
-			for (var i = 0; i < 3; i++) {
+			for (var i = 0; i < sets.selected.length; i++) {
 
 				/*
 				* if the set has a Taffy DB assigned

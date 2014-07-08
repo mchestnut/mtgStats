@@ -6,6 +6,13 @@
 				<select class="form-control select" ng-repeat="selected in sets.selected" ng-model="selected.name" ng-change="getData(selected)">
 					<option value="{{set}}" ng-repeat="set in sets.list" ng-selected="{{selected.name == set}}">{{set}}</option>
 				</select>
+				<br />
+				<div class="checkbox pull-right">
+					<label>
+						<input type="checkbox" ng-model="sets.single" ng-change="toggleSingle()" />
+						Single Pack
+					</label>
+				</div>
 			</form>
 		</nav>
 	</div>

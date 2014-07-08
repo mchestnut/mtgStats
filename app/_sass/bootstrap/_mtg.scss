@@ -82,6 +82,18 @@ hr {
 		margin-left: 4px;
 		border-color: $brown-dark;
 	}
+
+	.checkbox {
+		font-size: .75em;
+		text-transform: uppercase;
+		padding-right: 10px;
+
+		input {
+			width: 11px;
+			margin-right: 4px;
+			vertical-align: bottom;
+		}
+	}
 }
 
 .content {

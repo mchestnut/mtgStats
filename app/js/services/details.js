@@ -68,7 +68,7 @@ angular.module('mtgStats.services')
 			}
 
 
-			for (var i = 0; i < 3; i++) {
+			for (var i = 0; i < sets.selected.length; i++) {
 				if (sets.selected[i].result) {
 					totalCards += sets.selected[i].result.get().length;
 					avgCmc = findAvg('cmcs');
@@ -106,12 +106,15 @@ angular.module('mtgStats.services')
 			/*
 			* find average cards
 			*/
-			for (i = 0; i < 3; i++) {
+			for (i = 0; i < sets.selected.length; i++) {
 				root.data.push({'label': 'Average Qty in ' + sets.selected[i].name + ' Pack', 'value': avgCards[i]});
 			}
-			avgCardsTotal = avgCards[0] + avgCards[1] + avgCards[2];
-			avgCardsTotal = +(Math.round(avgCardsTotal + "e+2") + "e-2");			
-			root.data.push({'label': 'Average Qty in Full Draft', 'value': avgCardsTotal});
+
+			if (sets.selected.length > 1) {
+				avgCardsTotal = avgCards[0] + avgCards[1] + avgCards[2];
+				avgCardsTotal = +(Math.round(avgCardsTotal + "e+2") + "e-2");			
+				root.data.push({'label': 'Average Qty in Full Draft', 'value': avgCardsTotal});
+			}
 
 			/*
 			* once details updated, update cards list

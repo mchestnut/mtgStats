@@ -77,11 +77,36 @@ angular.module('mtgStats.services')
 				}
 			}
 		];
+		this.single = true;
+		this.stored = [];
 
 
 		/*=================================
 		* public methods
-		=================================*/		
+		=================================*/
+
+		this.toggleSingle = function() {
+			if (root.single) {
+
+				// store 2 sets
+				root.stored[0] = root.selected[1];
+				root.stored[1] = root.selected[2];
+				root.selected.splice(1, 2);
+				root.getData(root.selected[0]);
+
+			} else {
+
+				// restore 2 sets
+				console.log('restore 2 sets');
+				root.selected[1] = root.stored[0];
+				root.selected[2] = root.stored[1];
+				root.stored = [];
+
+				for (var i = 0; i < root.selected.length; i++) {
+					root.getData(root.selected[i]);
+				}
+			}
+		};
 
 		this.getData = function(selected) {
 
@@ -111,7 +136,7 @@ angular.module('mtgStats.services')
 				selected.abilities = selected.data({'abilities': {'isArray': true}}).get();
 				selected.data({'abilities': {'isArray': true}}).remove(false);
 
-				for (var i = 0; i < 3; i++) {
+				for (var i = 0; i < root.selected.length; i++) {
 					if (root.selected[i].abilities.length) {									
 						// get length of abilities list
 						var aLength = root.selected[i].abilities[0].abilities.length;

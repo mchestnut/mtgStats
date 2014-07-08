@@ -25,7 +25,7 @@ angular.module('mtgStats.services')
 				{'label': 'Ratings', 'name': 'rating'},
 				{'label': 'Abilities', 'name': 'abilities'}
 			];
-		this.selected = 'set';
+		this.selected = 'color';
 
 
 		/*=================================
@@ -37,7 +37,7 @@ angular.module('mtgStats.services')
 			/*
 			* for each set
 			*/			
-			for (var i = 0; i < 3; i++) {
+			for (var i = 0; i < sets.selected.length; i++) {
 
 				var result = sets.selected[i].result.get(),
 					rLength = result.length;

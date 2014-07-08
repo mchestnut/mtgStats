@@ -28,7 +28,7 @@ angular.module('mtgStats.services')
 			*/
 			root.list = [];
 
-			for (var i = 0; i < 3; i++) {
+			for (var i = 0; i < sets.selected.length; i++) {
 				root.list = root.list.concat(sets.selected[i].result.get());
 			}
 

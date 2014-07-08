@@ -93,7 +93,7 @@ angular.module('mtgStats.services')
 			var combineResults = function(metricSet) {
 				var tResults = [];
 
-				for (var j = 0; j < 3; j++) {
+				for (var j = 0; j < sets.selected.length; j++) {
 					if (sets.selected[j].result) {
 						for (var attr in sets.selected[j].metrics[metricSet]) {
 							if (tResults[attr]) {
@@ -149,7 +149,7 @@ angular.module('mtgStats.services')
 				* for each set, if result set exists
 				* get maximum quantity of metric
 				*/				
-				for (var j = 0; j < 3; j++) {
+				for (var j = 0; j < sets.selected.length; j++) {
 					if (sets.selected[j].result) {
 						if (sets.selected[j].result.get().length > maxQty) {
 							maxQty = sets.selected[j].result.get().length;
@@ -162,7 +162,7 @@ angular.module('mtgStats.services')
 				* for each set, if result set exists
 				* get height and create new bar
 				*/	
-				for (j = 0; j < 3; j++) {
+				for (j = 0; j < sets.selected.length; j++) {
 					if (sets.selected[j].result) {
 						pushBar(sets.selected[j].result.get().length, sets.selected[j].name);
 					}
