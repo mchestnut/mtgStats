@@ -20,7 +20,7 @@ angular.module('mtgStats.services')
 			{'label': 'Uncommon', 'name': 'Uncommon'},
 			{'label': 'Rare', 'name': 'Rare'},
 			{'label': 'Mythic', 'name': 'Mythic Rare'},
-			{'label': 'Basic Land', 'name': 'Land'}
+			// {'label': 'Basic Land', 'name': 'Land'}
 		];
 		this.selected = [];
 		this.column = 'rarity';
