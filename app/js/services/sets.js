@@ -16,13 +16,14 @@ angular.module('mtgStats.services')
 		=================================*/
 
 		this.list = [
+			'M15',
 			'JOU',
 			'BNG',
 			'THS'
 		];
 		this.selected = [
 			{
-				'name': 'JOU',
+				'name': 'M15',
 				'data': null,
 				'abilities': [],
 				'rarities': {},
@@ -40,7 +41,7 @@ angular.module('mtgStats.services')
 				}
 			},
 			{
-				'name': 'BNG',
+				'name': 'M15',
 				'data': null,
 				'abilities': [],
 				'rarities': {},
@@ -58,7 +59,7 @@ angular.module('mtgStats.services')
 				}
 			},
 			{
-				'name': 'THS',
+				'name': 'M15',
 				'data': null,
 				'abilities': [],
 				'rarities': {},
