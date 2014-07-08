@@ -2206,7 +2206,7 @@
         "id": 168,
         "name": "Ancient Silverback",
         "cmc": 6,
-        "cost": "{4}{R}{R}",
+        "cost": "{4}{G}{G}",
         "type": "Creature - Ape",
         "rarity": "Uncommon",
         "abilities": "Regeneration",
