@@ -7,6 +7,7 @@
             {"label": "Equip", "abbr": "Eqip"},
             {"label": "Fight", "abbr": "Fght"},
             {"label": "First Strike", "abbr": "FStr"},
+            {"label": "Flash", "abbr": "Flsh"},
             {"label": "Flying", "abbr": "Fly"},
             {"label": "Haste", "abbr": "Hste"},
             {"label": "Hexproof", "abbr": "Hxpf"},

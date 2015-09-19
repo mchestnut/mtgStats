@@ -185,6 +185,18 @@ angular.module('mtgStats.controllers', ['ngSanitize'])
 	})
 
 
+	.controller('typeTextCtrl', function($scope, typeText, query) {
+		
+		$scope.typeText = typeText;
+
+		$scope.getQuery = function() {
+			query.strings.typeText = typeText.getQuery(typeText);
+			query.sets();		
+		}
+
+	})
+
+
 	.controller('textCtrl', function($scope, text, query) {
 		
 		$scope.text = text;

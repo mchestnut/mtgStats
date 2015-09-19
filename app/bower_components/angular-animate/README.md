@@ -21,7 +21,7 @@ Add a `<script>` to your `index.html`:
 And add `ngAnimate` as a dependency for your app:
 
 ```javascript
-angular.module('mtgStats', ['ngAnimate']);
+angular.module('myApp', ['ngAnimate']);
 ```
 
 ## Documentation

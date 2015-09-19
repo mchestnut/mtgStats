@@ -113,11 +113,27 @@ hr {
 	padding-bottom: 56px;
 
 	.card {
-		height: 260px;
+		height: 280px;
 		border: 1px solid $brown;
 		padding: 4px;
+		position: relative;
 		background-color: $brown-dark;
 		box-shadow: rgba(0, 0, 0, .8) 0 1px 5px;
+
+		.icons,
+		.power {
+			position: absolute;
+			right: 4px;
+		}
+
+		.icons {
+			top: 4px;
+		}
+
+		.power {
+			text-align: right;
+			bottom: 4px;
+		}
 
 		i {
 			display: none;

@@ -1,0 +1,20 @@
+{
+  "name": "angular-seed",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-animate": "1.2.16",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "angular-sanitize": "1.2.16",
+    "grunt": "0.4.1",
+    "html5-boilerplate": "~4.3.0",
+    "raphael": "2.1.x",
+    "taffydb": ""
+  }
+}

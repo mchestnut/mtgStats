@@ -71,7 +71,9 @@ angular.module('mtgStats.services')
 					*/
 					tCost = result[j].cost.replace(/{|}/g, '');
 					tCost = tCost.replace(/[\dX]/g, 'C');
-					tCost = tCost.replace(/([C])(?=[WUBRG])/g, '');
+					if (tCost.match(/[WURBG]/g)) {
+						tCost = tCost.replace(/([C])/g, '');
+					}
 					tCost = tCost.replace(/(.)(?=\1)/g, '');
 
 					/*

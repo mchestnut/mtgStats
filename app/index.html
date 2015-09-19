@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="mtgStats" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="mtgStats" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="mtgStats" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="mtgStats" class="no-js"> <!--<![endif]-->
+<html lang="en" ng-app="mtgStats" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,19 +9,14 @@
   <!-- build:css css/mtgStats.min.css -->
   <link rel="stylesheet" href="css/bootstrap.css" />
   <!-- endbuild -->
+  <!-- build:js js/modernizr.min.js -->
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+  <!-- endbuild -->
 </head>
 <body>
 
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-
   <div ng-view></div>
 
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
   <!-- build:js js/mtgStats.min.js -->
   <script src="bower_components/raphael/raphael-min.js"></script>
   <script src="bower_components/taffydb/taffy-min.js"></script>
@@ -45,6 +37,7 @@
   <script src="js/services/colors.js"></script>
   <script src="js/services/rarities.js"></script>
   <script src="js/services/ratings.js"></script>
+  <script src="js/services/typetext.js"></script>
   <script src="js/services/text.js"></script>
   <script src="js/services/power.js"></script>
   <script src="js/services/toughness.js"></script>

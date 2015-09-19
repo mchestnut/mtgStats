@@ -42,7 +42,7 @@
         "text": "+1: Up to one target creature you control gets +1/+1 and gains lifelink, first strike, and vigilance until end of turn.<br>-2: Put a +1/+1 counter on each creature you control, then put a loyalty counter on each other planeswalker you control.<br>-7: You ",
         "power": null,
         "toughness": 4,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 2,
@@ -55,7 +55,7 @@
         "text": "Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate. <i>(For example, if an effect causes you to gain 3 life, you may put one +1/+1 counter on this creature)</i>",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 3,
@@ -68,7 +68,7 @@
         "text": "Flying, vigilance<br>{1}{W}: Prevent all damage that would be dealt to another target creature this turn by sources of the color of your choice.<br>{5}{W}{W}: Prevent all damage that would be dealt to target player this turn by sources of the color of your choice.",
         "power": 5,
         "toughness": 4,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 4,
@@ -81,7 +81,7 @@
         "text": "Enchant creature<br>Enchanted creature has double strike.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 5,
@@ -94,7 +94,7 @@
         "text": "When Boonweaver Giant enters the battlefield, you may search your graveyard, hand, and/or library for an Aura card and put it onto the battlefield attached to Boonweaver Giant. If you search your library this way, shuffle it.",
         "power": 4,
         "toughness": 4,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 6,
@@ -107,7 +107,7 @@
         "text": "Target player gains 2 life for each creature on the battlefield.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 3
     },
     {
         "id": 7,
@@ -120,7 +120,7 @@
         "text": "Sliver creatures you control have \"When this creature enters the battlefield, you may exile target creature an opponent controls until this creature leaves the battlefield.\"",
         "power": 3,
         "toughness": 3,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 8,
@@ -133,7 +133,7 @@
         "text": "Dauntless River Marshal gets +1/+1 as long as you control an Island.<br>{3}{U}: Tap target creature.",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 9,
@@ -146,7 +146,7 @@
         "text": "Convoke<br>Exile target attacking or blocking creature.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 10,
@@ -159,7 +159,7 @@
         "text": "Enchant Creature<br>When Divine Favor enters the battlefield, you gain 3 life.<br>Enchanted creature gets +1/+3.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 11,
@@ -172,7 +172,7 @@
         "text": "Convoke<br>Target creature gains indestructible until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 12,
@@ -185,7 +185,7 @@
         "text": "At the beginning of each upkeep, if you lost life last turn, put a 1/1 white Soldier creature token onto the battlefield.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 13,
@@ -198,7 +198,7 @@
         "text": "Flying",
         "power": 3,
         "toughness": 1,
-        "rating": ""
+        "rating": 10
     },
     {
         "id": 14,
@@ -211,7 +211,7 @@
         "text": "When Heliod's Pilgrim enters the battlefield, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle your library.",
         "power": 1,
         "toughness": 2,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 15,
@@ -224,7 +224,7 @@
         "text": "Flash<br>Flying<br>Creatures entering the battlefield don't cause abilities to trigger.",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 16,
@@ -237,7 +237,7 @@
         "text": "When Kinsbaile Skirmisher enters the battlefield, target creature gets +1/+1 until end of turn.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 17,
@@ -250,7 +250,7 @@
         "text": "Enchant creature<br>Enchanted creatures gets +2/+2 and has vigilance.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 6
     },
     {
         "id": 18,
@@ -263,7 +263,7 @@
         "text": "Destroy all nonwhite creatures.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 19,
@@ -276,7 +276,7 @@
         "text": "Convoke<br>You gain 8 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 20,
@@ -289,7 +289,7 @@
         "text": "Whenever another creature enters the battlefield, untap Midnight Guard.",
         "power": 2,
         "toughness": 3,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 21,
@@ -302,7 +302,7 @@
         "text": "Enchant creature<br>Enchanted creature can't attack or block unless its controller pays {3}.<br>Activated abilities of enchanted creature cost {3} more to activate.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 22,
@@ -315,7 +315,7 @@
         "text": "",
         "power": 3,
         "toughness": 1,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 23,
@@ -328,7 +328,7 @@
         "text": "Other white creatures you control get +1/+1.<br>{W}, {T}: Another target white creature you control gains vigilance until end of turn.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 12
     },
     {
         "id": 24,
@@ -341,7 +341,7 @@
         "text": "Exile target creature with toughness 4 or greater.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 6
     },
     {
         "id": 25,
@@ -354,7 +354,7 @@
         "text": "Whenever Preeminent Captain attacks, you may put a Soldier creature card from your hand onto the battlefield tapped and attacking.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 26,
@@ -367,7 +367,7 @@
         "text": "Put two 1/1 white Soldier creature tokens onto the battlefield.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 27,
@@ -380,7 +380,7 @@
         "text": "Flying<br>First Strike",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 28,
@@ -393,7 +393,7 @@
         "text": "Flying<br>When Resolute Angel enters the battlefield, if your life total is lower than your starting life total, it becomes equal to your starting life total.",
         "power": 4,
         "toughness": 4,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 29,
@@ -406,7 +406,7 @@
         "text": "Return X target creature cards with converted mana cost 2 or less from your graveyard to the battlefield.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 30,
@@ -419,7 +419,7 @@
         "text": "Creatures you control get +2/+1 until end of turn. White creatures you control also gain first strike until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 31,
@@ -432,7 +432,7 @@
         "text": "{1}{W}, Sacrifice Selfless Cathar: Creatures you control get +1/+1 until end of turn.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 6
     },
     {
         "id": 32,
@@ -445,7 +445,7 @@
         "text": "Convoke<br>Flying<br>Seraph of the Masses's power and toughness are each equal to the number of creatures you control.",
         "power": "*",
         "toughness": "*",
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 33,
@@ -458,7 +458,7 @@
         "text": "Destroy target artifact or enchantment. You gain 4 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 34,
@@ -471,7 +471,7 @@
         "text": "Vigilance<br>{4}{W}{W}: Creatures you control get +2/+2 and gain first strike and lifelink until end of turn.<br>{4}{W}{W}, Exile Soul of Theros from your graveyard: Creatures you control get +2/+2 and gain first strike and lifelink until end of turn.",
         "power": 6,
         "toughness": 6,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 35,
@@ -484,7 +484,7 @@
         "text": "{T}: You gain 1 life.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 36,
@@ -497,7 +497,7 @@
         "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has protection from all colors. This effect doesn't remove auras.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 37,
@@ -510,7 +510,7 @@
         "text": "Whenever a nontoken creature enters the battlefield under your control, you may pay W. If you do, but a 1/1 white Spirit creature token with flying into play.<br>{1}{W}, Sacrifice a Spirit: Target non-Spirit creature you control gains indestructible until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 38,
@@ -523,7 +523,7 @@
         "text": "Flying<br>Lifelink",
         "power": 1,
         "toughness": 2,
-        "rating": ""
+        "rating": 6
     },
     {
         "id": 39,
@@ -536,7 +536,7 @@
         "text": "When Tireless Missionaries enters the battlefield, you gain 3 life.",
         "power": 2,
         "toughness": 3,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 40,
@@ -549,7 +549,7 @@
         "text": "Convoke<br>Put three 1/1 white Spirit creature tokens with flying onto the battlefield.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 41,
@@ -562,7 +562,7 @@
         "text": "Defender<br>Whenever Wall of Essence is dealt combat damage, you gain that much life",
         "power": 0,
         "toughness": 4,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 42,
@@ -575,7 +575,7 @@
         "text": "Vigilance<br>Warden of the Beyond gets +2/+2 as long as an opponent owns a card in exile.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 43,
@@ -588,7 +588,7 @@
         "text": "Aeronaut Tinkerer has flying as long as you control an artifact.",
         "power": 2,
         "toughness": 3,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 44,
@@ -601,7 +601,7 @@
         "text": "For each attacking creature, its owner puts it on the top or bottom of his or her library.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 45,
@@ -614,7 +614,7 @@
         "text": "{2}{U}: Target creature can't be blocked this turn.",
         "power": 3,
         "toughness": 2,
-        "rating": ""
+        "rating": 10
     },
     {
         "id": 46,
@@ -627,7 +627,7 @@
         "text": "Whenever you draw a card, put a +1/+1 counter on Chasm Skulker.<br>When Chasm Skulker dies, put X 1/1 blue Squid creature tokens with islandwalk onto the battlefield, where X is the number of +1/+1 counters on Chasm Skulker.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 47,
@@ -640,7 +640,7 @@
         "text": "Artifact spells you cast have convoke.",
         "power": 1,
         "toughness": 3,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 48,
@@ -653,7 +653,7 @@
         "text": "Put target creature into its owner's library second from the top.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 49,
@@ -666,7 +666,7 @@
         "text": "When Coral Barrier enters the battlefield, put a 1/1 blue Squid creature token with islandwalk onto the battlefield.",
         "power": 1,
         "toughness": 3,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 50,
@@ -679,7 +679,7 @@
         "text": "Whenever a Sliver creature you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {2}.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 51,
@@ -692,7 +692,7 @@
         "text": "Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 52,
@@ -705,7 +705,7 @@
         "text": "Draw two cards",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 53,
@@ -718,7 +718,7 @@
         "text": "Enchant artifact or creature<br>Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 54,
@@ -731,7 +731,7 @@
         "text": "Enchant artifact<br>Enchanted artifact is a creature with base power and toughness 5/5 in addition to its other types.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 55,
@@ -744,7 +744,7 @@
         "text": "When Frost Lynx enters the battlefield, tap target creature an opponent controls. It doesn't untap during its controller's next untap step.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 56,
@@ -757,7 +757,7 @@
         "text": "",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 3
     },
     {
         "id": 57,
@@ -770,7 +770,7 @@
         "text": "Trample<br>Glacial Crasher can't attack unless there is a Mountain on the battlefield.",
         "power": 5,
         "toughness": 5,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 58,
@@ -783,7 +783,7 @@
         "text": "Target creature gets -5/-0 until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 59,
@@ -796,7 +796,7 @@
         "text": "Flying<br>Cast Illusory Angel only if you've cast another spell this turn.",
         "power": 4,
         "toughness": 4,
-        "rating": ""
+        "rating": 10
     },
     {
         "id": 60,
@@ -809,7 +809,7 @@
         "text": "Return up to two target creatures to their owners' hands.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 61,
@@ -822,7 +822,7 @@
         "text": "Enchant creature<br>Enchanted creature can't be blocked except by Walls.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 62,
@@ -835,7 +835,7 @@
         "text": "+1: Look at the top two cards of your library. Put one of them into your graveyard.<br>-3: Return another target nonland permanent to its owner's hand.<br>-8: Each player shuffles his or her hand and graveyard into his or her library. You draw seven cards",
         "power": null,
         "toughness": 5,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 63,
@@ -848,7 +848,7 @@
         "text": "Draw three cards",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 64,
@@ -861,7 +861,7 @@
         "text": "{3}{U}, {T}, Sacrifice another creature: Reveal cards from the top of your library until you reveal a nonlegendary creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 65,
@@ -874,7 +874,7 @@
         "text": "Jorubai Murk Lurker gets +1/+1 as long as you control a Swamp.<br>{1}{B}: Target creature gains lifelink until end of turn.",
         "power": 1,
         "toughness": 3,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 66,
@@ -887,7 +887,7 @@
         "text": "Flying<br>Whenever Kapsho Kitefins or another creature enters the battlefield under your control, tap target creature an opponent controls.",
         "power": 3,
         "toughness": 3,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 67,
@@ -900,7 +900,7 @@
         "text": "Whenever Master of Predicaments deals combat damage to a player, choose a card in your hand. That player guesses whether the card's converted mana cost is greater than 4. If the player guessed wrong, you may cast the card without paying its mana cost.",
         "power": 4,
         "toughness": 4,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 68,
@@ -913,7 +913,7 @@
         "text": "You may have Mercurial Pretender enter the battlefield as a copy of any creature you control except it gains \"{2}{U}{U}: Return this creature to its owner's hand.\"",
         "power": 0,
         "toughness": 0,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 69,
@@ -926,7 +926,7 @@
         "text": "Whenever you attack with two or more creatures, draw a card.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 70,
@@ -939,7 +939,7 @@
         "text": "Target opponent puts the top seven cards of his or her library into his or her graveyard.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 71,
@@ -952,7 +952,7 @@
         "text": "Counter target non-creature spell.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 6
     },
     {
         "id": 72,
@@ -965,7 +965,7 @@
         "text": "Flying",
         "power": 3,
         "toughness": 3,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 73,
@@ -978,7 +978,7 @@
         "text": "Other blue creatures you control get +1/+1.<br>{U}, {T}: Another target blue creature you control gains flying until end of turn.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 74,
@@ -991,7 +991,7 @@
         "text": "Return target creature you control and target creature you don't control to their owners' hands.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 10
     },
     {
         "id": 75,
@@ -1004,7 +1004,7 @@
         "text": "Until end of turn, each creature target player controls loses all abilities and becomes a blue Frog with base power and toughness 1/1.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 76,
@@ -1017,7 +1017,7 @@
         "text": "Flying<br>Flash<br>When Quickling enters the battlefield, sacrifice it unless you return another creature you control to its owner's hand.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 10
     },
     {
         "id": 77,
@@ -1030,7 +1030,7 @@
         "text": "{3}{U}, {T}: Draw a card, then discard a card.",
         "power": 1,
         "toughness": 3,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 78,
@@ -1043,7 +1043,7 @@
         "text": "Flying<br>{5}{U}{U}: Draw a card for each color among permanents you control.<br>{5}{U}{U}, Exile Soul of Ravnica from your graveyard: Draw a card for each color among permanents you control.",
         "power": 6,
         "toughness": 6,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 79,
@@ -1056,7 +1056,7 @@
         "text": "Counter target spell. If you control a blue creature, draw a card, then discard a card.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 80,
@@ -1069,7 +1069,7 @@
         "text": "Islandwalk<br>All lands are Islands in addition to their other types.<br>Creatures without flying or islandwalk can't attack.",
         "power": 8,
         "toughness": 8,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 81,
@@ -1082,7 +1082,7 @@
         "text": "Target creature loses all abilities and becomes a 1/1 blue Frog until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 82,
@@ -1095,7 +1095,7 @@
         "text": "Return target nonland permanent to its owner's hand.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 83,
@@ -1108,7 +1108,7 @@
         "text": "Defender<br>Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step.",
         "power": 0,
         "toughness": 7,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 84,
@@ -1121,7 +1121,7 @@
         "text": "Flying<br>Welkin Tern can block only creatures with flying.",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 85,
@@ -1134,7 +1134,7 @@
         "text": "Intimidate",
         "power": 3,
         "toughness": 2,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 86,
@@ -1147,7 +1147,7 @@
         "text": "When Black Cat dies, target opponent discards a card at random.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 87,
@@ -1160,7 +1160,7 @@
         "text": "{1}{B}, Sacrifice another creature: Put a +1/+1 counter on Blood Host and you gain 2 life.",
         "power": 3,
         "toughness": 3,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 88,
@@ -1173,7 +1173,7 @@
         "text": "Flying<br>Carrion Crow enters the battlefield tapped.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 89,
@@ -1186,7 +1186,7 @@
         "text": "Enchant land<br>Enchanted land has \"{T}: Target player loses 3 life.\"",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 90,
@@ -1199,7 +1199,7 @@
         "text": "Lifelink",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 91,
@@ -1212,7 +1212,7 @@
         "text": "Convoke<br>Covenant of Blood deals 4 damage to target creature or player and you gain 4 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 92,
@@ -1225,7 +1225,7 @@
         "text": "Enchant creature<br>Enchanted creature gets -1/-1 and can't block.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 93,
@@ -1238,7 +1238,7 @@
         "text": "{B}, {T}, Pay 1 life: Put a +1/+1 counter on Cruel Sadist.<br>{2}{B}, {T}, Remove X +1/+1 counters from Cruel Sadist: Cruel Sadist deals X damage to target creature.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 94,
@@ -1251,7 +1251,7 @@
         "text": "Convoke<br>Put target creature card from a graveyard onto the battlefield under your control.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 95,
@@ -1264,7 +1264,7 @@
         "text": "Enchant creature<br>Enchanted creature has lifelink and \"Whenever a creature an opponent controls dies, put a +1/+1 counter on this creature.\"",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 96,
@@ -1277,7 +1277,7 @@
         "text": "At the beginning of each upkeep, if an opponent lost life this turn, put a +1/+1 counter on each creature you control.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 97,
@@ -1290,7 +1290,7 @@
         "text": "Nonblack creatures get -1/-1 until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 98,
@@ -1303,7 +1303,7 @@
         "text": "Destroy target creature. It can't be regenerated.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 10
     },
     {
         "id": 99,
@@ -1316,7 +1316,7 @@
         "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 100,
@@ -1329,7 +1329,7 @@
         "text": "Destroy all creatures you don't control and all planeswalkers you don't control.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 101,
@@ -1342,7 +1342,7 @@
         "text": "Flying<br>At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life.",
         "power": 5,
         "toughness": 3,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 102,
@@ -1355,7 +1355,7 @@
         "text": "Whenever a Sliver you control attacks, defending player loses 1 life.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 103,
@@ -1368,7 +1368,7 @@
         "text": "+1: Target player discards a card.<br>-2: Search your library for a card, then shuffle your library and put that card on top of it.<br>-8: Put all creature cards from all graveyards onto the battlefield under your control.",
         "power": null,
         "toughness": 5,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 104,
@@ -1381,7 +1381,7 @@
         "text": "Target player discards two cards.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 105,
@@ -1394,7 +1394,7 @@
         "text": "Target creature gains deathtouch until end of turn. Regenerate it.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 6
     },
     {
         "id": 106,
@@ -1407,7 +1407,7 @@
         "text": "Flying<br>When Necrogen Scudder enters the battlefield, you lose 3 life.",
         "power": 3,
         "toughness": 3,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 107,
@@ -1420,7 +1420,7 @@
         "text": "When Necromancer's Assistant enters the battlefield, put the top three cards of your library into your graveyard.",
         "power": 3,
         "toughness": 1,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 108,
@@ -1433,7 +1433,7 @@
         "text": "{1}{B}, Discard a creature card: Draw a card. If the discarded card was a Zombie card, put a 2/2 black Zombie creature token onto the battlefield tapped.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 109,
@@ -1446,7 +1446,7 @@
         "text": "Nightfire Giant gets +1/+1 as long as you control a Mountain.<br>{4}{R}: Nightfire Giant deals 2 damage to target creature or player.",
         "power": 4,
         "toughness": 3,
-        "rating": ""
+        "rating": 12
     },
     {
         "id": 110,
@@ -1459,7 +1459,7 @@
         "text": "Flying, trample<br>Whenever an opponent searches his or her library, that player sacrifices a creature and loses 10 life.<br>Whenever another creature dies, put at +1/+1 counter on Ob Nixilis, Unshackled.",
         "power": 4,
         "toughness": 4,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 111,
@@ -1472,7 +1472,7 @@
         "text": "Other black creatures you control get +1/+1.<br>{2}{B}, {T}: Another target black creature you control gains deathtouch until end of turn.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 112,
@@ -1485,7 +1485,7 @@
         "text": "When Rotfeaster Maggot enters the battlefield, exile target creature card from a graveyard. You gain life equal to that card's toughness.",
         "power": 3,
         "toughness": 5,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 113,
@@ -1498,7 +1498,7 @@
         "text": "Pay 2 life: Shadowcloak Vampire gains flying until end of turn.",
         "power": 4,
         "toughness": 3,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 114,
@@ -1511,7 +1511,7 @@
         "text": "Target player draws two cards and loses 2 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 115,
@@ -1524,7 +1524,7 @@
         "text": "Deathtouch<br>{3}{B}{B}: Return up to three target creature cards from your graveyard to your hand.<br>{3}{B}{B}, Exile Soul of Innistrad from your graveyard: Return up to three target creature cards from your graveyard to your hand.",
         "power": 6,
         "toughness": 6,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 116,
@@ -1537,7 +1537,7 @@
         "text": "Enchant creature<br>Enchanted creature gets -2/-2.<br>At the beginning of the upkeep of enchanted creature's controller, that player loses 2 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 12
     },
     {
         "id": 117,
@@ -1550,7 +1550,7 @@
         "text": "Convoke<br>Name a nonland card. Search target player's graveyard, hand, and library for any number of card's with that name and exile them. Then that player shuffles his or her library.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 118,
@@ -1563,7 +1563,7 @@
         "text": "Deathtouch",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 119,
@@ -1576,7 +1576,7 @@
         "text": "Target creature gets -3/-3 until end of turn. You lose 3 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 120,
@@ -1589,7 +1589,7 @@
         "text": "Convoke<br>Return up to two target creature cards from your graveyard to your hand.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 121,
@@ -1602,7 +1602,7 @@
         "text": "Defender<br>Whenever you gain life, put a +1/+1 counter on Wall of Limbs.<br>{5}{B}{B}, Sacrifice Wall of Limbs: Target player loses X life, where X is Wall of Limbs's power.",
         "power": 0,
         "toughness": 3,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 122,
@@ -1615,7 +1615,7 @@
         "text": "Whenever an opponent discards a creature card, put a 2/2 black Zombie creature token onto the battlefield.<br>Whenever an opponent discards a land card, add BB to your mana pool.<br>Whenever an opponent discards a noncreature, nonland card, draw a card.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 123,
@@ -1628,7 +1628,7 @@
         "text": "",
         "power": 2,
         "toughness": 3,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 124,
@@ -1641,7 +1641,7 @@
         "text": "Hexproof<br>{3}{B}: Until end of turn, Xathrid Slyblade loses hexproof and gains first strike and deathtouch.",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 125,
@@ -1654,7 +1654,7 @@
         "text": "{2}{B}: Zof Shade gets +2/+2 until end of turn.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 126,
@@ -1667,7 +1667,7 @@
         "text": "Exile the top three cards of your library. Until end of turn, you may play cards exiled this way.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 127,
@@ -1680,7 +1680,7 @@
         "text": "You can't play lands.<br>Sacrifice a land: Draw two cards. Activate this ability only once each turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 128,
@@ -1693,7 +1693,7 @@
         "text": "Whenever a creature an opponent controls dies, Altac Bloodseeker gets +2/+0 and gains first strike and haste until end of turn.",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 129,
@@ -1706,7 +1706,7 @@
         "text": "Sliver creatures you control have \"This creature can't be blocked except by two or more creatures.\"",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 130,
@@ -1719,7 +1719,7 @@
         "text": "Blastfire Bolt deals 5 damage to target creature. Destroy all Equipment attached to that creature.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 131,
@@ -1732,7 +1732,7 @@
         "text": "Whenever Borderland Marauder attacks, it gets +2/+0 until end of turn.",
         "power": 1,
         "toughness": 2,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 132,
@@ -1745,7 +1745,7 @@
         "text": "Whenever an Aura becomes attached to Brood Keeper, put a 2/2 red Dragon creature token with flying onto the battlefield. It has \"R: This creature gets +1/+0 until end of turn.\"",
         "power": 2,
         "toughness": 3,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 133,
@@ -1758,7 +1758,7 @@
         "text": "Enchanted creature has \"{T}: This creature deals damage equal to its power to target creature or player.\"",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 134,
@@ -1771,7 +1771,7 @@
         "text": "+1: Chandra, Pyromaster deals 1 damage to target player and 1 damage to up to one target creature that player controls. That creature can't block this turn.<br>0: Exile the top card of your library. You may play it this turn.<br>-7: Exile the top ten card",
         "power": null,
         "toughness": 4,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 135,
@@ -1784,7 +1784,7 @@
         "text": "Whenever a creature without flying attacks you or a planeswalker you control, Circle of Flame deals 1 damage to that creature.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 136,
@@ -1797,7 +1797,7 @@
         "text": "Destroy target creature with defender.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 137,
@@ -1810,7 +1810,7 @@
         "text": "Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 13
     },
     {
         "id": 138,
@@ -1823,7 +1823,7 @@
         "text": "Convoke<br>Target creature gets +1/+0 and gains first strike until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 139,
@@ -1836,7 +1836,7 @@
         "text": "Dragon creatures you control get +3/+3.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 140,
@@ -1849,7 +1849,7 @@
         "text": "When Forge Devil enters the battlefield, it deals 1 damage to target creature and 1 damage to you.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 141,
@@ -1862,7 +1862,7 @@
         "text": "Whenever another red creature enters the battlefield under your control, Foundry Street Denizen gets +1/+0 until end of turn.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 142,
@@ -1875,7 +1875,7 @@
         "text": "Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 143,
@@ -1888,7 +1888,7 @@
         "text": "{T}, Sacrifice Generator Servant: Add {2} to your mana pool. If that mana is spent on a creature spell, it gains haste until end of turn.",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 144,
@@ -1901,7 +1901,7 @@
         "text": "At the beginning of your upkeep, put a colorless artifact token named Land Mine onto the battlefield with \"{R}, Sacrifice this artifact: This artifact deals 2 damage to target attacking creature without flying.\" Then flip a coin. If you lose the flip, Goblin Kaboomist deals 2 damage to itself.",
         "power": 1,
         "toughness": 2,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 145,
@@ -1914,7 +1914,7 @@
         "text": "Other Goblin creatures you control attack each turn if able.<br>At the beginning of combat on your turn, put a 1/1 red Goblin creature token with haste onto the battlefield.<br>When Goblin Rabblemaster attacks, it gets +1/+0 until end of turn for each other attacking Goblin",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 146,
@@ -1927,7 +1927,7 @@
         "text": "",
         "power": 3,
         "toughness": 2,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 147,
@@ -1940,7 +1940,7 @@
         "text": "Enchant creature<br>When Hammerhand enters the battlefield, target creature can't block this turn.<br>Enchanted creature gets +1/+1 and has haste.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 148,
@@ -1953,7 +1953,7 @@
         "text": "Heat Ray deals X damage to target creature.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 149,
@@ -1966,7 +1966,7 @@
         "text": "Flying<br>When Hoarding Dragon enters the battlefield, you may search your library for an artifact card, exile it, then shuffle your library.<br>When Hoarding Dragon dies, you may put the exiled card into its owner's hand.",
         "power": 4,
         "toughness": 4,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 150,
@@ -1979,7 +1979,7 @@
         "text": "Enchant creature you control<br>Enchanted creature gets +2/+0.<br>{R}, Sacrifice Inferno Fist: Inferno Fist deals 2 damage to target creature or player.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 10
     },
     {
         "id": 151,
@@ -1992,7 +1992,7 @@
         "text": "Kird Chieftain gets +1/+1 as long as you control a Forest.<br>{4}{G}: Target creature gets +2/+2 and gains trample until end of turn.",
         "power": 3,
         "toughness": 3,
-        "rating": ""
+        "rating": 13
     },
     {
         "id": 152,
@@ -2005,7 +2005,7 @@
         "text": "Intimidate",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 153,
@@ -2018,7 +2018,7 @@
         "text": "Whenever you activate an ability of an artifact, if it isn't a mana ability, you may pay {R}. If you do, copy that ability. You may choose new targets for the copy.",
         "power": 4,
         "toughness": 3,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 154,
@@ -2031,7 +2031,7 @@
         "text": "Lava Axe deals 5 damage to target player.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 155,
@@ -2044,7 +2044,7 @@
         "text": "Lightning Strike deals 3 damage to target creature or player.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 12
     },
     {
         "id": 156,
@@ -2057,7 +2057,7 @@
         "text": "At the beginning of combat on your turn, if you control each creature on the battlefield with the greatest power, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 3
     },
     {
         "id": 157,
@@ -2070,7 +2070,7 @@
         "text": "{2}{R}: Miner's Bane gets +1/+0 and gains trample until end of turn.",
         "power": 6,
         "toughness": 3,
-        "rating": ""
+        "rating": 6
     },
     {
         "id": 158,
@@ -2083,7 +2083,7 @@
         "text": "Other red creatures you control get +1/+1.<br>{R}, {T}: Another target red creature you control gains haste until end of turn.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 159,
@@ -2096,7 +2096,7 @@
         "text": "{T}, Discard a card: Draw a card.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 160,
@@ -2109,7 +2109,7 @@
         "text": "As long as you control an artifact, Scrapyard Mongrel gets +2/+0 and has trample.",
         "power": 3,
         "toughness": 3,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 161,
@@ -2122,7 +2122,7 @@
         "text": "As an additional cost to cast Shrapnel Blast, sacrifice an artifact.<br>Shrapnel Blast deals 5 damage to target creature or player.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 162,
@@ -2135,7 +2135,7 @@
         "text": "Flying<br>When Siege Dragon enters the battlefield, destroy all Walls your opponents control.<br>Whenever Siege Dragon attacks, if defending player controls no Walls, it deals 5 damage to each creature without flying that player controls.",
         "power": 5,
         "toughness": 5,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 163,
@@ -2148,7 +2148,7 @@
         "text": "First strike<br>{3}{R}{R}: Soul of Shandalar deals 3 damage to target player and 3 damage to up to one target creature that player controls.<br>{3}{R}{R}, Exile Soul of Shandalar from your graveyard: Soul of Shandalar deals 3 damage to target player and 3 damage to up to one target creature that player controls.",
         "power": 6,
         "toughness": 6,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 164,
@@ -2161,7 +2161,7 @@
         "text": "Convoke<br>Stoke the Flames deals 4 damage to target creature or player.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 12
     },
     {
         "id": 165,
@@ -2174,7 +2174,7 @@
         "text": "Haste",
         "power": 4,
         "toughness": 3,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 166,
@@ -2187,7 +2187,7 @@
         "text": "{R}, Sacrifice Torch Fiend: Destroy target artifact.",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 167,
@@ -2200,7 +2200,7 @@
         "text": "Defender<br>{R}: Wall of Fire gets +1/+0 until end of turn.",
         "power": 0,
         "toughness": 5,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 168,
@@ -2213,7 +2213,7 @@
         "text": "{G}: Regenerate Ancient Silverback.",
         "power": 6,
         "toughness": 5,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 169,
@@ -2226,7 +2226,7 @@
         "text": "Destroy all enchantments.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 170,
@@ -2239,7 +2239,7 @@
         "text": "{5}{G}{G}: Put a +1/+1 counter on Carnivorous Moss-Beast.",
         "power": 4,
         "toughness": 5,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 171,
@@ -2252,7 +2252,7 @@
         "text": "Charging Rhino can't be blocked by more than one creature.",
         "power": 4,
         "toughness": 4,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 172,
@@ -2265,7 +2265,7 @@
         "text": "Convoke<br>Search your library for a creature card with converted mana cost {X} or less and put it onto the battlefield. Then shuffle your library.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 173,
@@ -2278,7 +2278,7 @@
         "text": "{T}: Add {G} to your mana pool.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 174,
@@ -2291,7 +2291,7 @@
         "text": "Convoke<br>Put three 3/3 green Beast creature tokens onto the battlefield.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 10
     },
     {
         "id": 175,
@@ -2304,7 +2304,7 @@
         "text": "Convoke<br>Target creature gets +2/+2 until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 176,
@@ -2317,7 +2317,7 @@
         "text": "When you cast Genesis Hydra, reveal the top {X} cards of your library. You may put a nonland permanent card with converted mana cost {X} or less from among them onto the battlefield. Then shuffle the rest into your library.<br>Genesis Hydra enters the battlefield with {X} +1/+1 counters on it.",
         "power": 0,
         "toughness": 0,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 177,
@@ -2330,7 +2330,7 @@
         "text": "Defender<br>Whenever Hornet Nest is dealt damage, put that many 1/1 green Insect creature tokens with flying and deathtouch onto the battlefield.",
         "power": 0,
         "toughness": 2,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 178,
@@ -2343,7 +2343,7 @@
         "text": "Flying, deathtouch<br>When Hornet Queen enters the battlefield, put four 1/1 green Insect creature tokens with flying and deathtouch onto the battlefield.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 179,
@@ -2356,7 +2356,7 @@
         "text": "Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 6
     },
     {
         "id": 180,
@@ -2369,7 +2369,7 @@
         "text": "Prevent all combat damage that would be dealt by nongreen creatures this turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 181,
@@ -2382,7 +2382,7 @@
         "text": "When Invasive Species enters the battlefield, return another permanent you control to its owner's hand.",
         "power": 3,
         "toughness": 3,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 182,
@@ -2395,7 +2395,7 @@
         "text": "Kalonian Twingrove's power and toughness are each equal to the number of Forests you control.<br>When Kalonian Twingrove enters the battlefield, put a green Treefolk Warrior creature token onto the battlefield with \"This creature's power and toughness are each equal to the number of Forests you control.\"",
         "power": "*",
         "toughness": "*",
-        "rating": ""
+        "rating": null
     },
     {
         "id": 183,
@@ -2408,7 +2408,7 @@
         "text": "As an additional cost to cast Life's Legacy, sacrifice a creature.<br>Draw cards equal to the sacrificed creature's power.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 184,
@@ -2421,7 +2421,7 @@
         "text": "Convoke<br>When Living Totem enters the battlefield, you may put a +1/+1 counter on another target creature.",
         "power": 2,
         "toughness": 3,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 185,
@@ -2434,7 +2434,7 @@
         "text": "Destroy target artifact or enchantment.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 186,
@@ -2447,7 +2447,7 @@
         "text": "Reach<br>Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +2/+0 until end of turn.",
         "power": 2,
         "toughness": 3,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 187,
@@ -2460,7 +2460,7 @@
         "text": "+1: Target land you control becomes a 4/4 Elemental creature with trample. It's still a land.<br>+1: Untap up to four target Forests.<br>-7: Search your library for any number of basic land cards, put them onto the battlefield, then shuffle your library. ",
         "power": null,
         "toughness": 3,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 188,
@@ -2473,7 +2473,7 @@
         "text": "Convoke<br>Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 189,
@@ -2486,7 +2486,7 @@
         "text": "Convoke<br>Creatures you control get +3/+3 until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 190,
@@ -2499,7 +2499,7 @@
         "text": "Other green creatures you control get +1/+1.<br>{G}, {T}: Another target green creature you control gains trample until end of turn.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 191,
@@ -2512,7 +2512,7 @@
         "text": "When Phytotitan dies, return it to the battlefield tapped under its owner's control at the beginning of his or her next upkeep.",
         "power": 7,
         "toughness": 2,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 192,
@@ -2525,7 +2525,7 @@
         "text": "Destroy target creature with flying.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 193,
@@ -2538,7 +2538,7 @@
         "text": "Target creature you control gets +1/+1 and gains hexproof until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 194,
@@ -2551,7 +2551,7 @@
         "text": "When Reclamation Sage enters the battlefield, you may destroy target artifact or enchantment.",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 195,
@@ -2564,7 +2564,7 @@
         "text": "Return two target cards from your graveyard to your hand. Exile Restock.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 196,
@@ -2577,7 +2577,7 @@
         "text": "At the beginning of your upkeep, return a creature you control to its owner's hand.",
         "power": 4,
         "toughness": 4,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 197,
@@ -2590,7 +2590,7 @@
         "text": "",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 198,
@@ -2603,7 +2603,7 @@
         "text": "When Satyr Wayfinder enters the battlefield, reveal the top four cards of your library. You may put a land card from among them into your hand. Put the rest into your graveyard.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 199,
@@ -2616,7 +2616,7 @@
         "text": "When Shaman of Spring enters the battlefield, draw a card.",
         "power": 2,
         "toughness": 2,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 200,
@@ -2629,7 +2629,7 @@
         "text": "Convoke<br>Trample",
         "power": 5,
         "toughness": 5,
-        "rating": ""
+        "rating": 10
     },
     {
         "id": 201,
@@ -2642,7 +2642,7 @@
         "text": "Reach<br>{3}{G}{G}: Put a 3/3 green Beast creature token onto the battlefield.<br>{3}{G}{G}, Exile Soul of Zendikar from your graveyard: Put a 3/3 green Beast creature token onto the battlefield.",
         "power": 6,
         "toughness": 6,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 202,
@@ -2655,7 +2655,7 @@
         "text": "Sunblade Elf gets +1/+1 as long as you control a Plains.<br>{4}{W}: Creatures you control get +1/+1 until end of turn.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 203,
@@ -2668,7 +2668,7 @@
         "text": "Target creature gets +4/+4 until end of turn",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 204,
@@ -2681,7 +2681,7 @@
         "text": "Undergrowth Scavenger enters the battlefield with a number of +1/+1 counters on it equal to the number of creature cards in all graveyards.",
         "power": 0,
         "toughness": 0,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 205,
@@ -2694,7 +2694,7 @@
         "text": "Sliver creatures you control have deathtouch.",
         "power": 1,
         "toughness": 1,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 206,
@@ -2707,7 +2707,7 @@
         "text": "Enchant land<br>When Verdant Haven enters the battlefield, you gain 2 life.<br>Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool <i>(in addition to the mana the land produces)</i>.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 207,
@@ -2720,7 +2720,7 @@
         "text": "Enchant creature<br>Enchanted creature gets +1/+1.<br>{4}{G}: Return Vineweft from your graveyard to your hand.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 3
     },
     {
         "id": 208,
@@ -2733,7 +2733,7 @@
         "text": "Defender<br>{G}, Sacrifice a Wall: Draw a card.",
         "power": 0,
         "toughness": 4,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 209,
@@ -2746,7 +2746,7 @@
         "text": "{2}{G}, {T}, Put a verse counter on Yisan, the Wanderer Bard: Search your library for a creature card with converted mana cost equal to the number of verse counters on Yisan, put it onto the battlefield, then shuffle your library.",
         "power": 2,
         "toughness": 3,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 210,
@@ -2759,7 +2759,7 @@
         "text": "+1: Destroy another target planeswalker.<br>+1: Put a 3/3 black Beast creature token with deathtouch onto the battlefield.<br>-3: Destroy target creature. You gain life equal to its toughness.<br>-8: Target opponent gets an emblem with \"Whenever a creatur",
         "power": null,
         "toughness": 5,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 211,
@@ -2772,7 +2772,7 @@
         "text": "Sliver creatures you control have indestructible.",
         "power": 5,
         "toughness": 5,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 212,
@@ -2785,7 +2785,7 @@
         "text": "Equipped creature gets +2/+0 and has vigilance and \"At the beginning of your upkeep, draw a card.\"<br>When equipped creature dies, target opponent gains control of Avarice Amulet.<br>Equip {2}",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 213,
@@ -2798,7 +2798,7 @@
         "text": "Equipped creature gets +2/+2 and has trample.<br>Equip {4}",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 6
     },
     {
         "id": 214,
@@ -2811,7 +2811,7 @@
         "text": "",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": 7
     },
     {
         "id": 215,
@@ -2824,7 +2824,7 @@
         "text": "At the beginning of your end step, if you didn't activate a loyalty ability of a planeswalker this turn, you lose 2 life.<br>{4}, {T}: For each planeswalker you control, you may activate one of its loyalty abilities once this turn as though none of its loyalty abilities had been activated this turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 216,
@@ -2837,7 +2837,7 @@
         "text": "Defender<br>{3}: Until end of turn, Gargoyle Sentinel loses defender and gains flying.",
         "power": 3,
         "toughness": 3,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 217,
@@ -2850,7 +2850,7 @@
         "text": "{T}: Put a charge counter on Grindclock. {T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of charge counters on Grindclock.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 218,
@@ -2863,7 +2863,7 @@
         "text": "Equipped creature gets +4/+4.<br>{0}: Until end of turn, Haunted Plate Mail becomes a 4/4 Spirit artifact creature that's no longer an Equipment. Activate this ability only if you control no creatures.<br>Equip {4}",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 219,
@@ -2876,7 +2876,7 @@
         "text": "Equipped creature can't be blocked.<br>Whenever equipped creature is dealt damage, destroy it.<br>Equip {3}",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 220,
@@ -2889,7 +2889,7 @@
         "text": "Juggernaut attacks each turn if able.<br>Juggernaut can't be blocked by Walls.",
         "power": 5,
         "toughness": 3,
-        "rating": ""
+        "rating": 11
     },
     {
         "id": 221,
@@ -2902,7 +2902,7 @@
         "text": "When Meteorite enters the battlefield, it deals 2 damage to target creature or player.<br>{T}: Add one mana of any color to your mana pool.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 222,
@@ -2915,7 +2915,7 @@
         "text": "Convoke<br>As Obelisk of Urd enters the battlefield, choose a creature type.<br>Creatures you control of the chosen type get +2/+2.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 223,
@@ -2928,7 +2928,7 @@
         "text": "Flying",
         "power": 0,
         "toughness": 2,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 224,
@@ -2941,7 +2941,7 @@
         "text": "{5}, {T}, Exile Perilous Vault: Exile all nonland permanents.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 225,
@@ -2954,7 +2954,7 @@
         "text": "As Phyrexian Revoker enters the battlefield, name a nonland card.<br>Activated abilities of sources with the chosen name can't be activated.",
         "power": 2,
         "toughness": 1,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 226,
@@ -2967,7 +2967,7 @@
         "text": "Whenever a creature card is put into an opponent's graveyard from anywhere, you gain 1 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 227,
@@ -2980,7 +2980,7 @@
         "text": "Whenever equipped creature deals combat damage to a player, you may draw a card.<br>Equip {2}",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 228,
@@ -2993,7 +2993,7 @@
         "text": "{2}: Target creature gets +1/+0 until end of turn.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 5
     },
     {
         "id": 229,
@@ -3006,7 +3006,7 @@
         "text": "Scuttling Doom Engine can't be blocked by creatures with power 2 or less.<br>When Scuttling Doom Engine dies, it deals 6 damage to target opponnent.",
         "power": 6,
         "toughness": 6,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 230,
@@ -3019,7 +3019,7 @@
         "text": "If a source would deal damage to equipped creature, prevent X of that damage, where X is the number of creatures you control.<br>Equip {2}",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 231,
@@ -3032,7 +3032,7 @@
         "text": "Trample<br>{5}: Permanents you control gain indestructible until end of turn.<br>{5}, Exile Soul of New Phyrexia from your graveyard: Permanents you control gain indestructible until end of turn.",
         "power": 6,
         "toughness": 6,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 232,
@@ -3045,7 +3045,7 @@
         "text": "Whenever you cast a black spell or a Swamp enters the battlefield under your control, you gain 1 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 233,
@@ -3058,7 +3058,7 @@
         "text": "Whenever you cast a red spell or a Mountain enters the battlefield under your control, you gain 1 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 234,
@@ -3071,7 +3071,7 @@
         "text": "Whenever you cast a blue spell or an Island enters the battlefield under your control, you gain 1 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 235,
@@ -3084,7 +3084,7 @@
         "text": "Whenever you cast a white spell or a Plains enters the battlefield under your control, you gain 1 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 236,
@@ -3097,7 +3097,7 @@
         "text": "Whenever you cast a green spell or a Forest enters the battlefield under your control, you gain 1 life.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 237,
@@ -3110,7 +3110,7 @@
         "text": "{T}, Sacrifice Tormod's Crypt: Exile all cards from target player's graveyard.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 2
     },
     {
         "id": 238,
@@ -3123,7 +3123,7 @@
         "text": "{4}, {T}: Tap target creature.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 239,
@@ -3136,7 +3136,7 @@
         "text": "Convoke",
         "power": 4,
         "toughness": 4,
-        "rating": ""
+        "rating": 8
     },
     {
         "id": 240,
@@ -3149,7 +3149,7 @@
         "text": "{T}: Add {1} to your mana pool.<br>{T}: Add {R} or {W} to your mana pool. Battlefield Forge deals 1 damage to you.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 241,
@@ -3162,7 +3162,7 @@
         "text": "{T}: Add {1} to your mana pool.<br>{T}: Add {W} or {B} to your mana pool. Caves of Koilos deals 1 damage to you.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 242,
@@ -3175,7 +3175,7 @@
         "text": "Indestructible<br>{T}: Add {1} to your mana pool.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 243,
@@ -3188,7 +3188,7 @@
         "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 9
     },
     {
         "id": 244,
@@ -3201,7 +3201,7 @@
         "text": "{T}: Add {1} to your mana pool.<br>{T}: Add {B} or {G} to your mana pool. Llanowar Wastes deals 1 damage to you.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 245,
@@ -3214,7 +3214,7 @@
         "text": "When Radiant Fountain enters the battlefield, you gain 2 life.<br>{T}: Add 1 to your mana pool.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": 4
     },
     {
         "id": 246,
@@ -3227,7 +3227,7 @@
         "text": "{T}: Add {1} to your mana pool.<br>{T}: Add {U} or {R} to your mana pool. Shivan Reef deals 1 damage to you.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 247,
@@ -3240,7 +3240,7 @@
         "text": "{T}: Add {1} to your mana pool.<br>{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a Sliver spell.<br>{5}, {T}: Put a 1/1 colorless Sliver creature token onto the battlefield. Activate this ability only if you control a Sliver.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 248,
@@ -3253,7 +3253,7 @@
         "text": "Each land is a Swamp in addition to its other land types.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     },
     {
         "id": 249,
@@ -3266,6 +3266,6 @@
         "text": "{T}: Add {1} to your mana pool.<br>{T}: Add {G} or {U} to your mana pool. Yavimaya Coast deals 1 damage to you.",
         "power": null,
         "toughness": null,
-        "rating": ""
+        "rating": null
     }
 ]

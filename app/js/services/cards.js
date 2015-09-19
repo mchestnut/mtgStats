@@ -35,19 +35,19 @@ angular.module('mtgStats.services')
 			var lLength = root.list.length;
 
 			for (var i = 0; i < lLength; i++) {
-				var cost = root.list[i].cost;
-				cost = cost.replace('10', '\u2000');
-				cost = cost.replace('11', '\u2001');
-				cost = cost.replace('12', '\u2002');
-				cost = cost.replace('13', '\u2003');
-				cost = cost.replace('14', '\u2004');
-				cost = cost.replace('15', '\u2005');
-				cost = cost.replace('16', '\u2006');
-				cost = cost.replace('17', '\u2007');
-				cost = cost.replace('18', '\u2008');
-				cost = cost.replace('19', '\u2009');
-				cost = cost.replace('20', '\u2010');
-				root.list[i].cost = cost;
+				var displayCost = root.list[i].cost;
+				displayCost = displayCost.replace('10', '\u2000');
+				displayCost = displayCost.replace('11', '\u2001');
+				displayCost = displayCost.replace('12', '\u2002');
+				displayCost = displayCost.replace('13', '\u2003');
+				displayCost = displayCost.replace('14', '\u2004');
+				displayCost = displayCost.replace('15', '\u2005');
+				displayCost = displayCost.replace('16', '\u2006');
+				displayCost = displayCost.replace('17', '\u2007');
+				displayCost = displayCost.replace('18', '\u2008');
+				displayCost = displayCost.replace('19', '\u2009');
+				displayCost = displayCost.replace('20', '\u2010');
+				root.list[i].displayCost = displayCost;
 			};
 		
 			// console.log(root.list);

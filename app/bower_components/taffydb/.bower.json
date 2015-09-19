@@ -9,6 +9,5 @@
   },
   "_source": "git://github.com/typicaljoe/taffydb.git",
   "_target": "*",
-  "_originalSource": "taffydb",
-  "_direct": true
+  "_originalSource": "taffydb"
 }

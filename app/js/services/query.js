@@ -22,6 +22,7 @@ angular.module('mtgStats.services')
 			'power': [{}],
 			'toughness': [{}],
 			'ratings': [{}],
+			'typeText': [{}],
 			'text': [{}],
 			'abilities': [{}],
 		};
