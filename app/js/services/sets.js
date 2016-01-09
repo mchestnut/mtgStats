@@ -16,6 +16,7 @@ angular.module('mtgStats.services')
 		=================================*/
 
 		this.list = [
+			'OGW',
 			'BFZ',
 			'ORI',
 			'M15',
@@ -25,7 +26,7 @@ angular.module('mtgStats.services')
 		];
 		this.selected = [
 			{
-				'name': 'BFZ',
+				'name': 'OGW',
 				'data': null,
 				'abilities': [],
 				'rarities': {},
@@ -43,7 +44,7 @@ angular.module('mtgStats.services')
 				}
 			},
 			{
-				'name': 'BFZ',
+				'name': 'OGW',
 				'data': null,
 				'abilities': [],
 				'rarities': {},
@@ -79,7 +80,7 @@ angular.module('mtgStats.services')
 				}
 			}
 		];
-		this.single = true;
+		this.single = false;
 		this.stored = [];
 
 

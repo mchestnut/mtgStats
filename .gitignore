@@ -219,6 +219,7 @@ pip-log.txt
 ## User
 #################
 .sass-cache/
+bower_components/
 dist/
 node_modules/
 sublime/

@@ -16,6 +16,7 @@
             {"label": "Lifelink", "abbr": "LfLk"},
             {"label": "Menace", "abbr": "Menc"},
             {"label": "Reach", "abbr": "Reac"},
+            {"label": "Regeneration", "abbr": "Regn"},
             {"label": "Scry", "abbr": "Scry"},
             {"label": "Trample", "abbr": "Trmp"},
             {"label": "Vigilance", "abbr": "Vigl"},
@@ -46,7 +47,7 @@
 		"text": "Whenever Bane of Bala Ged attacks, defending player exiles two permanents he or she controls.",
 		"power": 7,
 		"toughness": 5,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 2,
@@ -59,7 +60,7 @@
 		"text": "When you cast Blight Herder, you may put two cards your opponents own from exile into their owners' graveyards. If you do, put three 1/1 colorless Eldrazi Scion creature tokens onto the battlefield. They have \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": 4,
 		"toughness": 5,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 3,
@@ -72,7 +73,7 @@
 		"text": "All creatures able to block Breaker of Armies do so.",
 		"power": 10,
 		"toughness": 8,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 4,
@@ -85,7 +86,7 @@
 		"text": "When you cast Conduit of Ruin, you may search your library for a colorless creature card with converted mana cost 7 or greater, reveal it, then shuffle your library and put that card on top of it.<br>The first creature spell you cast each turn costs {2} less to cast.",
 		"power": 5,
 		"toughness": 5,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 5,
@@ -98,7 +99,7 @@
 		"text": "Vigilance<br>Sacrifice two Eldrazi Scions: Return Deathless Behemoth from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.",
 		"power": 6,
 		"toughness": 6,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 6,
@@ -111,7 +112,7 @@
 		"text": "When you cast Desolation Twin, put a 10/10 colorless Eldrazi creature token onto the battlefield.",
 		"power": 10,
 		"toughness": 10,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 7,
@@ -124,7 +125,7 @@
 		"text": "Trample",
 		"power": 8,
 		"toughness": 9,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 8,
@@ -137,7 +138,7 @@
 		"text": "Endless One enters the battlefield with X +1/+1 counters on it.",
 		"power": 0,
 		"toughness": 0,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 9,
@@ -150,7 +151,7 @@
 		"text": "Until end of turn, colorless creatures you control gain \"{T}: This creature deals damage equal to its power to target creature.\"",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 10,
@@ -163,7 +164,7 @@
 		"text": "{T}: Add {2} to your mana pool.",
 		"power": 4,
 		"toughness": 4,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 11,
@@ -176,7 +177,7 @@
 		"text": "When you cast Oblivion Sower, target opponent exiles the top four cards of his or her library, then you may put any number of land cards that player owns from exile onto the battlefield under your control.",
 		"power": 5,
 		"toughness": 8,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 12,
@@ -189,7 +190,7 @@
 		"text": "When you cast Ruin Processor, you may put a card an opponent owns from exile into that player's graveyard. If you do, you gain 5 life.",
 		"power": 7,
 		"toughness": 8,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 13,
@@ -202,7 +203,7 @@
 		"text": "Exile target permanent.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 14,
@@ -215,7 +216,7 @@
 		"text": "As an additional cost to cast Titan's Presence, reveal a colorless creature card from your hand.<br>Exile target creature if its power is less than or equal to the revealed card's power.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 15,
@@ -228,7 +229,7 @@
 		"text": "When you cast Ulamog, the Ceaseless Hunger, exile two target permanents.<br>Indestructible<br>Whenever Ulamog attacks, defending player exiles the top twenty cards of his or her library.",
 		"power": 10,
 		"toughness": 10,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 16,
@@ -241,7 +242,7 @@
 		"text": "As Ulamog's Despoiler enters the battlefield, you may put two cards your opponents own from exile into their owners' graveyards. If you do, Ulamog's Despoiler enters the battlefield with four +1/+1 counters on it.",
 		"power": 5,
 		"toughness": 5,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 17,
@@ -254,7 +255,7 @@
 		"text": "Your opponents can't cast spells with even converted mana costs. (Zero is even.)<br>Your opponents can't block with creatures with even converted mana costs.",
 		"power": 11,
 		"toughness": 9,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 18,
@@ -267,7 +268,7 @@
 		"text": "Flying<br>When Angel of Renewal enters the battlefield, you gain 1 life for each creature you control.",
 		"power": 4,
 		"toughness": 4,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 19,
@@ -280,7 +281,7 @@
 		"text": "Enchant creature<br>When Angelic Gift enters the battlefield, draw a card.<br>Enchanted creature has flying.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 20,
@@ -293,7 +294,7 @@
 		"text": "{4}{W}: Creatures you control get +1/+1 until end of turn.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 21,
@@ -306,7 +307,7 @@
 		"text": "Flying<br>When Courier Griffin enters the battlefield, you gain 2 life.",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 22,
@@ -319,7 +320,7 @@
 		"text": "Flying<br>Landfall - Whenever a land enters the battlefield under your control, you may return target nonland permanent card from your graveyard to your hand. If that land is a Plains, you may return that nonland permanent card to the battlefield instead.",
 		"power": 4,
 		"toughness": 4,
-		"rating": null
+		"rating": 13
 	},
 	{
 		"id": 23,
@@ -332,7 +333,7 @@
 		"text": "Prevent all combat damage that would be dealt this turn by creatures target opponent controls.<br>Awaken 2 - {4}{W} (If you cast this spell for {4}{W}, also put two +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 24,
@@ -345,7 +346,7 @@
 		"text": "",
 		"power": 2,
 		"toughness": 1,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 25,
@@ -358,7 +359,7 @@
 		"text": "Sacrifice Felidar Cub: Destroy target enchantment.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 26,
@@ -371,7 +372,7 @@
 		"text": "Vigilance, lifelink<br>At the beginning of your upkeep, if you have 40 or more life, you win the game.",
 		"power": 4,
 		"toughness": 6,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 27,
@@ -384,7 +385,7 @@
 		"text": "Defender",
 		"power": 0,
 		"toughness": 6,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 28,
@@ -397,7 +398,7 @@
 		"text": "Flying, vigilance",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 29,
@@ -410,7 +411,7 @@
 		"text": "+1: Until end of turn, Gideon, Ally of Zendikar becomes a 5/5 Human Soldier Ally creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.<br>0: Put a 2/2 white Knight Ally creature token onto the battlefield.<br>-4: You get an emblem with \"Creatures you control get +1/+1.\"",
 		"power": null,
 		"toughness": 4,
-		"rating": null
+		"rating": 15
 	},
 	{
 		"id": 30,
@@ -423,7 +424,7 @@
 		"text": "Gideon's Reproach deals 4 damage to target attacking or blocking creature.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 31,
@@ -436,7 +437,7 @@
 		"text": "Rally - Whenever Hero of Goma Fada or another Ally enters the battlefield under your control, creatures you control gain indestructible until end of turn.",
 		"power": 4,
 		"toughness": 3,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 32,
@@ -449,7 +450,7 @@
 		"text": "Creatures you control get +2/+1 until end of turn.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 33,
@@ -462,7 +463,7 @@
 		"text": "Flying",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 34,
@@ -475,7 +476,7 @@
 		"text": "Rally - Whenever Kor Bladewhirl or another Ally enters the battlefield under your control, creatures you control gain first strike until end of turn.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 35,
@@ -488,7 +489,7 @@
 		"text": "Kor Castigator can't be blocked by Eldrazi Scions.",
 		"power": 3,
 		"toughness": 1,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 36,
@@ -501,7 +502,7 @@
 		"text": "Rally - Whenever Kor Entanglers or another Ally enters the battlefield under your control, tap target creature an opponent controls.",
 		"power": 3,
 		"toughness": 4,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 37,
@@ -514,7 +515,7 @@
 		"text": "Rally - Whenever Lantern Scout or another Ally enters the battlefield under your control, creatures you control gain lifelink until end of turn.",
 		"power": 3,
 		"toughness": 2,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 38,
@@ -527,7 +528,7 @@
 		"text": "Target creature gets +2/+2 until end of turn. Prevent all damage that would be dealt to that creature this turn by colorless sources.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 39,
@@ -540,7 +541,7 @@
 		"text": "Rally - Whenever Makindi Patrol or another Ally enters the battlefield under your control, creatures you control gain vigilance until end of turn.",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 40,
@@ -553,7 +554,7 @@
 		"text": "First strike<br>Landfall - Whenever a land enters the battlefield under your control, Ondu Greathorn gets +2/+2 until end of turn.",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 41,
@@ -566,11 +567,11 @@
 		"text": "Whenever a creature attacks this turn, it gains lifelink until end of turn.<br>Awaken 4 - {4}{W} (If you cast this spell for {4}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 42,
-		"name": "Planar Outburt",
+		"name": "Planar Outburst",
 		"cmc": 5,
 		"cost": "{3}{W}{W}",
 		"type": "Sorcery",
@@ -579,7 +580,7 @@
 		"text": "Destroy all nonland creatures.<br>Awaken 4 - {5}{W}{W}{W} (If you cast this spell for {5}{W}{W}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 15
 	},
 	{
 		"id": 43,
@@ -592,7 +593,7 @@
 		"text": "Quarantine Field enters the battlefield with X isolation counters on it.<br>When Quarantine Field enters the battlefield, for each isolation counter on it, exile up to one target nonland permanent an opponent controls until Quarantine Field leaves the battlefield.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 15
 	},
 	{
 		"id": 44,
@@ -605,7 +606,7 @@
 		"text": "Landfall - Whenever  a land enters the battlefield under your control, choose one -<br>Put a 1/1 white Kor Ally creature token onto the battlefield.<br>Creatures you control get +1/+1 until end of turn.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 45,
@@ -618,7 +619,7 @@
 		"text": "Roil's Retribution deals 5 damage divided as you choose among any number of target attacking or blocking creatures.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 46,
@@ -631,7 +632,7 @@
 		"text": "Whenever you gain life, you may pay {W}. If you do, put a +1/+1 counter on target creature.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 47,
@@ -644,7 +645,7 @@
 		"text": "Flying",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 48,
@@ -657,7 +658,7 @@
 		"text": "Destroy target tapped creature.<br>Awaken 3 - {5}{W} (If you cast this spell for {5}{W}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 49,
@@ -670,7 +671,7 @@
 		"text": "Destroy target creature with power 4 or greater.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 50,
@@ -683,7 +684,7 @@
 		"text": "Flash<br>When Stasis Snare enters the battlefield, exile target creature an opponent controls until Stasis Snare leaves the battlefield.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 51,
@@ -696,7 +697,7 @@
 		"text": "{W}, {T}: You gain 1 life.",
 		"power": 1,
 		"toughness": 3,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 52,
@@ -709,7 +710,7 @@
 		"text": "Up to two target creatures each get +1/+2 until end of turn. You gain 2 life.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 53,
@@ -722,7 +723,7 @@
 		"text": "Converge - Put a 1/1 white Kor Ally creature token onto the battlefield for each color of mana spent to cast Unified Front.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 54,
@@ -735,7 +736,7 @@
 		"text": "Devoid (This card has no color.)<br>Tap up to two target creatures. Those creatures don't untap during their controller's next untap step. Put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 55,
@@ -748,7 +749,7 @@
 		"text": "Devoid (This card has no color.)<br>Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)<br>Benthic Infiltrator can't be blocked.",
 		"power": 1,
 		"toughness": 4,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 56,
@@ -761,7 +762,7 @@
 		"text": "Devoid (This card has no color.)<br>{2}{U}, Put a card an opponent owns from exile into that player's graveyard: Tap target creature.",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 57,
@@ -771,10 +772,10 @@
 		"type": "Creature - Eldrazi",
 		"rarity": "Rare",
 		"abilities": "Devoid",
-		"text": "Devoid (This card has no color.)<br>When Drowner of Hope enters the battlefield, put two 1/1 colorless Eldrazi Scion creature tokens onto the battlefield. They have \"Sacrifice this creature: Add {1} to your mana pool.\"",
+		"text": "Devoid (This card has no color.)<br>When Drowner of Hope enters the battlefield, put two 1/1 colorless Eldrazi Scion creature tokens onto the battlefield. They have \"Sacrifice this creature: Add {1} to your mana pool.\"<br>Sacrifice an Eldrazi Scion: Tap target creature.",
 		"power": 5,
 		"toughness": 5,
-		"rating": null
+		"rating": 13
 	},
 	{
 		"id": 58,
@@ -787,7 +788,7 @@
 		"text": "Devoid (This card has no color.)<br>Flying<br>When Eldrazi Skyspawner enters the battlefield, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": 2,
 		"toughness": 1,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 59,
@@ -800,7 +801,7 @@
 		"text": "Devoid (This card has no color.)<br>Counter target creature spell with converted mana cost 4 or less. If that spell is countered thsi way, exile it instead of putting it into its owner's graveyard.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 60,
@@ -813,7 +814,7 @@
 		"text": "Devoid (This card has no color.)<br>When Incubator Drone enters the battlefield, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 61,
@@ -826,7 +827,7 @@
 		"text": "Devoid (This card has no color.)<br>Flying<br>Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)",
 		"power": 1,
 		"toughness": 2,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 62,
@@ -839,7 +840,7 @@
 		"text": "Devoid (This card has no color.)<br>When Murk Strider enters the battlefield, you may put a card an opponent owns from exile into that player's graveyard. If you do, return target creature to its owner's hand.",
 		"power": 3,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 63,
@@ -852,7 +853,7 @@
 		"text": "Devoid (This card has no color.)<br>{2}, Put a card an opponent owns from exile into that player's graveyard: Draw a card, then discard a card.",
 		"power": 3,
 		"toughness": 5,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 64,
@@ -865,7 +866,7 @@
 		"text": "Devoid (This card has no color.)<br>Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)<br>Other colorless creatures you control get +1/+0/",
 		"power": 3,
 		"toughness": 2,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 65,
@@ -878,7 +879,7 @@
 		"text": "Devoid (This card has no color.)<br>Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)<br>When Salvage Drone dies, you may draw a card. If you do, discard a card.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 4
 	},
 	{
 		"id": 66,
@@ -891,7 +892,7 @@
 		"text": "Devoid (This card has no color.)<br>Counter target spell unless its controller pays {4}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 67,
@@ -904,7 +905,7 @@
 		"text": "Devoid (This card has no color.)<br>Other colorless creatures you control get +0/+1.",
 		"power": 0,
 		"toughness": 5,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 68,
@@ -917,7 +918,7 @@
 		"text": "Devoid (This card has no color.)<br>When Ulamog's Reclaimer enters the battlefield, you may put a card an opponent owns from exile into that player's graveyard. If you do, return target instant or sorcery card from your graveyard to your hand.",
 		"power": 2,
 		"toughness": 5,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 69,
@@ -930,7 +931,7 @@
 		"text": "Look at the top three cards of  your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 70,
@@ -943,7 +944,7 @@
 		"text": "Converge - Draw X cards, where X is the number of colors of mana spent to cast Brilliant Spectrum. Then discard two cards.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 71,
@@ -956,7 +957,7 @@
 		"text": "Flying",
 		"power": 3,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 72,
@@ -969,7 +970,7 @@
 		"text": "Return target creature to its owner's hand.<br>Awaken 3 - {4}{U} (If you cast this spell for {3}{U}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 73,
@@ -982,7 +983,7 @@
 		"text": "Draw two cards.<br>Awaken 4 - {5}{U} (If you cast this spell for {5}{U}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 74,
@@ -995,7 +996,7 @@
 		"text": "{4}{U}: Target creature can't be blocked this turn.",
 		"power": 2,
 		"toughness": 1,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 75,
@@ -1008,7 +1009,7 @@
 		"text": "Creatures your opponents control get -1/-0.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 76,
@@ -1021,7 +1022,7 @@
 		"text": "Counter target instant spell.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 77,
@@ -1034,7 +1035,7 @@
 		"text": "Converge - Gain control of target creature if its power is less than or equal to the number of colors of mana spent to cast Exert Influence.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 78,
@@ -1047,7 +1048,7 @@
 		"text": "Flying<br>Landfall - Whenever a land enters the battlefield under your control, tap target creature an opponent controls. If that land is an Island, that creature doesn't untap during its controller's next untap step.",
 		"power": 4,
 		"toughness": 5,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 79,
@@ -1056,11 +1057,11 @@
 		"cost": "{2}{U}",
 		"type": "Creature - Human Wizard Ally",
 		"rarity": "Uncommon",
-		"abilities": "Flying",
+		"abilities": "",
 		"text": "When Halimar Tidecaller enters the battlefield, you may return target card with awaken from your graveyard to your hand.<br>Land creatures you control have flying.",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 4
 	},
 	{
 		"id": 80,
@@ -1073,7 +1074,7 @@
 		"text": "Take an extra turn after this one. Exile Part the Waterveil.<br>Awaken 6 - {6}{U}{U}{U} (If you cast thie spell for {6}{U}{U}{U}, also put six +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 81,
@@ -1086,7 +1087,7 @@
 		"text": "Converge - Prism Array enters the battlefield with a crystal counter on it for each color of mana spent to cast it.<br>Remove a crystal counter from Prism Array: Tap target creature.<br>{W}{U}{B}{R}{G}: Scry 3.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 82,
@@ -1099,7 +1100,7 @@
 		"text": "Landfall - Whenever  a land enters the battlefield under your control, choose one -<br>You may tap or untap target creature.<br>Scry 1.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 83,
@@ -1112,7 +1113,7 @@
 		"text": "Converge - Creatures your opponents control get -X/-0 until end of turn, where X is the number of colors of mana spent to cast Roilmage's Trick<br>Draw a card.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 84,
@@ -1125,7 +1126,7 @@
 		"text": "Tap target creature. It doesn't untap during its controller's next untap step.<br>Awaken 3 - {4}{U} (If you cast this spell for {4}{U}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 85,
@@ -1138,7 +1139,7 @@
 		"text": "Counter target spell.<br>Awaken 3 - {4}{U}{U} (If you cast this spell for {4}{U}{U}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 86,
@@ -1151,7 +1152,7 @@
 		"text": "Enchant creature<br>Enchanted creature gets -6/-0 and loses flying.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 87,
@@ -1164,7 +1165,7 @@
 		"text": "Scry X, where X is the highest converted mana cost among permanents you control, then draw three cards.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 88,
@@ -1177,7 +1178,7 @@
 		"text": "Flying<br>Landfall - Whenever a land enters the battlefield under your control, Wave-Wing Elemental gets +2/+2 until end of turn.",
 		"power": 3,
 		"toughness": 4,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 89,
@@ -1190,7 +1191,7 @@
 		"text": "Flying<br>Whenever Windrider Patrol deals combat damage to a player, scry 2.",
 		"power": 4,
 		"toughness": 3,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 90,
@@ -1203,7 +1204,7 @@
 		"text": "Devoid (This card has no color.)<br>Exile target creature with power 3 or less.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 91,
@@ -1216,7 +1217,7 @@
 		"text": "Devoid (This card has no color.)<br>Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 92,
@@ -1229,7 +1230,7 @@
 		"text": "Devoid (This card has no color.)<br>Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)<br>When Dominator Drone enters the battlefield, if you control another colorless creature, each opponent loses 2 life.",
 		"power": 3,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 93,
@@ -1239,10 +1240,10 @@
 		"type": "Instant",
 		"rarity": "Common",
 		"abilities": "Devoid",
-		"text": "Devoid (This card has no colors.)<br>Target opponent exiles a card from his or her graveyard. You put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
+		"text": "Devoid (This card has no colors.)<br>Target opponent exiles a card from his or her graveyard. You put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"<br>Draw a card.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 94,
@@ -1255,7 +1256,7 @@
 		"text": "Devoid (This card has no colors.)<br>Exile target creature and target land.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 95,
@@ -1268,7 +1269,7 @@
 		"text": "Devoid (This card has no color.)<br>When Mind Raker enters the battlefield, you may put a card an opponent owns from exile into the player's graveyard. If you do, each opponent discards a card.",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 96,
@@ -1281,7 +1282,7 @@
 		"text": "Devoid (This card has no color.)<br>Flying<br>Whenever Silent Skimmer attacks, defending player loses 2 life.",
 		"power": 0,
 		"toughness": 4,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 97,
@@ -1290,24 +1291,24 @@
 		"cost": "{3}{B}",
 		"type": "Creature - Eldrazi Drone",
 		"rarity": "Uncommon",
-		"abilities": "Devoid",
+		"abilities": "Devoid, Regeneration",
 		"text": "Devoid (This card has no color.)<br>Skitterskin can't block.<br>{1}{B}: Regenerate Skitterskin. Activate this ability only if you control another colorless creature.",
 		"power": 4,
 		"toughness": 3,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 98,
 		"name": "Sludge Crawler",
 		"cmc": 1,
-		"cost": "{B{",
+		"cost": "{B}",
 		"type": "Creature - Eldrazi Drone",
 		"rarity": "Common",
 		"abilities": "Devoid",
 		"text": "Devoid (This card has no color.)<br>Ingest<br>{2}: Sludge Crawler gets +1/+1 until end of turn.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 99,
@@ -1320,7 +1321,7 @@
 		"text": "Devoid (This card has no color.)<br>Flying<br>At the beginning of your upkeep, sacrifice a creature.<br>Whenever you sacrifice a creature, draw a card.",
 		"power": 4,
 		"toughness": 3,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 100,
@@ -1333,7 +1334,7 @@
 		"text": "Devoid (This card has no color.)<br>Creatures you control get +2/+0 until end of turn. Colorless creatures you control also gain first strike until end of turn.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 3
 	},
 	{
 		"id": 101,
@@ -1346,7 +1347,7 @@
 		"text": "Devoid (This card has no color.)<br>Target player reveals his or her hand. You choose a card from it with converted mana cost 3 or greater and exile that card.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 102,
@@ -1359,7 +1360,7 @@
 		"text": "Devoid (This card has no color.)<br>When Wasteland Strangler enters the battlefield, you may put a card an opponent owns from exile into the player's graveyard. If you do, target creature gets -3/-3 until end of turn.",
 		"power": 3,
 		"toughness": 2,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 103,
@@ -1372,7 +1373,7 @@
 		"text": "As an additional cost to cast Altar's Reap, sacrifice a creature.<br>Draw two cards.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 104,
@@ -1385,7 +1386,7 @@
 		"text": "Whenever you gain life, put a +1/+1 counter on Bloodbond Vampire.",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 105,
@@ -1398,7 +1399,7 @@
 		"text": "As an additional cost to cast Bone Splinters, sacrfice a creature.<br>Destroy target creature.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 106,
@@ -1411,7 +1412,7 @@
 		"text": "When Carrier Thrall dies, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": 2,
 		"toughness": 1,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 107,
@@ -1424,7 +1425,7 @@
 		"text": "Flying<br>Whenever you gain life, target opponent loses that much life.",
 		"power": 4,
 		"toughness": 5,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 108,
@@ -1437,7 +1438,7 @@
 		"text": "Target creature gets -5/-5 until end of turn.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 109,
@@ -1450,7 +1451,7 @@
 		"text": "Flying, First Strike<br>Whenever Drana, Liberator of Malakir deals combat damage to a player, put a +1/+1 counter on each attacking creature you control.",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 110,
@@ -1463,7 +1464,7 @@
 		"text": "Return up to two target creature cards from your graveyard to your hand.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 111,
@@ -1476,7 +1477,7 @@
 		"text": "Menace<br>Landfall - Whenever a land enters the battlefield under your control, Geyserfield Stalker gets +2/+2 until end of turn.",
 		"power": 3,
 		"toughness": 2,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 112,
@@ -1489,7 +1490,7 @@
 		"text": "Flying<br>Landfall - Whenever a land enters the battlefield under your control, other creatures you contrl get +1/+0 until end of turn. If that land is a Swamp, those creatures get +2/+0 until end of turn instead.",
 		"power": 3,
 		"toughness": 4,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 113,
@@ -1502,7 +1503,7 @@
 		"text": "{4}{B}: Target creature gets -1/-1 until end of turn.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 114,
@@ -1515,7 +1516,7 @@
 		"text": "Rally - Whenever Kalastia Healer or another Ally enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.",
 		"power": 1,
 		"toughness": 2,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 115,
@@ -1528,7 +1529,7 @@
 		"text": "Whenever you gain life, Kalastria Nightwatch gains flying until end of turn.",
 		"power": 4,
 		"toughness": 5,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 116,
@@ -1541,7 +1542,7 @@
 		"text": "Flying, deathtouch<br>Whenever you gain life, Malakir Familiar gets +1/+1 until end of turn.",
 		"power": 2,
 		"toughness": 1,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 117,
@@ -1554,7 +1555,7 @@
 		"text": "Target opponent discards two cards.<br>Awaken 3 - {5}{B} (If you cast this spell for {5}{B}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 118,
@@ -1567,7 +1568,7 @@
 		"text": "Whenever you gain life, Nirkana Assassin gains deathtouch until end of turn.",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 119,
@@ -1580,7 +1581,7 @@
 		"text": "+1: You draw a card and you lose 1 life.<br>-3: Destroy target creature.<br>-8: Target opponent gets an emblem with \"Whenever a player draws a card, you lose 2 life.\"",
 		"power": null,
 		"toughness": 5,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 120,
@@ -1593,7 +1594,7 @@
 		"text": "Converge - You draw X cards and you lose X life, where X is the number of colors of mana spent to cast Painful Truths.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 121,
@@ -1606,7 +1607,7 @@
 		"text": "Landfall - Whenever  a land enters the battlefield under your control, choose one -<br>Target creature gets +1/+0 and gains deathtouch until end of turn.<br>Each opponent loses 1 life and you gain 1 life.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 122,
@@ -1619,7 +1620,7 @@
 		"text": "All creatures get -2/-2 until end of turn.<br>Awaken 3 - {5}{B}{B} (If you cast this spell for {5}{B}{B}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 123,
@@ -1632,7 +1633,7 @@
 		"text": "Destroy target creature or planeswalker.<br>Awaken 4 - {5}{B}{B} (If you cast this spell for {5}{B}{B}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 124,
@@ -1645,7 +1646,7 @@
 		"text": "{1}{B}, Sacrifice a creature: You gain 1 life and draw a card.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 125,
@@ -1658,7 +1659,7 @@
 		"text": "{1}{B}, Sacrifice another creature: Put two +1/+1 counters on Voracious Null. Activate this ability only any time you could cast a sorcery.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 126,
@@ -1671,7 +1672,7 @@
 		"text": "Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 127,
@@ -1684,7 +1685,7 @@
 		"text": "Devoid (This card has no color.)<br>{2}{R}, Sacrifice another colorless creature: Barrage Tyrant deals damage equal to the sacrificed creature's power to target creature or player.",
 		"power": 5,
 		"toughness": 3,
-		"rating": null
+		"rating": 13
 	},
 	{
 		"id": 128,
@@ -1697,7 +1698,7 @@
 		"text": "Devoid (This card has no color.)<br>Exile target nonbasic land. Search its controller's graveyard, hand, and library for any number of cards with the same name as that land and exile them. Then that player shuffles his or her library.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 129,
@@ -1710,7 +1711,7 @@
 		"text": "Devoid (This card has no color.)<br>Whenever you cast a colorless spell, Kozilek's Sentinetl gets +1/+0 until end of turn.",
 		"power": 1,
 		"toughness": 4,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 130,
@@ -1723,7 +1724,7 @@
 		"text": "Devoid (This card has no color.)<br>Whenever you cast a colorless spell, Molten Nursery deals 1 damage to target creature or player.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 131,
@@ -1736,7 +1737,7 @@
 		"text": "Devoid (This card has no color.)<br>{T}: Nettle Drone deals 1 damage to each opponent.<br>Whenever you cast a colorless spell, untap Nettle Drone.",
 		"power": 3,
 		"toughness": 1,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 132,
@@ -1749,7 +1750,7 @@
 		"text": "Devoid (This card has no color.)<br>As an additional cost to cast Processor Assault, put a card an opponent owns from exile into that player's graveyard.<br>Processor Assault deals 5 damage to target creature.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 133,
@@ -1762,7 +1763,7 @@
 		"text": "Devoid (This card has no color.)<br>Serpentine Spike deals 2 damage to target creature, 3 damage to another target creature, and 4 damage to a third target creature. If a creature dealt damage this way would die this turn, exile it instead.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 134,
@@ -1775,7 +1776,7 @@
 		"text": "Devoid (This card has no color.)<br>Touch of the Void deals 3 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 135,
@@ -1788,7 +1789,7 @@
 		"text": "Devoid (This card has no color.)<br>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 136,
@@ -1801,7 +1802,7 @@
 		"text": "Devoid (This card has no color.)<br>Trample",
 		"power": 3,
 		"toughness": 4,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 137,
@@ -1814,7 +1815,7 @@
 		"text": "Devoid (This card has no color.)<br>Vile Aggregate's power is equal to the number of colorless creatures you control.<br>Trample<br>Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)",
 		"power": "*",
 		"toughness": 5,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 138,
@@ -1827,7 +1828,7 @@
 		"text": "Flying, haste<br>Akoum Firebird attacks each turn if able.<br>Landfall - Whenever a land enters the battlefield under your control, you may pay {4}{R}{R}. If you do, return Akoum Firebird from your graveyard to the battlefield.",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 13
 	},
 	{
 		"id": 139,
@@ -1840,11 +1841,11 @@
 		"text": "Flying<br>Landfall - Whenever a land enters the battlefield under your control, Akoum Hellkite deals 1 damage to target creature or player. If that land is a Mountain, Akoum Hellkite deals 2 damage to that creature or player instead.",
 		"power": 4,
 		"toughness": 4,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 140,
-		"name": "Akoum Stonewalker",
+		"name": "Akoum Stonewaker",
 		"cmc": 2,
 		"cost": "{1}{R}",
 		"type": "Creature - Human Shaman",
@@ -1853,7 +1854,7 @@
 		"text": "Landfall - Whenever a land enters the battlefield under your control, you may pay {2}{R}. If you do, put a 3/1 red Elemental creature token with trample and haste onto the battlefield. Exile that token at the beginning of the next end step.",
 		"power": 2,
 		"toughness": 1,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 141,
@@ -1866,7 +1867,7 @@
 		"text": "Landfall - Whenever a land enters the battlefield under your control, Belligerent Whiptail gains first strike until end of turn.",
 		"power": 4,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 142,
@@ -1879,7 +1880,7 @@
 		"text": "Boiling Earth deals 1 damage to each creature your opponent controls.<br>Awaken 4 - {6}{R} (If you cast this spell for {6}{R}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 143,
@@ -1892,7 +1893,7 @@
 		"text": "Rally - Whenever Chasm Guide or another Ally enters the battlefield under your control, creatures you control gain haste until end of turn.",
 		"power": 3,
 		"toughness": 2,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 144,
@@ -1905,7 +1906,7 @@
 		"text": "At the beginning of your upkeep, if you control six or more lands, put a 5/5 red Dragon creature token with flying onto the battlefield.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 145,
@@ -1918,7 +1919,7 @@
 		"text": "Rally - Whenever Firemantle Mage or another Ally enters the battlefield under your control, creature you control gain menace until end of turn.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 146,
@@ -1931,7 +1932,7 @@
 		"text": "Enchant creature<br>Enchanted creature gets +2/+2 and has haste.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 147,
@@ -1944,7 +1945,7 @@
 		"text": "{2}{R}: Lavastep Raider gets +2/+0 until end of turn.",
 		"power": 1,
 		"toughness": 2,
-		"rating": null
+		"rating": 3
 	},
 	{
 		"id": 148,
@@ -1957,7 +1958,7 @@
 		"text": "Trample<br>Landfall - Whenever a land enters the battlefield under your control, Makindi Sliderunner gets +1/+1 until end of turn.",
 		"power": 2,
 		"toughness": 1,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 149,
@@ -1970,7 +1971,7 @@
 		"text": "Rally - Whenever Ondu Champion or another Ally enters the battlefield under your control, creatures you control gain trample until end of turn.",
 		"power": 4,
 		"toughness": 3,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 150,
@@ -1983,7 +1984,7 @@
 		"text": "Outnumber deals damage to target creature equal to the number of creatures you control.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 151,
@@ -1996,7 +1997,7 @@
 		"text": "Converge - Radiant Flames deals X damage to each creature, where X is the number of colors of mana spent to cast Radiant Flames.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 152,
@@ -2009,7 +2010,7 @@
 		"text": "Reckless Cohort attackes each combat if able unless you control another Ally.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 153,
@@ -2022,7 +2023,7 @@
 		"text": "Landfall - Whenever  a land enters the battlefield under your control, choose one -<br>Target creature gets +2/+0 until end of turn.<br>Target creature can't block this turn.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 154,
@@ -2035,7 +2036,7 @@
 		"text": "Rolling Thunder deals X damage divided as you choose among any number of target creatures and/or players.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 155,
@@ -2048,7 +2049,7 @@
 		"text": "Menace",
 		"power": 4,
 		"toughness": 4,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 156,
@@ -2061,7 +2062,7 @@
 		"text": "Stonefury deals damage to target creature equal to the number of lands you control.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 157,
@@ -2074,7 +2075,7 @@
 		"text": "Target creature gets +3/+0 and gains first strike until end of turn.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 158,
@@ -2087,7 +2088,7 @@
 		"text": "Landfall - Whenever a land enters the battlefield under your control, Tunneling Geopede deals 1 damage to each opponent.",
 		"power": 3,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 159,
@@ -2100,7 +2101,7 @@
 		"text": "{8}: Valakut Invoker deals 3 damage to target creature or player.",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 160,
@@ -2113,7 +2114,7 @@
 		"text": "Landfall - Whenever a land enters the battlefield under your control, Valakut Predator gets +2/+2 until end of turn.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 161,
@@ -2126,7 +2127,7 @@
 		"text": "Destroy target land.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 162,
@@ -2139,7 +2140,7 @@
 		"text": "Whenever you cast an instant or sorcery spell that targets only Zada, Hedron Grinder, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures. ",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 163,
@@ -2152,7 +2153,7 @@
 		"text": "Devoid (This card has no color.)<br>When Blisterpod dies, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 164,
@@ -2165,7 +2166,7 @@
 		"text": "Devoid (This card has no color.)<br>When Brood Monitor enters the battlefield, put three 1/1 colorless Eldrazi Scion creature tokens onto the battlefield. They have \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 165,
@@ -2178,7 +2179,7 @@
 		"text": "Devoid (This card has no color.)<br>Put two 1/1 colorless Eldrazi Scion creature tokens onto the battlefield. They have \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 166,
@@ -2191,7 +2192,7 @@
 		"text": "Devoid (This card has no color.)<br>When Eyeless Watcher enters the battlefield, put two 1/1 colorless Eldrazi Scion creature tokens onto the battlefield. They have \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 167,
@@ -2201,10 +2202,10 @@
 		"type": "Enchantment",
 		"rarity": "Rare",
 		"abilities": "Devoid",
-		"text": "Devoid (This card has no color.)<br>At the beginning of your upkeep, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
+		"text": "Devoid (This card has no color.)<br>At the beginning of your upkeep, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"<br>{1}{G}, Sacrifice From Beyond: Search your library for an Eldrazi card, reveal it, put into your hand, then shuffle your library.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 168,
@@ -2217,7 +2218,7 @@
 		"text": "Devoid (This card has no color.)<br>Target creature you control fights target creature an opponent controls. If the creature an opponent controls would die this turn, exile it instead.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 169,
@@ -2230,11 +2231,11 @@
 		"text": "Devoid (This card has no color.)<br>{1}{G}, Put a card an opponent owns from exile into that player's graveyard: Put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 170,
-		"name": "Beastcaller Expert",
+		"name": "Beastcaller Savant",
 		"cmc": 2,
 		"cost": "{1}{G}",
 		"type": "Creature - Elf Shaman Ally",
@@ -2243,7 +2244,7 @@
 		"text": "Haste<br>{T}: Add {1} mana of any color to your mana pool. Use this mana only to cast creature spells.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 171,
@@ -2256,7 +2257,7 @@
 		"text": "",
 		"power": 4,
 		"toughness": 3,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 172,
@@ -2269,7 +2270,7 @@
 		"text": "Put two +1/+1 counters on target permanent.<br>Awaken 4 - {6}{G} (If you cast this spell for {6}{G}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 173,
@@ -2282,7 +2283,7 @@
 		"text": "Reach",
 		"power": 2,
 		"toughness": 4,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 174,
@@ -2295,7 +2296,7 @@
 		"text": "When Greenwarden of Murasa enters the battlefield, you may return target card from your graveyard to your hand.<br>When Greenwarden of Murasa dies, you may exile it. If you do, return target card from your graveyard to your hand.",
 		"power": 5,
 		"toughness": 4,
-		"rating": null
+		"rating": 13
 	},
 	{
 		"id": 175,
@@ -2308,7 +2309,7 @@
 		"text": "Converge - Put X +1/+1 counters on target creature, where X is the number of colors of mana spent to cast Infuse with the Elements. That creature gains trample until end of turn.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 176,
@@ -2321,7 +2322,7 @@
 		"text": "Defender<br>Landfall - Whenever a land enters the battlefield under your control, you gain 1 life.",
 		"power": 0,
 		"toughness": 3,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 177,
@@ -2334,7 +2335,7 @@
 		"text": "{T}: Add one mana of any color to your mana pool.",
 		"power": 2,
 		"toughness": 1,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 178,
@@ -2347,7 +2348,7 @@
 		"text": "Landfall - Whenever a land enters the battlefield under your control, you may pay {3}{G}. If you do, put two +1/+1 counters on Murasa Ranger",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 179,
@@ -2360,7 +2361,7 @@
 		"text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 180,
@@ -2373,7 +2374,7 @@
 		"text": "Search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle your library. You gain 7 life.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 3
 	},
 	{
 		"id": 181,
@@ -2386,7 +2387,7 @@
 		"text": "Trample<br>Landfall - Whenever a land enters the battlefield under your control, put a +1/+1 counter on Oran-Rief Hydra. If that land is a Forest, put two +1/+1 counters on Oran-Rief Hydra instead.",
 		"power": 5,
 		"toughness": 5,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 182,
@@ -2399,7 +2400,7 @@
 		"text": "{8}: Oran-Rief Invoker gets +5/+5 and gains trample until end of turn.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 183,
@@ -2412,7 +2413,7 @@
 		"text": "Trample, hexproof",
 		"power": 7,
 		"toughness": 6,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 184,
@@ -2425,7 +2426,7 @@
 		"text": "Destroy target creature with flying.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 185,
@@ -2438,7 +2439,7 @@
 		"text": "Destroy target artifact, enchantment, or land.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 186,
@@ -2451,7 +2452,7 @@
 		"text": "Landfall - Whenever  a land enters the battlefield under your control, choose one -<br>Put a +1/+1 counter on target creature.<br>You gain 2 life.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 187,
@@ -2464,7 +2465,7 @@
 		"text": "Whenever another creature you control dies, put a +1/+1 counter on Rot Shambler.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 188,
@@ -2477,7 +2478,7 @@
 		"text": "Landfall - Whenever a land enters the battlefield under your control, Scythe Leopard gets +1/+1 until end of turn.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 189,
@@ -2490,7 +2491,7 @@
 		"text": "Look at the top four cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 6
 	},
 	{
 		"id": 190,
@@ -2503,7 +2504,7 @@
 		"text": "Landfall - Whenever a land enters the battlefield under your control, Snapping Gnarlid gets +1/+1 until end of turn.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 191,
@@ -2516,7 +2517,7 @@
 		"text": "Target creature gets +2/+2 until end of turn. You may put a land card from your hand onto the battlefield.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 7
 	},
 	{
 		"id": 192,
@@ -2529,7 +2530,7 @@
 		"text": "Search your library for a land card, reveal it, and put it into your hand. Then shuffle your library.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 193,
@@ -2542,7 +2543,7 @@
 		"text": "Rally - Whenever Tajuru Beastmaster or another Ally enters the battlefield under your control, creatures you control get +1/+1 until end of turn. ",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 194,
@@ -2555,7 +2556,7 @@
 		"text": "Converge - Tajura Stalwart enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.",
 		"power": 0,
 		"toughness": 1,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 195,
@@ -2568,7 +2569,7 @@
 		"text": "Rally - Whenever Tajuru Warcaller or another Ally enters the battlefield under your control, creatures you control get +2/+2 until end of turn. ",
 		"power": 2,
 		"toughness": 1,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 196,
@@ -2581,7 +2582,7 @@
 		"text": "Landfall - Whenever a land enters the battlefield under your control, Territorial Baloth gets +2/+2 until end of turn.",
 		"power": 4,
 		"toughness": 4,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 197,
@@ -2594,7 +2595,7 @@
 		"text": "If damage would be dealt to Undergrowth Champion while it has a +1/+1 counter on it, prevent that damage and remove a +1/+1 counter from Undergrowth Champion.<br>Landfall - Whenever a land enters the battlefield under your control, put a +1/+1 counter on Undergrowth Champion.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 13
 	},
 	{
 		"id": 198,
@@ -2607,7 +2608,7 @@
 		"text": "Vigilance, trample<br>Converge - Woodland Wanderer enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 13
 	},
 	{
 		"id": 199,
@@ -2617,10 +2618,10 @@
 		"type": "Creature - Eldrazi Drone",
 		"rarity": "Rare",
 		"abilities": "Devoid",
-		"text": "Devoid (This card has no color.)<br>When Brood Butcher enters the battlefield, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
+		"text": "Devoid (This card has no color.)<br>When Brood Butcher enters the battlefield, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"<br>{B}{G}, Sacrifice a creature: Target creature gets -2/-2 until end of turn.",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 14
 	},
 	{
 		"id": 200,
@@ -2633,7 +2634,7 @@
 		"text": "Devoid (This card has no color.)<br>Choose one or both -<br>Return target spell or creature to its owner's hand.<br>Brutal Expulsion deals 2 damage to target creature or planeswalker. If that permanent would be put into a graveyard this turn, exile it instead.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 201,
@@ -2643,10 +2644,10 @@
 		"type": "Creature - Eldrazi Drone",
 		"rarity": "Uncommon",
 		"abilities": "Devoid, Scry",
-		"text": "Devoid (This card has no color.)<br>When Catacomb Sifter enters the battlefield, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"",
+		"text": "Devoid (This card has no color.)<br>When Catacomb Sifter enters the battlefield, put a 1/1 colorless Eldrazi Scion creature token onto the battlefield. It has \"Sacrifice this creature: Add {1} to your mana pool.\"<br>Whenever another creature you control dies, scry 1.",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 202,
@@ -2659,7 +2660,7 @@
 		"text": "Devoid (This card has no color.)<br>Haste<br>At the beginning of each end step, if you control no other colorless creatures, return Dust Stalker to its owner's hand.",
 		"power": 5,
 		"toughness": 3,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 203,
@@ -2672,7 +2673,7 @@
 		"text": "Devoid (This card has no color.)<br>Deathtouch<br>Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)<br>{3}{U}{B}: Draw a card. Each opponent exiles the top card of his or her library.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 204,
@@ -2685,7 +2686,7 @@
 		"text": "Devoid (This card has no color.)<br>{1}: Target colorless creature gains haste until end of turn.",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 205,
@@ -2698,7 +2699,7 @@
 		"text": "Devoid (This card has no color.)<br>Colorless spells you cast cost {1} less to cast.",
 		"power": 2,
 		"toughness": 4,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 206,
@@ -2711,7 +2712,7 @@
 		"text": "Devoid (This card has no color.)<br>Whenever a land enters the battlefield under an opponent's control, that player exiles the top two cards of his or her library and you draw two cards.",
 		"power": 5,
 		"toughness": 7,
-		"rating": null
+		"rating": 13
 	},
 	{
 		"id": 207,
@@ -2724,7 +2725,7 @@
 		"text": "Devoid (This card has no color.)<br>Flash<br>Flying<br>When Ulamog's Nullifier enters the battlefield, you may put two cards your opponents own from exile into their owners graveyards. If you do, counter target spell.",
 		"power": 2,
 		"toughness": 3,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 208,
@@ -2737,7 +2738,7 @@
 		"text": "Flying<br>Whenever Angelic Captain attacks, it gets +1/+1 until end of turn for each other attacking Ally.",
 		"power": 4,
 		"toughness": 3,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 209,
@@ -2750,7 +2751,7 @@
 		"text": "Converge - Search your library for a creature, instant or sorcery card with converted mana cost less than or equal to the number of colors of mana spent to cast Bring to Light, exile that card, then shuffle your library. You may cast that card without paying its mana cost.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 3
 	},
 	{
 		"id": 210,
@@ -2763,7 +2764,7 @@
 		"text": "Flying<br>At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 211,
@@ -2776,7 +2777,7 @@
 		"text": "Trample<br>Landfall - Whenever a land enters the battlefield under your control, Grove Rumbler gets +2/+2 until end of turn.",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 212,
@@ -2789,7 +2790,7 @@
 		"text": "Rally - Whenever Grovetender Druids or another Ally enters the battlefield under your control, you may pay {1}. If you do, put a 1/1 green Plant creature token onto the battlefield. ",
 		"power": 3,
 		"toughness": 3,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 213,
@@ -2802,7 +2803,7 @@
 		"text": "+1: Untap up to one target creature and up to one target land.<br>-2: Reveal the top four cards of your library. You may put up to 1 creature card and/or a land card from among them into your hand. Put the rest into your graveyard.<br>-8: You get an emblem with \"Whenever a creature enters the battlefield under your control, you may have it fight target creature.\" Then put three 8/8 blue octopus creature tokens onto the battlefield.",
 		"power": null,
 		"toughness": 4,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 214,
@@ -2815,7 +2816,7 @@
 		"text": "Return any number of target Ally creature cards with total converted mana cost 8 or less from your graveyard to the battlefield.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 215,
@@ -2828,7 +2829,7 @@
 		"text": "Haste<br>Rally - Whenever Munda, Ambush Leader or another Ally enters the battlefield under your control, you may look at the top four cards of your library. If you do, reveal any number of Ally cards from among them, then put those cards on top of your library in any order and the rest on the bottom in any order.",
 		"power": 3,
 		"toughness": 4,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 216,
@@ -2841,7 +2842,7 @@
 		"text": "Whenever you cast an instant or sorcery spell, you may put three +1/+1 counters on target land you control. If you do, that land becomes a 0/0 Elemental creature with haste that's still a land.",
 		"power": 4,
 		"toughness": 4,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 217,
@@ -2854,7 +2855,7 @@
 		"text": "Landfall - Whenever a land enters the battlefield under your control, put a 5/5 red and green Elemental creature token onto the battlefield.<br>Whenever Omnath, Locus of Rage or another Elemental you control dies, Omnath deals 3 damage to target creature or player.",
 		"power": 5,
 		"toughness": 5,
-		"rating": null
+		"rating": 13
 	},
 	{
 		"id": 218,
@@ -2867,7 +2868,7 @@
 		"text": "Rally - Whenever Resolute Blademaster or another Ally enters the battlefield under  your control, creatures you control gain double strike until end of turn.",
 		"power": 2,
 		"toughness": 2,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 219,
@@ -2880,7 +2881,7 @@
 		"text": "Put target creature on top of its owner's library.<br>Awaken 4 - {4}{W}{U} (If you cast this spell for {4}{W}{U}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 12
 	},
 	{
 		"id": 220,
@@ -2893,20 +2894,20 @@
 		"text": "Flying<br>Converge - Skyrider Elf enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.",
 		"power": 0,
 		"toughness": 0,
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 221,
 		"name": "Veteran Warleader",
 		"cmc": 3,
-		"cost": "{1}{G}{W}",
+		"cost": "{1]{G}{W}",
 		"type": "Creature - Human Soldier Ally",
 		"rarity": "Rare",
 		"abilities": "",
 		"text": "Veteran Warleader's power and toughness are each equal to the number of creatures you control.<br>Tap another untapped Ally you control: Veteran Warleader gains your choice of first strike, vigilance, or trample until end of turn.",
 		"power": "*",
 		"toughness": "*",
-		"rating": null
+		"rating": 11
 	},
 	{
 		"id": 222,
@@ -2919,7 +2920,7 @@
 		"text": "When Aligned Hedron Network enters the battlefield, exile all creatures with power 5 or greater until Aligned Hedron Network leaves the battlefield. (Those creature return under their owners' control.)",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 223,
@@ -2932,7 +2933,7 @@
 		"text": "{T}: Add {2} to your mana pool.<br>{2}, {T}, Sacrifice Hedron Archive: Draw two cards.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 224,
@@ -2945,7 +2946,7 @@
 		"text": "Equipped creature gets +1/+1.<br>Whenever equipped creature becomes blocked by one or more colorless creatures, it gains deathtouch until end of turn.<br>Equip {2}",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 225,
@@ -2958,7 +2959,7 @@
 		"text": "Equipped creature has \"{2}, {T}: This creature deals 1 damage to target creature. If a colorless creature is dealt damage this way, tap it.\"<br>Equip {2}",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 226,
@@ -2971,7 +2972,7 @@
 		"text": "Flying<br>Whenever Pilgrim's Eye enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle  your library.",
 		"power": 1,
 		"toughness": 1,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 227,
@@ -2984,7 +2985,7 @@
 		"text": "Whenever equipped creature attacks, you may return a land you control to its owner's hand. If you do, the creature gets +2/+2 until end of turn.<br>Equip {2}",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 228,
@@ -2997,7 +2998,7 @@
 		"text": "{T}: Add {1} to your mana pool.<br>{T}: Add one mana of any fcolor to your mana pool. Spend this mana only to cast an Ally spell.<br>{1}, {T}, Sacrifice Ally Encampment: Return target Ally you control to its owner's hand.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 5
 	},
 	{
 		"id": 229,
@@ -3010,7 +3011,7 @@
 		"text": "{T}: Add {1} to your mana pool.<br>{5}{U}, {T}, Sacrifice Blighted Cataract: Draw two cards.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 230,
@@ -3023,7 +3024,7 @@
 		"text": "{T}: Add {1} to your mana pool.<br>{4}{B}, {T}, Sacrifice Blighted Fen: Target opponent sacrifices a creature.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 231,
@@ -3036,7 +3037,7 @@
 		"text": "{T}: Add {1} to your mana pool.<br>{4}{R}, {T}, Sacrificed Blighted Gorge: Blighted Gorge deals 2 damage to target creature or player.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 232,
@@ -3049,7 +3050,7 @@
 		"text": "{T}: Add {1} to your mana pool.<br>{3}{W}, {T}, Sacrifice Blighted Steppe: Gain 2 life for each creature you control.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 233,
@@ -3062,7 +3063,7 @@
 		"text": "{T}: Add {1} to your mana pool.<br>{3}{G}, {T}, Sacrifice Blighted Woodland: Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 234,
@@ -3075,7 +3076,7 @@
 		"text": "({T}, Add {G} or {W} to your mana pool.)<br>Canopy Vista enters the battlefield tapped unless you control two or more basic lands.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 235,
@@ -3088,7 +3089,7 @@
 		"text": "({T}, Add {R} or {F} to your mana pool.)<br>Cinder Glade enters the battlefield tapped unless you control two or more basic lands.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 236,
@@ -3101,7 +3102,7 @@
 		"text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 237,
@@ -3114,7 +3115,7 @@
 		"text": "Fertile Thicket enters the battlefield tapped.<br>When Fertile Thicket enters the battlefield, you may look at the top five cards of your library. If you do, reveal up to one basic land card from among them, then put that card on top of your library and the rest on the bottom in any order. <br>{T}: Add {G} to your mana pool.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 238,
@@ -3127,7 +3128,7 @@
 		"text": "Looming Spires enters the battlefield tapped.<br>When Looming Spires enters the battlefield, target creature gets +1/+1 and gains first strike until end of turn.<br>{T}: Add {R} to your mana pool.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 239,
@@ -3140,7 +3141,7 @@
 		"text": "Lumbering Falls enters the battlefield tapped.<br>{T}: Add {G} or {U} to your mana pool.<br>{2}{G}{U}: Lumbering Falls becomes a 3/3 green and blue Elemental creature with hexproof until end of turn. It's still a land.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 240,
@@ -3153,7 +3154,7 @@
 		"text": "Mortuary Mire enters the battlefield tapped.<br>When Mortuary Mire enters the battlefield, you may put target creature card from your graveyard on top of your library.<br>{T}: Add {B} to your mana pool.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 241,
@@ -3166,7 +3167,7 @@
 		"text": "({T}, Add {W} or {U} to your mana pool.)<br>Prairie Stream enters the battlefield tapped unless you control two or more basic lands.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 242,
@@ -3179,7 +3180,7 @@
 		"text": "{T}: Add {1} to your mana pool.<br>Whenever you cast a colorless spell with converted mana cost 7 or greater, you may sacrifice Sanctum of Ugin. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle your library.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 243,
@@ -3192,7 +3193,7 @@
 		"text": "Sandstone Bridge enters the battlefield tapped.<br>When Sandstone Birdge enters the battlefield, target creature gets +1/+1 and gains vigilance until end of turn.<br>{T}: Add {W] to your mana pool.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 244,
@@ -3205,7 +3206,7 @@
 		"text": "Shambling Vent enters the battlefield tapped.<br>{T}: Add {W} or {B} to your mana pool.<br>{1}{W}{V}: Shambling Vent becomes a 2/3 white and black Elemental creature with lifelink until end of turn. It's still a land.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 10
 	},
 	{
 		"id": 245,
@@ -3218,7 +3219,7 @@
 		"text": "{T}: Add {1} to your mana pool.<br>{T}: Add {2} to your mana pool. Use this mana only to cast colorless spells. Activate this ability only if you control seven or more land.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 2
 	},
 	{
 		"id": 246,
@@ -3231,7 +3232,7 @@
 		"text": "Skyline Cascade enters the battlefield tapped.<br>When Skyline Cascade enters the battlefield, target creature an opponent controls doesn't untap during its controller's next untap step.<br>{T}: Add {U} to your mana pool.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 247,
@@ -3244,7 +3245,7 @@
 		"text": "({T}, Add {B} or {R} to your mana pool.)<br>Smoldering Marsh enters the battlefield tapped unless you control two or more basic lands.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	},
 	{
 		"id": 248,
@@ -3257,7 +3258,7 @@
 		"text": "{T}: Add {1} to your mana pool.<br>{6}, {T}: Sacrifice Spawning Bed: Put three 1/1 colorless Eldrazi Scion creature tokens onto the battlefield. They have \"Sacrifice this creature: Add {1} to your mana pool.\"",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 9
 	},
 	{
 		"id": 249,
@@ -3270,6 +3271,6 @@
 		"text": "({T}, Add {U} or {B} to your mana pool.)<br>Sunken Hollow enters the battlefield tapped unless you control two or more basic lands.",
 		"power": null,
 		"toughness": null,
-		"rating": null
+		"rating": 8
 	}
 ]
