@@ -16,6 +16,9 @@ angular.module('mtgStats.services')
 		=================================*/
 
 		this.list = [
+			'AER',
+			'KLD',
+			'SOI',
 			'OGW',
 			'BFZ',
 			'ORI',
@@ -26,7 +29,7 @@ angular.module('mtgStats.services')
 		];
 		this.selected = [
 			{
-				'name': 'OGW',
+				'name': 'AER',
 				'data': null,
 				'abilities': [],
 				'rarities': {},
@@ -44,7 +47,7 @@ angular.module('mtgStats.services')
 				}
 			},
 			{
-				'name': 'OGW',
+				'name': 'AER',
 				'data': null,
 				'abilities': [],
 				'rarities': {},
@@ -62,7 +65,7 @@ angular.module('mtgStats.services')
 				}
 			},
 			{
-				'name': 'BFZ',
+				'name': 'KLD',
 				'data': null,
 				'abilities': [],
 				'rarities': {},

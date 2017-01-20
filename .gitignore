@@ -224,6 +224,7 @@ dist/
 node_modules/
 sublime/
 
+app/_spreadsheets/
 app/bower_components/
 app/css/
 app/fonts/
