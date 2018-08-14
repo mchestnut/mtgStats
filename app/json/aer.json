@@ -17,6 +17,7 @@
             {"label": "Scry", "abbr": "Scry"},
             {"label": "Trample", "abbr": "Trmp"},
             {"label": "Vigilance", "abbr": "Vigl"},
+            {"label": "Crew", "abbr": "Crew"},
             {"label": "Improvise", "abbr": "Impr"},
             {"label": "Revolt", "abbr": "Rvlt"}
         ]
