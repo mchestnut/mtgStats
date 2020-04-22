@@ -226,10 +226,5 @@ sublime/
 
 app/_spreadsheets/
 app/bower_components/
-app/css/
-app/fonts/
-app/img/
-app/*.png
-app/*.ico
 app/*.log
 
