@@ -6,15 +6,18 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "1.2.29",
+    "angular": "1.2.16",
     "angular-animate": "1.2.16",
-    "angular-route": "1.2.29",
-    "angular-loader": "1.2.29",
-    "angular-mocks": "1.2.29",
+    "angular-route": "1.2.16",
+    "angular-loader": "1.2.16",
+    "angular-mocks": "1.2.16",
     "angular-sanitize": "1.2.16",
     "grunt": "0.4.1",
     "html5-boilerplate": "~4.3.0",
     "raphael": "2.1.x",
     "taffydb": ""
+  },
+  "resolutions": {
+    "angular": "1.2.29"
   }
 }
